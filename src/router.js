@@ -8,6 +8,7 @@ import LandingPage from "./components/Home/LandingPage";
 //stylux imports
 import StyluxHome from "./components/Stylux/StyluxHome/StyluxHome";
 import StyluxDocumentation from "./components/Stylux/StyluxDocumentation/StyluxDocumentation";
+import StyluxChangelog from "./components/Stylux/StyluxChangelog/StyluxChangelog";
 
 import StyluxBlocksView from "./components/Stylux/StyluxDisplays/StyluxBlocksViews";
 import StyluxBinBlocksView from "./components/Stylux/StyluxDisplays/StyluxBlocks/BinBlockView";
@@ -29,6 +30,7 @@ export default (
 
         <Route exact path="/react-stylux" component={StyluxHome} />
         <Route path="/react-stylux/documentation" component={StyluxDocumentation} />
+        <Route path="/react-stylux/changelog" component={StyluxChangelog}/>
 
         <Route exact path="/react-stylux/blocks" component={StyluxBlocksView} />
         <Route path="/react-stylux/blocks/togglersviews" component={StyluxBinBlocksView}></Route>

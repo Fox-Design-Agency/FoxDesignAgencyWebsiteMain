@@ -15,8 +15,8 @@ export default function StyluxFooter() {
             <Container>
                 <Navbar1
                     navbarWidth='75%'>
-                    <Link to="https://www.facebook.com/FoxDesignAgency/"></Link>
-                    <Link to="https://github.com/Fox-Design-Agency/react-stylux"></Link>
+                    <a href="https://www.facebook.com/FoxDesignAgency/"  target="_blank" rel="noopener noreferrer"></a>
+                    <a href="https://github.com/Fox-Design-Agency/react-stylux"  target="_blank" rel="noopener noreferrer"></a>
                 </Navbar1>
                 <HR />
                 <Holder
