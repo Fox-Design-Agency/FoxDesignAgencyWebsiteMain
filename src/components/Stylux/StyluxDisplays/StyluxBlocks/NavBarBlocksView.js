@@ -10,10 +10,10 @@ import {
     H22,
     H34,
     HR,
-    NavBar1,
+    Navbar1,
     Navbar2,
-    SubNavBar1,
-    SubNavBar2,
+    SubNavbar1,
+    SubNavbar2,
     Brand1,
     Brand2,
     Brand3,
@@ -35,17 +35,17 @@ export default function StyluxNavbarBlocksViews() {
                     <H34>
                         Navbar1
                     </H34>
-                    <NavBar1>
+                    <Navbar1>
                         <Link to="/blocks/navbarviews">item1</Link>
                         <Link to="/blocks/navbarviews">item2</Link>
                         <Link to="/blocks/navbarviews">item3</Link>
                         <Link to="/blocks/navbarviews">item4</Link>
                         <Link to="/blocks/navbarviews">item5</Link>
-                    </NavBar1>
+                    </Navbar1>
                     <H34>
                         Navbar1
                     </H34>
-                    <NavBar1
+                    <Navbar1
                         height='100px'
                         padding='0 7%'
                         navbarWidth='20%'
@@ -56,11 +56,11 @@ export default function StyluxNavbarBlocksViews() {
                         <Link to="linkedin.com"></Link>
                         <Link to="dribbble.com"></Link>
                         <Link to="youtube.com"></Link>
-                    </NavBar1>
+                    </Navbar1>
                     <H34>
                         Navbar1
                     </H34>
-                    <NavBar1
+                    <Navbar1
                         direction="column"
                         columnAlign='flex-start'
                         padding="0 0 0 7%"
@@ -70,7 +70,7 @@ export default function StyluxNavbarBlocksViews() {
                         <Link to="/blocks/navbarviews">item3</Link>
                         <Link to="/blocks/navbarviews">item4</Link>
                         <Link to="/blocks/navbarviews">item5</Link>
-                    </NavBar1>
+                    </Navbar1>
                     </Holder>
                 <Holder
                     direction='column'
@@ -96,7 +96,7 @@ export default function StyluxNavbarBlocksViews() {
                 <H34>
                     Sub Navbar1
                 </H34>
-                <SubNavBar1
+                <SubNavbar1
                     padding="0 0 0 5%"
                     zIndex='250'>
                     <Link to="/blocks/navbarviews">item1</Link>
@@ -104,7 +104,7 @@ export default function StyluxNavbarBlocksViews() {
                     <Link to="/blocks/navbarviews">item3</Link>
                     <Link to="/blocks/navbarviews">item4</Link>
                     <Link to="/blocks/navbarviews">item5</Link>
-                </SubNavBar1>
+                </SubNavbar1>
                 <H21>
                     Brand Stuff
                 </H21>
@@ -142,7 +142,7 @@ export default function StyluxNavbarBlocksViews() {
                 <H34>
                     DropDown Navigation 1
                 </H34>
-                <NavBar1>
+                <Navbar1>
                     <DropDownNav1>
                         <Link to="/blocks/navbarviews">item1</Link>
                         <Link to="/blocks/navbarviews">item2</Link>
@@ -186,81 +186,81 @@ export default function StyluxNavbarBlocksViews() {
                         <Link to="/blocks/navbarviews">item4</Link>
                         <Link to="/blocks/navbarviews">item5</Link>
                     </DropDownNav1>
-                </NavBar1>
+                </Navbar1>
                 <H34>
                     DropDown Navigation 2
                 </H34>
                 <H34>
                     DropDown Navigation 3
                 </H34>
-                <NavBar1>
+                <Navbar1>
                     <DropDownNav3
                         background="white">
                         <Link to="">item 0</Link>
-                        <NavBar1
+                        <Navbar1
                             direction="column">
                             <Link to="">Item 1</Link>
                             <Link to="">Item 2</Link>
                             <Link to="">Item 3</Link>
-                        </NavBar1>
-                        <NavBar1
+                        </Navbar1>
+                        <Navbar1
                             direction="column">
                             <Link to="">Item 1</Link>
                             <Link to="">Item 2</Link>
                             <Link to="">Item 3</Link>
-                        </NavBar1>
-                        <NavBar1
+                        </Navbar1>
+                        <Navbar1
                             direction="column">
                             <Link to="">Item 1</Link>
                             <Link to="">Item 2</Link>
                             <Link to="">Item 3</Link>
-                        </NavBar1>
+                        </Navbar1>
                     </DropDownNav3>
                     <DropDownNav3
                         background="white">
                         <Link to="">item 0</Link>
-                        <NavBar1
+                        <Navbar1
                             direction="column">
                             <Link to="">Item 1</Link>
                             <Link to="">Item 2</Link>
                             <Link to="">Item 3</Link>
-                        </NavBar1>
-                        <NavBar1
+                        </Navbar1>
+                        <Navbar1
                             direction="column">
                             <Link to="">Item 1</Link>
                             <Link to="">Item 2</Link>
                             <Link to="">Item 3</Link>
-                        </NavBar1>
-                        <NavBar1
+                        </Navbar1>
+                        <Navbar1
                             direction="column">
                             <Link to="">Item 1</Link>
                             <Link to="">Item 2</Link>
                             <Link to="">Item 3</Link>
-                        </NavBar1>
+                        </Navbar1>
                     </DropDownNav3>
                     <DropDownNav3
                         background="white">
                         <Link to="">item 0</Link>
-                        <NavBar1
+                        <Navbar1
                             direction="column">
                             <Link to="">Item 1</Link>
                             <Link to="">Item 2</Link>
                             <Link to="">Item 3</Link>
-                        </NavBar1>
-                        <NavBar1
+                        </Navbar1>
+                        <Navbar1
                             direction="column">
                             <Link to="">Item 1</Link>
                             <Link to="">Item 2</Link>
                             <Link to="">Item 3</Link>
-                        </NavBar1>
-                        <NavBar1
+                        </Navbar1>
+                        <Navbar1
                             direction="column">
                             <Link to="">Item 1</Link>
                             <Link to="">Item 2</Link>
                             <Link to="">Item 3</Link>
-                        </NavBar1>
+                        </Navbar1>
                     </DropDownNav3>
-                </NavBar1>
+                </Navbar1>
                 <H34>
                     DropDown Navigation 4
                 </H34>
@@ -268,7 +268,7 @@ export default function StyluxNavbarBlocksViews() {
                 <H34>
                     DropDown Navigation 5
                 </H34>
-                <NavBar1
+                <Navbar1
                     direction="column">
                     <DropDownNav5
                         background="white">
@@ -310,7 +310,7 @@ export default function StyluxNavbarBlocksViews() {
                         <Link to="">Item 4</Link>
                         <Link to="">Item 5</Link>
                     </DropDownNav5>
-                </NavBar1>
+                </Navbar1>
             </Holder>
                 <HR />
             </Container>

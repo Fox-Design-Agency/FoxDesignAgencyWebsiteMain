@@ -12,8 +12,9 @@ import {
     H34,
     Toggler1,
     Toggler2,
+    Toggler3,
     Toggler4,
-    NavBar1,
+    Navbar1,
     Modal1,
     Modal2,
     Modal3,
@@ -40,13 +41,13 @@ export default function StyluxBinBlocksViews() {
                         right="0">
                         <Holder
                             direction="column">
-                            <NavBar1
+                            <Navbar1
                                 direction="column">
                                 <Link to="">item1</Link>
                                 <Link to="">item2</Link>
                                 <Link to="">item3</Link>
                                 <Link to="">item4</Link>
-                            </NavBar1>
+                            </Navbar1>
                         </Holder>
                     </Toggler1>
                 </Holder>

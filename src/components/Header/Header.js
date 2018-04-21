@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import {
     Container,
     Holder,
-    NavBar1,
+    Navbar1,
     P4,
     Brand2
 } from "react-stylux";
@@ -21,7 +21,7 @@ export default function Header() {
                         {foxtail}
                     </Brand2>
                 </Link>
-                <NavBar1
+                <Navbar1
                     navbarWidth="800px"
                     align="flex-end">
                     <Link to="/">Home</Link>
@@ -29,7 +29,7 @@ export default function Header() {
                     <Link to="/">Projects</Link>
                     <Link to="/">About</Link>
                     <Link to="/">Contact</Link>
-                </NavBar1>
+                </Navbar1>
             </Holder>
         </Container>
     );

@@ -4,26 +4,26 @@ import { Link } from 'react-router-dom';
 import {
     Holder,
     Container,
-    NavBar1,
+    Navbar1,
     DropDownNav1,
     Brand1,
     HR,
-    SubNavBar1,
+    SubNavbar1,
 } from 'react-stylux';
 
 export default function StyluxHeader() {
     return (
         <header>
             <Container>
-                <SubNavBar1
+                <SubNavbar1
                     align="flex-end"
                     smDis="flex">
                     <Link to="/">Back to Fox Design Agency</Link>
-                </SubNavBar1>
+                </SubNavbar1>
                 <Holder
                     alignBlock1="flex-end"
                 >
-                    <NavBar1
+                    <Navbar1
                         fontVariant="small-caps"
                         navbarWidth='80%'
                         smDis='none'>
@@ -36,8 +36,8 @@ export default function StyluxHeader() {
                         <Link to="/react-stylux/blocks">blocks</Link>
                     </DropDownNav1>
                     <Link to="/react-stylux/documentation">documentation</Link>
-                    </NavBar1>
-                <NavBar1
+                    </Navbar1>
+                <Navbar1
                     navbarWidth="50%"
                     align="flex-end"
                     count='2'>
@@ -50,7 +50,7 @@ export default function StyluxHeader() {
                     <Link to="/documentation">documentation</Link>
                     <Link to="https://www.facebook.com/FoxDesignAgency/"></Link>
                     <Link to="https://github.com/Fox-Design-Agency/react-stylux"></Link>
-                </NavBar1>
+                </Navbar1>
                 </Holder>
             <HR />
             </Container>
