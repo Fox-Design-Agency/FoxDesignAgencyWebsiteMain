@@ -26,10 +26,7 @@ export default function StyluxFooter() {
                         direction="column"
                         padding="0 10px 0 0"
                         fontSize="0.7em">
-                        Elements
-                        <Link to="/containers">Containers</Link>
-                        <Link to="/holders">Holders</Link>
-                        <Link to="/blocks">Blocks</Link>
+                       
                     </Navbar1>
                 </Holder>
                 <HR />

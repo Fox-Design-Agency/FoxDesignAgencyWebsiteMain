@@ -28,6 +28,7 @@ export default function StyluxChangelog() {
                         <H42>Version Number</H42>
                         <Navbar1
                             direction="column">
+                            <a href="/react-stylux/changelog#0.5.2" >0.5.2</a>
                             <a href="/react-stylux/changelog#0.5.1" >0.5.1</a>
                             <a href="/react-stylux/changelog#0.4.7" >0.4.7</a>
                             <a href="/react-stylux/changelog#0.4.5" >0.4.5</a>
@@ -62,6 +63,16 @@ export default function StyluxChangelog() {
                     </Holder>
                     <Holder
                         direction="column">
+                        <Holder
+                            direction="column">
+                            <H42 id="0.5.2">0.5.2</H42>
+                            <BulletList1>
+                                {"Added width prop to lists, default 100%"}
+                                {"Updated readme to palce documentation on website"}
+                                
+                            </BulletList1>
+                            <a href="/react-stylux/changelog#topofpage">Back to top...</a>
+                        </Holder>
                         <Holder
                             direction="column">
                             <H42 id="0.5.1">0.5.1</H42>
