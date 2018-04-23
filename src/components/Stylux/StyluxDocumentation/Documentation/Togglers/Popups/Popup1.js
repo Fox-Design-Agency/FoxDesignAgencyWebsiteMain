@@ -4,7 +4,7 @@ import {
     Holder,
 } from "react-stylux"
 
-export default function P5() {
+export default function Popup1() {
 
     return (
         <Holder
