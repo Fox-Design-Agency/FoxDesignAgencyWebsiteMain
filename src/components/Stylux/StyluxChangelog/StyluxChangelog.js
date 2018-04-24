@@ -71,7 +71,6 @@ export default function StyluxChangelog() {
                                 {"Updated readme to palce documentation on website"}
                                 
                             </BulletList1>
-                            <a href="/react-stylux/changelog#topofpage">Back to top...</a>
                         </Holder>
                         <Holder
                             direction="column">

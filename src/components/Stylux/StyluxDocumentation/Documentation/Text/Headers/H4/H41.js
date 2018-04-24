@@ -9,7 +9,41 @@ export default function H41() {
     return (
         <Holder
             direction="column">
-
+            H41
+            color
+            font = 'sans-serif'
+            size = '3.489em'
+            smSize =  '2.5em'
+            mdSize = '3em'
+            weight = '100'
+            variant
+            display = 'flex'
+            align = 'center'
+            textAlign = 'center'
+            padding = '0 0 3px 0'
+            margin = '1px'
+            width = 'inherit'
+            height
+            shadow
+            bLeft
+            bRight
+            bTop
+            bBottom
+            border
+            id
+            className
+            aniCount
+            aniTime
+            aniName
+            aniDur
+            smdis = 'flex'
+            mddis = 'flex'
+            hoverColor
+            
+        ```
+        This accepts and renders one child
+        ```
+        H41This is a HeadingH41
         </Holder>
 
     )
