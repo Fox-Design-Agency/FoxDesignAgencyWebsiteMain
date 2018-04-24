@@ -14,6 +14,8 @@ import {
     P3,
     P4,
     P5,
+    H42,
+    BulletList1,
 } from "react-stylux";
 
 export default function StyluxParagraphBlocksViews() {
@@ -24,6 +26,33 @@ export default function StyluxParagraphBlocksViews() {
                 <BlocksSubNavBar />
                 <Holder direction="column">
                     <H22>Paragraph Blocks</H22>
+                    <Holder direction="column">
+                        <H34> Sizes</H34>
+                        <H42>large size:</H42>
+                        <BulletList1>
+                        1: Base Version - 1.333
+                         2: Smaller Version - 0.9
+                         3: Larger Version - 1.6
+                         4: Light Gray larger Version -  1.6
+                         5: Open (Possible dropcap version) - 1.333
+                    </BulletList1>
+                        <H42>medium size:</H42>
+                        <BulletList1>
+                        1: Base Version - 1.333
+                         2: Smaller Version - 0.9
+                         3: Larger Version - 1.6
+                     4: Light Gray larger Version -  1.6
+                         5: Open (Possible dropcap version) - 1.333
+                    </BulletList1>
+                        <H42>small size:</H42>
+                        <BulletList1>
+                        1: Base Version - 1.333
+                         2: Smaller Version - 0.9
+                         3: Larger Version - 1.6
+                         4: Light Gray larger Version -  1.6
+                         5: Open (Possible dropcap version) - 1.333
+                    </BulletList1>
+                    </Holder>
                     <H34>
                         P1
         </H34>

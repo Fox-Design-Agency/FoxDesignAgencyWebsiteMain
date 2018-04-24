@@ -25,7 +25,7 @@ import {
     H43,
     H44,
     H45,
-    HR,
+    HR, BulletList1
 } from "react-stylux";
 
 export default function StyluxHeadingBlocksViews() {
@@ -37,17 +37,42 @@ export default function StyluxHeadingBlocksViews() {
                 <H22>Heading Blocks</H22>
                 <Holder
                     direction="column">
-                    <H21>
-                        Default: Sans-serif
-            </H21>
+                    <HR />
+                    <Holder direction="column">
+                        <H34> Sizes</H34>
+                        <H42>large size:</H42>
+                        <BulletList1>
+                            1: Base Version - 1.333 * 1.618ish
+                            2: Smaller Version - num/1.2ish
+                            3: Larger Version - num * 1.2ish
+                            4: Light Gray Base Version
+                            5: Open (Possible outline version)
+                    </BulletList1>
+                        <H42>medium size:</H42>
+                        <BulletList1>
+                            1: Base Version - 1.333 * 1.618ish
+                            2: Smaller Version - num/1.2ish
+                            3: Larger Version - num * 1.2ish
+                            4: Light Gray Base Version
+                            5: Open (Possible outline version)
+                    </BulletList1>
+                        <H42>small size:</H42>
+                        <BulletList1>
+                            1: Base Version - 1.333 * 1.618ish
+                             2: Smaller Version - num/1.2ish
+                             3: Larger Version - num * 1.2ish
+                             4: Light Gray Base Version
+                             5: Open (Possible outline version)
+                    </BulletList1>
+                    </Holder>
                     <HR />
                     <H34>
                         main headings
-            </H34>
+                    </H34>
                     <HR />
                     <H11>
                         H11
-            </H11>
+                    </H11>
                     <H12>
                         H12
             </H12>

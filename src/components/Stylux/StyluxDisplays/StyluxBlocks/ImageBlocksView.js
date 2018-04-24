@@ -23,6 +23,8 @@ import {
     RectangleImage,
     RoundedRectangleImage,
     OvalImage,
+    H42,
+    BulletList1,
 } from "react-stylux";
 
 export default function StyluxImageBlocksViews() {
@@ -32,6 +34,97 @@ export default function StyluxImageBlocksViews() {
             <Container>
                 <BlocksSubNavBar />
                 <H22>Image Blocks</H22>
+                <Holder direction="column">
+                    <H34> Sizes</H34>
+                    <H42>large size:</H42>
+                    <H42>Non-Rectangle Sizes:</H42>
+                    <BulletList1>
+                        tn - 50px X 50px
+                        exsm - 90px X 90px
+                         sm - 150px X 150px
+                        md - 300px X 300px
+                         lg - 500px X 500px
+                         exlg - 700px X 700px
+                    </BulletList1>
+                    <H42>Rectangle Sizes:</H42>
+                    <BulletList1>
+                        tn - 50px X 50px (Not finished)
+                        exsm - 81px X 50px
+                             sm - 243px X 150px
+                        md - 485px X 300px
+                        lg - 809px X 500px
+                            exlg - 1137px X 700px
+                    </BulletList1>
+                    <H42>Tall Rectangle Sizes:</H42>
+                    <BulletList1>
+                        tn - 50px X 50px (Not finished)
+                        exsm - 50px X 81px
+                        sm - 150px X 243px
+                        md - 300px X 485px
+                        lg - 500px X 809px
+                        exlg - 700px X 1137px
+                    </BulletList1>
+                </Holder>
+                <Holder direction="column">
+                    <H42>medium size:</H42>
+                    <H42>Non-Rectangle Sizes:</H42>
+                    <BulletList1>
+                        tn - 50px X 50px
+                         exsm - 90px X 90px
+                        sm - 150px X 150px
+                         md - 300px X 300px
+                         lg - 500px X 500px
+                         exlg - 700px X 700px
+                    </BulletList1>
+                    <H42>Rectangle Sizes:</H42>
+                    <BulletList1>
+                        tn - 50px X 50px (Not finished)
+                       exsm - 81px X 50px
+                        sm - 243px X 150px
+                        md - 485px X 300px
+                        lg - 809px X 500px
+                        exlg - 1137px X 700px
+                    </BulletList1>
+                    <H42>Tall Rectangle Sizes:</H42>
+                    <BulletList1>
+                        tn - 50px X 50px (Not finished)
+                        exsm - 50px X 81px
+                        sm - 150px X 243px
+                        md - 300px X 485px
+                        lg - 500px X 809px
+                        exlg - 700px X 1137px
+                    </BulletList1>
+                </Holder>
+                <Holder direction="column">
+                    <H42>small size:</H42>
+                    <H42>Non-Rectangle Sizes:</H42>
+                    <BulletList1>
+                        tn - 50px X 50px
+                    exsm - 90px X 90px
+                        sm - 150px X 150px
+                        md - 300px X 300px
+                        lg - 500px X 500px
+                       exlg - 700px X 700px
+                    </BulletList1>
+                    <H42>Rectangle Sizes:</H42>
+                    <BulletList1>
+                        tn - 50px X 50px (Not finished)
+    exsm - 81px X 50px
+    sm - 243px X 150px
+   md - 485px X 300px
+    lg - 809px X 500px
+    exlg - 1137px X 700px
+                    </BulletList1>
+                    <H42>Tall Rectangle Sizes:</H42>
+                    <BulletList1>
+                        tn - 50px X 50px (Not finished)
+                        exsm - 50px X 81px
+                        sm - 150px X 243px
+                        md - 300px X 485px
+                        lg - 500px X 809px
+                        exlg - 700px X 1137px
+                    </BulletList1>
+                </Holder>
                 <Holder direction="column">
                     <H34>
                         Circle Image tn
