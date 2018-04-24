@@ -79,6 +79,23 @@ import Modal3 from "./Documentation/Togglers/Modals/Modal3";
 import Popup1 from "./Documentation/Togglers/Popups/Popup1";
 import Popup2 from "./Documentation/Togglers/Popups/Popup2";
 
+import BulletList1 from "./Documentation/Lists/BulletList1";
+import BulletList2 from "./Documentation/Lists/BulletList2";
+import NumberList1 from "./Documentation/Lists/NumberList1";
+import NumberList2 from "./Documentation/Lists/NumberList2";
+import NumberList3 from "./Documentation/Lists/NumberList3";
+
+import DropDownnav1 from "./Documentation/Navigation/DropDownnav1";
+import DropDownnav3 from "./Documentation/Navigation/DropDownnav3";
+import DropDownnav5 from "./Documentation/Navigation/DropDownnav5";
+import Navbar1 from "./Documentation/Navigation/Navbar1";
+import Navbar2 from "./Documentation/Navigation/Navbar2";
+import SubNavbar1 from "./Documentation/Navigation/SubNavbar1";
+import Subnavbar2 from "./Documentation/Navigation/Subnavbar2";
+
+import Table1 from "./Documentation/Table/Table1"
+import Table2 from "./Documentation/Table/Table2";
+
 import Form1 from "./Documentation/Forms/Form1";
 
 import A from "./Documentation/Other/A"
@@ -162,6 +179,23 @@ export default (
         <Route path="/react-stylux/documentation/toggler-modal-3" component={Modal3} />
         <Route path="/react-stylux/documentation/toggler-popup-1" component={Popup1} />
         <Route path="/react-stylux/documentation/toggler-popup-2" component={Popup2} />
+
+        <Route path="/react-stylux/documentation/bulletlist-1" component={BulletList1} />
+        <Route path="/react-stylux/documentation/bulletlist-2" component={BulletList2} />
+        <Route path="/react-stylux/documentation/numberlist-1" component={NumberList1} />
+        <Route path="/react-stylux/documentation/numberlist-2" component={NumberList2} />
+        <Route path="/react-stylux/documentation/numberlist-3" component={NumberList3} />
+
+        <Route path="/react-stylux/documentation/dropdownnav-1" component={DropDownnav1} />
+        <Route path="/react-stylux/documentation/dropdownnav-2" component={DropDownnav3} />
+        <Route path="/react-stylux/documentation/dropdownnav-3" component={DropDownnav5} />
+        <Route path="/react-stylux/documentation/navbar-1" component={Navbar1} />
+        <Route path="/react-stylux/documentation/navbar-2" component={Navbar2} />
+        <Route path="/react-stylux/documentation/subnavbar-1" component={SubNavbar1} />
+        <Route path="/react-stylux/documentation/subnavbar-2" component={Subnavbar2} />
+
+        <Route path="/react-stylux/documentation/table-1" component={Table1} />
+        <Route path="/react-stylux/documentation/table-2" component={Table2} />
 
         <Route path="/react-stylux/documentation/form-1" component={Form1} />
 
