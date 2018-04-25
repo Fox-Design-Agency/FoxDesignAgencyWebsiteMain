@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 import StyluxHeader from "../../StyluxHeader/StyluxHeader";
 import StyluxFooter from "../../StyluxFooter/StyluxFooter";
 import BlocksSubNavBar from "./SubHeader/StyluxBlocksSubHeader";
@@ -23,9 +24,9 @@ export default function StyluxTableBlocksViews() {
 
                 <Holder
                     direction="column">
-                    <H34>
+                    <Link to="/react-stylux/documentation/table-1"><H34>
                         Table 1
-                </H34>
+                    </H34></Link>
                     <Table1
                         columns="5"
                         rows="4"
@@ -41,9 +42,9 @@ export default function StyluxTableBlocksViews() {
                         {'body6'}
                         {'body7'}
                     </Table1>
-                    <H34>
+                    <Link to="/react-stylux/documentation/table-2"><H34>
                         Table 2
-                </H34>
+                    </H34></Link>
                     <Table2
                         tableClassName="oddRowHighlights">
                         {'Head'}
@@ -55,7 +56,7 @@ export default function StyluxTableBlocksViews() {
                     </Table2>
                     <H34>
                         Table 3
-                </H34>
+                    </H34>
                 </Holder>
                 <HR />
             </Container>

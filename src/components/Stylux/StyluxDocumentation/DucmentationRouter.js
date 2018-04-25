@@ -187,8 +187,8 @@ export default (
         <Route path="/react-stylux/documentation/numberlist-3" component={NumberList3} />
 
         <Route path="/react-stylux/documentation/dropdownnav-1" component={DropDownnav1} />
-        <Route path="/react-stylux/documentation/dropdownnav-2" component={DropDownnav3} />
-        <Route path="/react-stylux/documentation/dropdownnav-3" component={DropDownnav5} />
+        <Route path="/react-stylux/documentation/dropdownnav-3" component={DropDownnav3} />
+        <Route path="/react-stylux/documentation/dropdownnav-5" component={DropDownnav5} />
         <Route path="/react-stylux/documentation/navbar-1" component={Navbar1} />
         <Route path="/react-stylux/documentation/navbar-2" component={Navbar2} />
         <Route path="/react-stylux/documentation/subnavbar-1" component={SubNavbar1} />

@@ -40,7 +40,7 @@ export default function StyluxBlocksView() {
                         <Link to="/react-stylux/blocks/buttonviews">Button Blocks</Link>
                     </H34>
                     <H34>
-                        <Link to="/react-stylux/blocks/carouseltickerviews">Carsousel Blocks</Link>
+                        <Link to="/react-stylux/blocks/carouseltickerviews">Carousel Blocks</Link>
                     </H34>
                     <H34>
                         <Link to="/react-stylux/blocks/listviews">List Blocks</Link>

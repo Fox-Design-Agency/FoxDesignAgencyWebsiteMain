@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 import StyluxHeader from "../../StyluxHeader/StyluxHeader";
 import StyluxFooter from "../../StyluxFooter/StyluxFooter";
 import BlocksSubNavBar from "./SubHeader/StyluxBlocksSubHeader";
@@ -23,18 +24,18 @@ export default function StyluxListBlocksViews() {
                 <BlocksSubNavBar />
                 <H22>List Blocks</H22>
                 <Holder direction="column">
-                    <H34>
+                    <Link to="/react-stylux/documentation/numberlist-1"><H34>
                         Number List 1
-                    </H34>
+                    </H34></Link>
                     <NumberList1>
                         {'listItem1'}
                         {'listItem2'}
                         {'listItem3'}
                         {'listItem4'}
                     </NumberList1>
-                    <H34>
+                    <Link to="/react-stylux/documentation/numberlist-2"><H34>
                         Number List 2
-                    </H34>
+                    </H34></Link>
                     <NumberList2 listAmount='3'>
                         <p>listItem1</p>
                         <p>nestedlistItem1</p>
@@ -52,36 +53,34 @@ export default function StyluxListBlocksViews() {
                         <p>nestedlistItem1</p>
                         <p>nestedlistItem2</p>
                     </NumberList2>
-                    <H34>
+                    <Link to="/react-stylux/documentation/numberlist-3"><H34>
                         Number List 3
-                    </H34>
+                    </H34></Link>
                     <NumberList3>
                         {'listItem1'}
                         {'listItem2'}
                         {'listItem3'}
                         {'listItem4'}
                     </NumberList3>
-                    <H34>
+                    <Link to="/react-stylux/documentation/bulletlist-1"><H34>
                         Bullet List 1
-                    </H34>
+                    </H34></Link>
                     <BulletList1>
                         {'listItem1'}
                         {'listItem2'}
                         {'listItem3'}
                         {'listItem4'}
                     </BulletList1>
-                    <H34>
+                    <Link to="/react-stylux/documentation/bulletlist-2"><H34>
                         Bullet List 2
-                    </H34>
+                    </H34></Link>
                     <BulletList2>
                         {'listItem1'}
                         {'listItem2'}
                         {'listItem3'}
                         {'listItem4'}
                     </BulletList2>
-
                 </Holder>
-
                 <HR />
             </Container>
             <StyluxFooter />
