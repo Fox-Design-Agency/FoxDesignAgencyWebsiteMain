@@ -28,6 +28,8 @@ export default function StyluxChangelog() {
                         <H42>Version Number</H42>
                         <Navbar1
                             direction="column">
+                            <a href="/react-stylux/changelog#0.5.4" >0.5.4</a>
+                            <a href="/react-stylux/changelog#0.5.3" >0.5.3</a>
                             <a href="/react-stylux/changelog#0.5.2" >0.5.2</a>
                             <a href="/react-stylux/changelog#0.5.1" >0.5.1</a>
                             <a href="/react-stylux/changelog#0.4.7" >0.4.7</a>
@@ -65,9 +67,17 @@ export default function StyluxChangelog() {
                         direction="column">
                         <Holder
                             direction="column">
-                            <H42 id="0.5.2">0.5.3</H42>
+                            <H42 id="0.5.4">0.5.4 (Not Released)</H42>
                             <BulletList1>
-                                {"Works"}
+                                {"width prop default at 100% set on lists"}
+                                
+                            </BulletList1>
+                        </Holder>
+                        <Holder
+                            direction="column">
+                            <H42 id="0.5.3">0.5.3</H42>
+                            <BulletList1>
+                                {"Stable-ish"}
                                 {"Fixed holderSwitch imports"}
                                 
                             </BulletList1>
