@@ -65,10 +65,20 @@ export default function StyluxChangelog() {
                         direction="column">
                         <Holder
                             direction="column">
-                            <H42 id="0.5.2">0.5.2 (not released)</H42>
+                            <H42 id="0.5.2">0.5.3</H42>
                             <BulletList1>
-                                {"Added width prop to lists, default 100%"}
-                                {"Updated readme to palce documentation on website"}
+                                {"Works"}
+                                {"Fixed holderSwitch imports"}
+                                
+                            </BulletList1>
+                        </Holder>
+                        <Holder
+                            direction="column">
+                            <H42 id="0.5.2">0.5.2</H42>
+                            <BulletList1>
+                                {"Doesn't work"}
+                                {"Updated readme to place documentation on website, not finished"}
+                                {"Holders and Containers updated to hold 50 childs"}
                                 
                             </BulletList1>
                         </Holder>
