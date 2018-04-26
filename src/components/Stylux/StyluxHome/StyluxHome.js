@@ -4,7 +4,7 @@ import StyluxFooter from "../StyluxFooter/StyluxFooter";
 
 import {
     Container,
-    H11,
+    H42,
     HR,
 } from "react-stylux";
 
@@ -13,7 +13,7 @@ export default function StyluxHome() {
         <section>
             <StyluxHeader />
             <Container>
-                <H11>Home</H11>
+                <H42>Under Construction and Stuff</H42>
                 <HR />
             </Container>
             <StyluxFooter />

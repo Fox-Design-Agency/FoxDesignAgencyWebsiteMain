@@ -26,7 +26,7 @@ export default function Header() {
                     align="flex-end">
                     <Link to="/">Home</Link>
                     <Link to="/react-stylux">Stylux</Link>
-                    <Link to="/">Projects</Link>
+                    <Link to="/projects">Projects</Link>
                     <Link to="/">About</Link>
                     <Link to="/">Contact</Link>
                 </Navbar1>

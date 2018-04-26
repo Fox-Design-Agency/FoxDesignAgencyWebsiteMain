@@ -5,6 +5,20 @@ import { Route, Switch } from 'react-router-dom';
 import LandingPage from "./components/Home/LandingPage";
 
 
+//project imports
+import Projects from "./components/Projects/Projects";
+import WebProjects from "./components/Projects/WebProjectsMain";
+import PrintProjects from "./components/Projects/PrintProjectsMain";
+
+import Aristos from "./components/Projects/WebProjectsInDepth/Aristos";
+import AtaraxyClothing from "./components/Projects/WebProjectsInDepth/AtaraxyClothing";
+import AtaraxyLife from "./components/Projects/WebProjectsInDepth/AtaraxyLife";
+import BreakpoinPublishing from "./components/Projects/WebProjectsInDepth/BreakpointPublishing";
+import FoxChrisRealThe from "./components/Projects/WebProjectsInDepth/FoxChrisRealThe";
+import reactStylux from "./components/Projects/WebProjectsInDepth/react-stylux";
+
+import nightmarePoster from "./components/Projects/PrintProjectsInDepth/nightmaresPoster";
+
 //stylux imports
 import StyluxHome from "./components/Stylux/StyluxHome/StyluxHome";
 import StyluxDocumentation from "./components/Stylux/StyluxDocumentation/StyluxDocumentation";
@@ -28,9 +42,23 @@ export default (
     <Switch>
         <Route exact path="/" component={LandingPage} />
 
+        <Route exact path="/projects" component={Projects} />
+        <Route exact path="/projects/web" component={WebProjects} />
+        <Route exact path="/projects/print" component={PrintProjects} />
+
+        <Route path="/projects/web/aristos" component={Aristos} />
+        <Route path="/projects/web/ataraxy-clothing" component={AtaraxyClothing} />
+        <Route path="/projects/web/ataraxy-life" component={AtaraxyLife} />
+        <Route path="/projects/web/breakpoint-publishing" component={BreakpoinPublishing} />
+        <Route path="/projects/web/foxchrisrealthe" component={FoxChrisRealThe} />
+        <Route path="/projects/web/react-stylux" component={reactStylux} />
+
+        <Route path="/projects/print/nightmare-poster" component={nightmarePoster} />
+
+
         <Route exact path="/react-stylux" component={StyluxHome} />
         <Route path="/react-stylux/documentation" component={StyluxDocumentation} />
-        <Route path="/react-stylux/changelog" component={StyluxChangelog}/>
+        <Route path="/react-stylux/changelog" component={StyluxChangelog} />
 
         <Route exact path="/react-stylux/blocks" component={StyluxBlocksView} />
         <Route path="/react-stylux/blocks/togglersviews" component={StyluxBinBlocksView}></Route>
