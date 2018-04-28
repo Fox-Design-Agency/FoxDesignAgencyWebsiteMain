@@ -28,6 +28,7 @@ export default function StyluxChangelog() {
                         <H42>Version Number</H42>
                         <Navbar1
                             direction="column">
+                            <a href="/react-stylux/changelog#0.6.0" >0.6.0</a>
                             <a href="/react-stylux/changelog#0.5.4" >0.5.4</a>
                             <a href="/react-stylux/changelog#0.5.3" >0.5.3</a>
                             <a href="/react-stylux/changelog#0.5.2" >0.5.2</a>
@@ -67,35 +68,50 @@ export default function StyluxChangelog() {
                         direction="column">
                         <Holder
                             direction="column">
-                            <H42 id="0.5.4">0.5.4 (Not Released)</H42>
-                            <BulletList1>
+                            <H42 id="0.6.0">0.6.0 (not released yet)</H42>
+                            <BulletList1
+                                width="900px">
+                                {"Changing all Buttons to a single component switched with type prop"}
+                                {"Changing all Images to a single component switched with type prop"}
+                            </BulletList1>
+                            <a href="/react-stylux/changelog#topofpage">Back to top...</a>
+                        </Holder>
+                        <Holder
+                            direction="column">
+                            <H42 id="0.5.4">0.5.4</H42>
+                            <BulletList1
+                                width="900px">
                                 {"width prop default at 100% set on lists"}
-                                
+                                {"Lists have responsive outlineish"}
+                                {"Cards have responsive outlineish"}
+                                {"Tables have responsive outlineish"}
+                                {"smDis increased from 440px to 768px"}
+                                {"mdDis increased from 441px and 760px to 769px and 1200px"}
                             </BulletList1>
                         </Holder>
                         <Holder
                             direction="column">
                             <H42 id="0.5.3">0.5.3</H42>
-                            <BulletList1>
+                            <BulletList1 width="900px">
                                 {"Stable-ish"}
                                 {"Fixed holderSwitch imports"}
-                                
+
                             </BulletList1>
                         </Holder>
                         <Holder
                             direction="column">
                             <H42 id="0.5.2">0.5.2</H42>
-                            <BulletList1>
+                            <BulletList1 width="900px">
                                 {"Doesn't work"}
                                 {"Updated readme to place documentation on website, not finished"}
                                 {"Holders and Containers updated to hold 50 childs"}
-                                
+
                             </BulletList1>
                         </Holder>
                         <Holder
                             direction="column">
                             <H42 id="0.5.1">0.5.1</H42>
-                            <BulletList1>
+                            <BulletList1 width="900px">
                                 {"updated version to 0.5.0 due to breaking name changes, see below"}
                                 {"Fixed onClick prop for buttons"}
                                 {"Removed default sans-serif for Headers && default width: inherit"}
@@ -110,7 +126,7 @@ export default function StyluxChangelog() {
                         </Holder>
                         <Holder direction="column">
                             <H42 id="0.4.7" margin="20px">0.4.7</H42>
-                            <BulletList1>
+                            <BulletList1 width="900px">
                                 {"Added font size to A tag"}
                                 {"Added smDis && mdDis to A tag"}
                                 {"Added className && id to holders && containers"}
@@ -121,13 +137,13 @@ export default function StyluxChangelog() {
                                 {"Added smDis && mdDis to buttons"}
                             </BulletList1>
                             <H42 id="0.4.5" margin="20px">0.4.5</H42>
-                            <BulletList1>
+                            <BulletList1 width="900px">
                                 {"Added 'A' component for testing navigation stuff for personal project"}
                                 {"Added a justifycontent prop to headers and paragraphs that may break alignment"}
                                 {"id && className props added to all simple blocks, will add to complex blocks later, not verified for working"}
                             </BulletList1>
                             <H42 id="0.4.4" margin="20px">0.4.4</H42>
-                            <BulletList1>
+                            <BulletList1 width="900px">
                                 {"Fixed typo in Holder for 12 children && Container for 12 children"}
                                 {"Added MaxHeight as MaxH, MaxWidth as MaxW to some blocks"}
                                 {"FlexWrap && wordWrap added to headers && paragraphs"}
@@ -136,13 +152,13 @@ export default function StyluxChangelog() {
                                 {"Card 1 && 2 updated for max height and initial style implementation"}
                             </BulletList1>
                             <H42 id="0.4.3" margin="20px">0.4.3</H42>
-                            <BulletList1>
+                            <BulletList1 width="900px">
                                 {"Updated containers and holders with new switch statement function calls. Might not help optimzie but makes it easier to manage for the time being"}
                                 {"containers and holders now have componentwillrecieveprops"}
                                 {"took away default hover borders on images"}
                             </BulletList1>
                             <H42 id="0.4.2" margin="20px">0.4.2</H42>
-                            <BulletList1>
+                            <BulletList1 width="900px">
                                 {"added height props to container && Holder"}
                                 {"changed Holder from section to div"}
                                 {"container is still a section"}
@@ -153,13 +169,13 @@ export default function StyluxChangelog() {
                                 {"Readme updated for changes"}
                             </BulletList1>
                             <H42 id="0.4.1" margin="20px">0.4.1</H42>
-                            <BulletList1>
+                            <BulletList1 width="900px">
                                 {"added Navbar2, needs major positioning and customization options but it's neat"}
                                 {"added Popup1, and Popup2 blocks"}
                                 {"minor updates to readme, rethinking the readme organization to better match mono repo organization"}
                             </BulletList1>
                             <H42 id="0.4.0" margin="20px">0.4.0</H42>
-                            <BulletList1>
+                            <BulletList1 width="900px">
                                 {"updated Modal naming, might break things, so updated from 0.3 => 0.4"}
                                 {"added first draft of Modal 2 & 3"}
                                 {"added first draft of Card 1 & 2 & 3, only can access Card1"}
@@ -169,14 +185,14 @@ export default function StyluxChangelog() {
                         </Holder>
                         <Holder direction="column">
                             <H42 id="0.3.14" margin="20px">0.3.14</H42>
-                            <BulletList1>
+                            <BulletList1 width="900px">
                                 {"Added access to button updates"}
                                 {"updated table 1 and table 2 with borders and basic implementation"}
                                 {"will update color options for table in another update"}
                                 {"future update will also have hover effect for tables"}
                             </BulletList1>
                             <H42 id="0.3.13" margin="20px">0.3.13</H42>
-                            <BulletList1>
+                            <BulletList1 width="900px">
                                 {"figuring out best way to implement parallax"}
                                 {"outline in progress for new navigation blocks, not currently available"}
                                 {"added first draft on buttons"}
@@ -184,27 +200,27 @@ export default function StyluxChangelog() {
                                 {"readme updated for changes"}
                             </BulletList1>
                             <H42 id="0.3.12" margin="20px">0.3.12</H42>
-                            <BulletList1>
+                            <BulletList1 width="900px">
                                 {"HR divider should actually work now"}
                             </BulletList1>
                             <H42 id="0.3.10" margin="20px">0.3.10</H42>
-                            <BulletList1>
+                            <BulletList1 width="900px">
                                 {"prepping for parallax updates"}
                                 {"added dividers section, HR currently only one"}
                                 {"updated readme for changes"}
                             </BulletList1>
                             <H42 id="0.3.9" margin="20px">0.3.9</H42>
-                            <BulletList1>
+                            <BulletList1 width="900px">
                                 {"small change to images for testing"}
                                 {"removed flex: 1 from certain holders that were cutting off blocks"}
                             </BulletList1>
                             <H42 id="0.3.7" margin="20px">0.3.7</H42>
-                            <BulletList1>
+                            <BulletList1 width="900px">
                                 {"Updated Carousels 2-4"}
                                 {"Updated All Images in an attempt to fix bug"}
                             </BulletList1>
                             <H42 id="0.3.6" margin="20px">0.3.6</H42>
-                            <BulletList1>
+                            <BulletList1 width="900px">
                                 {"Don't use versions 0.3.0-0.3.4 - they don't work sadly"}
                                 {"Added default holder & container condition to fix breaking with no children "}
                                 {"Container & Holder sm & md flexDirection updated"}
@@ -216,7 +232,7 @@ export default function StyluxChangelog() {
                                 {"Updated Readme for changes"}
                             </BulletList1>
                             <H42 id="0.3.0" margin="20px">0.3.0</H42>
-                            <BulletList1>
+                            <BulletList1 width="900px">
                                 {"Removed Containers 1-5 for a dynamic Container"}
                                 {"Removed Holders 1-13 for a dynamic Holder"}
                                 {"full implementation for Container still not available, but the Holder is close to being done, it still needs optimization. Will Test current implemtation against other ways until best results are achieved."}
@@ -226,18 +242,18 @@ export default function StyluxChangelog() {
                         </Holder>
                         <Holder direction="column">
                             <H42 id="0.2.9" margin="20px">0.2.9</H42>
-                            <BulletList1>
+                            <BulletList1 width="900px">
                                 {"added left prop to ham navbar1 to try and fix issue"}
                             </BulletList1>
                             <H42 id="0.2.8" margin="20px">0.2.8</H42>
-                            <BulletList1>
+                            <BulletList1 width="900px">
                                 {"fixed ham navigation menu and added ham props"}
                                 {"animation not currently working with ham menu on navbar1"}
                                 {"added width and height props on button"}
                                 {"readme updated with subnav, button, and hamnav"}
                             </BulletList1>
                             <H42 id="0.2.7" margin="20px">0.2.7</H42>
-                            <BulletList1>
+                            <BulletList1 width="900px">
                                 {"Added animation file, selected animations from animation.css"}
                                 {"Added animation placeholders to allow for easy animation"}
                                 {"readme updated for notes on use"}
@@ -249,7 +265,7 @@ export default function StyluxChangelog() {
                                 {"iteration count will stop on mouse over of carousel1 and will not start back up"}
                             </BulletList1>
                             <H42 id="0.2.5" margin="20px">0.2.5</H42>
-                            <BulletList1>
+                            <BulletList1 width="900px">
                                 {"Added FlatButton1 for intial button testing and integration"}
                                 {"Added componentDidMount && componentWillRecieveProps to Holders and Containers"}
                                 {"Slight hack on navbar1 to work for current personal project with DevMountain. Needs more work to function correctly."}
@@ -262,7 +278,7 @@ export default function StyluxChangelog() {
                                 {"updated readme for changes"}
                             </BulletList1>
                             <H42 id="0.2.3" margin="20px">0.2.3</H42>
-                            <BulletList1>
+                            <BulletList1 width="900px">
                                 {"Changed input so a backslash is not needed to seperate child elements, instead use {''} for anything not already wrapped in jsx or another component"}
                                 {"updated pull quote 1 margin so the name is not cut off"}
                                 {"updated pull quote 2 margin so it centers itself"}
@@ -273,7 +289,7 @@ export default function StyluxChangelog() {
                                 {"updated readme for changes"}
                             </BulletList1>
                             <H42 id="0.2.2" margin="20px">0.2.2</H42>
-                            <BulletList1>
+                            <BulletList1 width="900px">
                                 {"added overflow hidden to holders and containers"}
                                 {"add border, borderleft, borderright, bordertop, and borderbottom to holders and containers"}
                                 {"changed default sm & md flexdirection values and added props to adjust"}
@@ -285,7 +301,7 @@ export default function StyluxChangelog() {
                                 {"updated readme for changes"}
                             </BulletList1>
                             <H42 id="0.2.0" margin="20px">0.2.0</H42>
-                            <BulletList1>
+                            <BulletList1 width="900px">
                                 {"added smdis && mddis to every container, holder, heading blocks, paragraph blocks, and image blocks"}
                                 {"added media queries for max-width 481px and minwidth 482px max-wdith 1200px everything else should render above 1200px"}
                                 {"adding in placeholder sizes until more responsive testing occurs"}
@@ -296,12 +312,12 @@ export default function StyluxChangelog() {
                         </Holder>
                         <Holder direction="column">
                             <H42 id="0.1.6" margin="20px">0.1.6</H42>
-                            <BulletList1>
+                            <BulletList1 width="900px">
                                 {"added lifecycle componentWillUnmount to carousels to stop interval"}
                                 {"added lifecycle componentWillRecieveProps to most blocks to allow for render updates"}
                             </BulletList1>
                             <H42 id="0.1.5" margin="20px">0.1.5</H42>
-                            <BulletList1>
+                            <BulletList1 width="900px">
                                 {"added Table1 and Table2"}
                                 {"added animation path to blocks (feature not fully implemented)"}
                                 {"added the outline for animation integration into basic blocks (feature not fully implemented)"}
@@ -312,7 +328,7 @@ export default function StyluxChangelog() {
                                 {"readme updated for changes"}
                             </BulletList1>
                             <H42 id="0.1.4" margin="20px">0.1.4</H42>
-                            <BulletList1>
+                            <BulletList1 width="900px">
                                 {"fixed dropdownnav1"}
                                 {"added togglePlace onto toggler2, this uses flexDirection to change toggle place eg 'column-reverse' || 'row' etc..."}
                                 {"changed toggler1 position to fixed from absolute, still changeable through props."}
@@ -321,7 +337,7 @@ export default function StyluxChangelog() {
                                 {"readme updated for changes"}
                             </BulletList1>
                             <H42 id="0.1.3" margin="20px">0.1.3</H42>
-                            <BulletList1>
+                            <BulletList1 width="900px">
                                 {"Fixed Holders 8-13 block 5 styles"}
                                 {"got rid of a tags in Brands, will rework Brand Blocks"}
                                 {"text-shadow added to headings and paragraphs"}
@@ -335,7 +351,7 @@ export default function StyluxChangelog() {
                                 {"readme updated to reflect the changes"}
                             </BulletList1>
                             <H42 id="0.1.0" margin="20px">0.1.0</H42>
-                            <BulletList1>
+                            <BulletList1 width="900px">
                                 {"text align added to heading and paragraph blocks"}
                                 {"Width and Height now available for heading and paragraph blocks"}
                                 {"mainHeading name changed to H1 + num"}
@@ -350,11 +366,11 @@ export default function StyluxChangelog() {
                                 {"fixed Holder4 block 3-5 styles"}
                             </BulletList1>
                             <H42 id="0.0.12" margin="20px">0.0.12</H42>
-                            <BulletList1>
+                            <BulletList1 width="900px">
                                 {"readme was updated with minor documentation"}
                             </BulletList1>
                             <H42 id="0.0.10" margin="20px">0.0.10</H42>
-                            <BulletList1>
+                            <BulletList1 width="900px">
                                 {"baselineish that things are mostly working"}
                             </BulletList1>
                             <a href="/react-stylux/changelog#topofpage">Back to top...</a>
