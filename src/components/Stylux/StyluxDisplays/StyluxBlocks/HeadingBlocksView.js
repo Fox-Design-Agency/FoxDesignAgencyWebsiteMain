@@ -42,7 +42,7 @@ export default function StyluxHeadingBlocksViews() {
                     <Holder direction="column">
                         <H34> Sizes</H34>
                         <H42>large size:</H42>
-                        <BulletList1>
+                        <BulletList1 width="1200px">
                             1: Base Version - 1.333 * 1.618ish
                             2: Smaller Version - num/1.2ish
                             3: Larger Version - num * 1.2ish
@@ -50,7 +50,7 @@ export default function StyluxHeadingBlocksViews() {
                             5: Open (Possible outline version)
                     </BulletList1>
                         <H42>medium size:</H42>
-                        <BulletList1>
+                        <BulletList1 width="1200px">
                             1: Base Version - 1.333 * 1.618ish
                             2: Smaller Version - num/1.2ish
                             3: Larger Version - num * 1.2ish
@@ -58,7 +58,7 @@ export default function StyluxHeadingBlocksViews() {
                             5: Open (Possible outline version)
                     </BulletList1>
                         <H42>small size:</H42>
-                        <BulletList1>
+                        <BulletList1 width="1200px">
                             1: Base Version - 1.333 * 1.618ish
                              2: Smaller Version - num/1.2ish
                              3: Larger Version - num * 1.2ish

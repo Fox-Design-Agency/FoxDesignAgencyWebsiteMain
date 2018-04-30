@@ -28,6 +28,9 @@ export default function StyluxChangelog() {
                         <H42>Version Number</H42>
                         <Navbar1
                             direction="column">
+                            <a href="/react-stylux/changelog#0.6.3" >0.6.3</a>
+                            <a href="/react-stylux/changelog#0.6.2" >0.6.2</a>
+                            <a href="/react-stylux/changelog#0.6.1" >0.6.1</a>
                             <a href="/react-stylux/changelog#0.6.0" >0.6.0</a>
                             <a href="/react-stylux/changelog#0.5.4" >0.5.4</a>
                             <a href="/react-stylux/changelog#0.5.3" >0.5.3</a>
@@ -68,11 +71,43 @@ export default function StyluxChangelog() {
                         direction="column">
                         <Holder
                             direction="column">
-                            <H42 id="0.6.0">0.6.0 (not released yet)</H42>
+                            <H42 id="0.6.3">0.6.4 (Not Released)</H42>
                             <BulletList1
                                 width="900px">
-                                {"Changing all Buttons to a single component switched with type prop"}
-                                {"Changing all Images to a single component switched with type prop"}
+                                {"updates to default responsive Image sizes"}
+                                {"update to Button block state"}
+                                {"update to Button block custom ability (not currently a thing)"}
+                                {"review every blocks responsive behavior"}
+                            </BulletList1>
+                            <H42 id="0.6.3">0.6.3</H42>
+                            <BulletList1
+                                width="900px">
+                                {"current stable build, Do not use 0.6.0 - 0.6.2, they won't work."}
+                                {"Fixed typo in componentWillRecieveProps in Image && Button"}
+                            </BulletList1>
+                            <H42 id="0.6.2">0.6.2</H42>
+                            <BulletList1
+                                width="900px">
+                                {"Not stable, typo in componentWillRecieveProps in Image && Button"}
+                                {"Fixed Button import typo"}
+                            </BulletList1>
+                            <H42 id="0.6.1">0.6.1</H42>
+                            <BulletList1
+                                width="900px">
+                                {"Not stable, typo in Button imports"}
+                                {"Fixed Brand blocks for Image updates"}
+                            </BulletList1>
+                            <H42 id="0.6.0">0.6.0</H42>
+                            <BulletList1
+                                width="900px">
+                                {"Not stable, Brand blocks broken"}
+                                {"Changing all Buttons to a single component Button switched with 'type' prop"}
+                                {"Old Buttons components still available due to issue with hover on buttons render work around not finalized"}
+                                {"Changing all Images to a single component Image switched with 'type' prop"}
+                                {"Old images removed from package, will break on update, version number increased to 0.6.0"}
+                                {"Fixed media query name for Brands1-5"}
+                                {"Removed unused variables from Holders && Containers"}
+                                {"Removed duplicate key calls from Holders && Containers"}
                             </BulletList1>
                             <a href="/react-stylux/changelog#topofpage">Back to top...</a>
                         </Holder>

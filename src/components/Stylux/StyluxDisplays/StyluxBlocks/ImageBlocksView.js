@@ -14,15 +14,9 @@ import {
     Hero3,
     Hero4,
     Hero5,
-    CircleImage,
-    SquareImage,
-    TallRectangleImage,
-    TallRoundedRectangleImage,
+   Image,
     Figure,
-    RoundedImage,
-    RectangleImage,
-    RoundedRectangleImage,
-    OvalImage,
+   
     H42,
     BulletList1,
 } from "react-stylux";
@@ -38,7 +32,7 @@ export default function StyluxImageBlocksViews() {
                     <H34> Sizes</H34>
                     <H42>large size:</H42>
                     <H42>Non-Rectangle Sizes:</H42>
-                    <BulletList1>
+                    <BulletList1 width="1200px">
                         tn - 50px X 50px
                         exsm - 90px X 90px
                          sm - 150px X 150px
@@ -47,7 +41,7 @@ export default function StyluxImageBlocksViews() {
                          exlg - 700px X 700px
                     </BulletList1>
                     <H42>Rectangle Sizes:</H42>
-                    <BulletList1>
+                    <BulletList1 width="1200px">
                         tn - 50px X 50px (Not finished)
                         exsm - 81px X 50px
                              sm - 243px X 150px
@@ -56,7 +50,7 @@ export default function StyluxImageBlocksViews() {
                             exlg - 1137px X 700px
                     </BulletList1>
                     <H42>Tall Rectangle Sizes:</H42>
-                    <BulletList1>
+                    <BulletList1 width="1200px">
                         tn - 50px X 50px (Not finished)
                         exsm - 50px X 81px
                         sm - 150px X 243px
@@ -68,7 +62,7 @@ export default function StyluxImageBlocksViews() {
                 <Holder direction="column">
                     <H42>medium size:</H42>
                     <H42>Non-Rectangle Sizes:</H42>
-                    <BulletList1>
+                    <BulletList1 width="1200px">
                         tn - 50px X 50px
                          exsm - 90px X 90px
                         sm - 150px X 150px
@@ -77,7 +71,7 @@ export default function StyluxImageBlocksViews() {
                          exlg - 700px X 700px
                     </BulletList1>
                     <H42>Rectangle Sizes:</H42>
-                    <BulletList1>
+                    <BulletList1 width="1200px">
                         tn - 50px X 50px (Not finished)
                        exsm - 81px X 50px
                         sm - 243px X 150px
@@ -86,7 +80,7 @@ export default function StyluxImageBlocksViews() {
                         exlg - 1137px X 700px
                     </BulletList1>
                     <H42>Tall Rectangle Sizes:</H42>
-                    <BulletList1>
+                    <BulletList1 width="1200px">
                         tn - 50px X 50px (Not finished)
                         exsm - 50px X 81px
                         sm - 150px X 243px
@@ -98,7 +92,7 @@ export default function StyluxImageBlocksViews() {
                 <Holder direction="column">
                     <H42>small size:</H42>
                     <H42>Non-Rectangle Sizes:</H42>
-                    <BulletList1>
+                    <BulletList1 width="1200px">
                         tn - 50px X 50px
                     exsm - 90px X 90px
                         sm - 150px X 150px
@@ -107,7 +101,7 @@ export default function StyluxImageBlocksViews() {
                        exlg - 700px X 700px
                     </BulletList1>
                     <H42>Rectangle Sizes:</H42>
-                    <BulletList1>
+                    <BulletList1 width="1200px">
                         tn - 50px X 50px (Not finished)
     exsm - 81px X 50px
     sm - 243px X 150px
@@ -116,7 +110,7 @@ export default function StyluxImageBlocksViews() {
     exlg - 1137px X 700px
                     </BulletList1>
                     <H42>Tall Rectangle Sizes:</H42>
-                    <BulletList1>
+                    <BulletList1 width="1200px">
                         tn - 50px X 50px (Not finished)
                         exsm - 50px X 81px
                         sm - 150px X 243px
@@ -129,56 +123,50 @@ export default function StyluxImageBlocksViews() {
                     <H34>
                         Circle Image tn
                     </H34>
-                    <CircleImage
-                        size="tn">
-                        {}
-                        Chris Hanging out
-                    </CircleImage>
+                    <Image size="tn">
+                    {}
+                    Chris Hanging out
+                    </Image>
                     <HR />
                     <H34>
                         Circle Image exsm
                     </H34>
-                    <CircleImage
-                        size="exsm">
-                        {}
-                        Chris Hanging out
-                    </CircleImage>
+                    <Image size="tn">
+                    {}
+                    Chris Hanging out
+                    </Image>
                     <HR />
                     <H34>
                         Circle Image sm
                     </H34>
-                    <CircleImage
-                        size="sm">
-                        {}
-                        Chris Hanging out
-                    </CircleImage>
+                    <Image size="tn">
+                    {}
+                    Chris Hanging out
+                    </Image>
                     <HR />
                     <H34>
                         Circle Image md
                     </H34>
-                    <CircleImage
-                        size="md">
-                        {}
-                        Chris Hanging out
-                    </CircleImage>
+                    <Image size="tn">
+                    {}
+                    Chris Hanging out
+                    </Image>
                     <HR />
                     <H34>
                         Circle Image lg
                     </H34>
-                    <CircleImage
-                        size="lg">
-                        {}
-                        Chris Hanging out
-                    </CircleImage>
+                     <Image size="tn">
+                    {}
+                    Chris Hanging out
+                    </Image>
                     <HR />
                     <H34>
                         Circle Image exlg
                     </H34>
-                    <CircleImage
-                        size="exlg">
-                        {}
-                        Chris Hanging out
-                    </CircleImage>
+                    <Image size="tn">
+                    {}
+                    Chris Hanging out
+                    </Image>
                     <HR />
                 </Holder>
                 <Holder
@@ -186,56 +174,50 @@ export default function StyluxImageBlocksViews() {
                     <H34>
                         Oval Image tn
                     </H34>
-                    <OvalImage
-                        size="tn">
-                        {}
-                        Chris Hanging out
-                    </OvalImage>
+                    <Image size="tn">
+                    {}
+                    Chris Hanging out
+                    </Image>
                     <HR />
                     <H34>
                         Oval Image exsm
                     </H34>
-                    <OvalImage
-                        size="exsm">
-                        {}
-                        Chris Hanging out
-                    </OvalImage>
+                    <Image size="tn">
+                    {}
+                    Chris Hanging out
+                    </Image>
                     <HR />
                     <H34>
                         Oval Image sm
                     </H34>
-                    <OvalImage
-                        size="sm">
-                        {}
-                        Chris Hanging out
-                    </OvalImage>
+                    <Image size="tn">
+                    {}
+                    Chris Hanging out
+                    </Image>
                     <HR />
                     <H34>
                         Oval Image md
                     </H34>
-                    <OvalImage
-                        size="md">
-                        {}
-                        Chris Hanging out
-                    </OvalImage>
+                    <Image size="tn">
+                    {}
+                    Chris Hanging out
+                    </Image>
                     <HR />
                     <H34>
                         Oval Image lg
                     </H34>
-                    <OvalImage
-                        size="lg">
-                        {}
-                        Chris Hanging out
-                    </OvalImage>
+                    <Image size="tn">
+                    {}
+                    Chris Hanging out
+                    </Image>
                     <HR />
                     <H34>
                         Oval Image exlg
                     </H34>
-                    <OvalImage
-                        size="exlg">
-                        {}
-                        Chris Hanging out
-                    </OvalImage>
+                    <Image size="tn">
+                    {}
+                    Chris Hanging out
+                    </Image>
                     <HR />
                 </Holder>
 
@@ -244,56 +226,50 @@ export default function StyluxImageBlocksViews() {
                     <H34>
                         Rounded Image tn
                     </H34>
-                    <RoundedImage
-                        size="tn">
-                        {}
-                        Chris Hanging out
-                    </RoundedImage>
+                    <Image size="tn">
+                    {}
+                    Chris Hanging out
+                    </Image>
                     <HR />
                     <H34>
                         Rounded Image exsm
                     </H34>
-                    <RoundedImage
-                        size="exsm">
-                        {}
-                        Chris Hanging out
-                    </RoundedImage>
+                    <Image size="tn">
+                    {}
+                    Chris Hanging out
+                    </Image>
                     <HR />
                     <H34>
                         Rounded Image sm
                     </H34>
-                    <RoundedImage
-                        size="sm">
-                        {}
-                        Chris Hanging out
-                    </RoundedImage>
+                    <Image size="tn">
+                    {}
+                    Chris Hanging out
+                    </Image>
                     <HR />
                     <H34>
                         Rounded Image md
                     </H34>
-                    <RoundedImage
-                        size="md">
-                        {}
-                        Chris Hanging out
-                    </RoundedImage>
+                    <Image size="tn">
+                    {}
+                    Chris Hanging out
+                    </Image>
                     <HR />
                     <H34>
                         Rounded Image lg
                     </H34>
-                    <RoundedImage
-                        size="lg">
-                        {}
-                        Chris Hanging out
-                    </RoundedImage>
+                    <Image size="tn">
+                    {}
+                    Chris Hanging out
+                    </Image>
                     <HR />
                     <H34>
                         Rounded Image exlg
                     </H34>
-                    <RoundedImage
-                        size="exlg">
-                        {}
-                        Chris Hanging out
-                    </RoundedImage>
+                    <Image size="tn">
+                    {}
+                    Chris Hanging out
+                    </Image>
                 </Holder>
             </Container>
             <Container>
@@ -303,11 +279,10 @@ export default function StyluxImageBlocksViews() {
                     <H34>
                         Square Image tn
                     </H34>
-                    <SquareImage
-                        size="tn">
-                        {}
-                        Chris Hanging out
-                    </SquareImage>
+                    <Image size="tn">
+                    {}
+                    Chris Hanging out
+                    </Image>
                 </Holder>
                 <HR />
                 <Holder
@@ -315,11 +290,10 @@ export default function StyluxImageBlocksViews() {
                     <H34>
                         Square Image exsm
                     </H34>
-                    <SquareImage
-                        size="exsm">
-                        {}
-                        Chris Hanging out
-                    </SquareImage>
+                    <Image size="tn">
+                    {}
+                    Chris Hanging out
+                    </Image>
                 </Holder>
                 <HR />
                 <Holder
@@ -327,22 +301,20 @@ export default function StyluxImageBlocksViews() {
                     <H34>
                         Square Image sm
                     </H34>
-                    <SquareImage
-                        size="sm">
-                        {}
-                        Chris Hanging out
-                    </SquareImage>
+                    <Image size="tn">
+                    {}
+                    Chris Hanging out
+                    </Image>
                 </Holder>
                 <Holder
                     direction="column">
                     <H34>
                         Square Image md
                     </H34>
-                    <SquareImage
-                        size="md">
-                        {}
-                        Chris Hanging out
-                    </SquareImage>
+                    <Image size="tn">
+                    {}
+                    Chris Hanging out
+                    </Image>
                 </Holder>
                 <HR />
                 <Holder
@@ -350,11 +322,10 @@ export default function StyluxImageBlocksViews() {
                     <H34>
                         Square Image lg
                     </H34>
-                    <SquareImage
-                        size="lg">
-                        {}
-                        Chris Hanging out
-                    </SquareImage>
+                    <Image size="tn">
+                    {}
+                    Chris Hanging out
+                    </Image>
                 </Holder>
                 <HR />
                 <Holder
@@ -362,11 +333,10 @@ export default function StyluxImageBlocksViews() {
                     <H34>
                         Square Image exlg
                     </H34>
-                    <SquareImage
-                        size="exlg">
-                        {}
-                        Chris Hanging out
-                    </SquareImage>
+                    <Image size="tn">
+                    {}
+                    Chris Hanging out
+                    </Image>
                 </Holder>
             </Container>
             <Container>
@@ -376,11 +346,10 @@ export default function StyluxImageBlocksViews() {
                     <H34>
                         Rounded Rectangle Image tn
                     </H34>
-                    <RoundedRectangleImage
-                        size="tn">
-                        {}
-                        Chris Hanging out
-                    </RoundedRectangleImage>
+                    <Image size="tn">
+                    {}
+                    Chris Hanging out
+                    </Image>
                 </Holder>
                 <HR />
                 <Holder
@@ -388,11 +357,10 @@ export default function StyluxImageBlocksViews() {
                     <H34>
                         Rounded Rectangle Image exsm
                     </H34>
-                    <RoundedRectangleImage
-                        size="exsm">
-                        {}
-                        Chris Hanging out
-                    </RoundedRectangleImage>
+                    <Image size="tn">
+                    {}
+                    Chris Hanging out
+                    </Image>
                 </Holder>
                 <HR />
                 <Holder
@@ -400,11 +368,10 @@ export default function StyluxImageBlocksViews() {
                     <H34>
                         Rounded Rectangle Image sm
                     </H34>
-                    <RoundedRectangleImage
-                        size="sm">
-                        {}
-                        Chris Hanging out
-                    </RoundedRectangleImage>
+                    <Image size="tn">
+                    {}
+                    Chris Hanging out
+                    </Image>
                 </Holder>
                 <HR />
                 <Holder
@@ -412,11 +379,10 @@ export default function StyluxImageBlocksViews() {
                     <H34>
                         Rounded Rectangle Image md
                     </H34>
-                    <RoundedRectangleImage
-                        size="md">
-                        {}
-                        Chris Hanging out
-                    </RoundedRectangleImage>
+                    <Image size="tn">
+                    {}
+                    Chris Hanging out
+                    </Image>
                 </Holder>
                 <HR />
                 <Holder
@@ -424,11 +390,10 @@ export default function StyluxImageBlocksViews() {
                     <H34>
                         Rounded Rectangle Image lg
                     </H34>
-                    <RoundedRectangleImage
-                        size="lg">
-                        {}
-                        Chris Hanging out
-                    </RoundedRectangleImage>
+                    <Image size="tn">
+                    {}
+                    Chris Hanging out
+                    </Image>
                 </Holder>
                 <HR />
                 <Holder
@@ -436,11 +401,10 @@ export default function StyluxImageBlocksViews() {
                     <H34>
                         Rounded Rectangle Image exlg
                     </H34>
-                    <RoundedRectangleImage
-                        size="exlg">
-                        {}
-                        Chris Hanging out
-                    </RoundedRectangleImage>
+                    <Image size="tn">
+                    {}
+                    Chris Hanging out
+                    </Image>
                 </Holder>
             </Container>
             <Container>
@@ -450,11 +414,10 @@ export default function StyluxImageBlocksViews() {
                     <H34>
                         Rectangle Image tn
                     </H34>
-                    <RectangleImage
-                        size="tn">
-                        {}
-                        Chris Hanging out
-                    </RectangleImage>
+                    <Image size="tn">
+                    {}
+                    Chris Hanging out
+                    </Image>
                 </Holder>
                 <HR />
                 <Holder
@@ -462,11 +425,10 @@ export default function StyluxImageBlocksViews() {
                     <H34>
                         Rectangle Image exsm
                     </H34>
-                    <RectangleImage
-                        size="exsm">
-                        {}
-                        Chris Hanging out
-                    </RectangleImage>
+                    <Image size="tn">
+                    {}
+                    Chris Hanging out
+                    </Image>
                 </Holder>
                 <HR />
                 <Holder
@@ -474,11 +436,10 @@ export default function StyluxImageBlocksViews() {
                     <H34>
                         Rectangle Image sm
                     </H34>
-                    <RectangleImage
-                        size="sm">
-                        {}
-                        Chris Hanging out
-                    </RectangleImage>
+                    <Image size="tn">
+                    {}
+                    Chris Hanging out
+                    </Image>
                 </Holder>
                 <HR />
                 <Holder
@@ -486,11 +447,10 @@ export default function StyluxImageBlocksViews() {
                     <H34>
                         Rectangle Image md
                     </H34>
-                    <RectangleImage
-                        size="md">
-                        {}
-                        Chris Hanging out
-                    </RectangleImage>
+                    <Image size="tn">
+                    {}
+                    Chris Hanging out
+                    </Image>
                 </Holder>
                 <HR />
                 <Holder
@@ -498,11 +458,10 @@ export default function StyluxImageBlocksViews() {
                     <H34>
                         Rectangle Image lg
                     </H34>
-                    <RectangleImage
-                        size="lg">
-                        {}
-                        Chris Hanging out
-                    </RectangleImage>
+                    <Image size="tn">
+                    {}
+                    Chris Hanging out
+                    </Image>
                 </Holder>
                 <HR />
                 <Holder
@@ -510,11 +469,10 @@ export default function StyluxImageBlocksViews() {
                     <H34>
                         Rectangle Image exlg
                     </H34>
-                    <RectangleImage
-                        size="exlg">
-                        {}
-                        Chris Hanging out
-                    </RectangleImage>
+                    <Image size="tn">
+                    {}
+                    Chris Hanging out
+                    </Image>
                 </Holder>
             </Container>
             <Container>
@@ -524,11 +482,10 @@ export default function StyluxImageBlocksViews() {
                     <H34>
                         Tall Rounded Rectangle Image tn
                     </H34>
-                    <TallRoundedRectangleImage
-                        size="tn">
-                        {}
-                        Chris Hanging out
-                    </TallRoundedRectangleImage>
+                    <Image size="tn">
+                    {}
+                    Chris Hanging out
+                    </Image>
                 </Holder>
                 <HR />
                 <Holder
@@ -536,11 +493,10 @@ export default function StyluxImageBlocksViews() {
                     <H34>
                         Tall Rounded Rectangle Image exsm
                     </H34>
-                    <TallRoundedRectangleImage
-                        size="exsm">
-                        {}
-                        Chris Hanging out
-                    </TallRoundedRectangleImage>
+                    <Image size="tn">
+                    {}
+                    Chris Hanging out
+                    </Image>
                 </Holder>
                 <HR />
                 <Holder
@@ -548,11 +504,10 @@ export default function StyluxImageBlocksViews() {
                     <H34>
                         Tall Rounded Rectangle Image sm
                     </H34>
-                    <TallRoundedRectangleImage
-                        size="sm">
-                        {}
-                        Chris Hanging out
-                    </TallRoundedRectangleImage>
+                    <Image size="tn">
+                    {}
+                    Chris Hanging out
+                    </Image>
                 </Holder>
                 <HR />
                 <Holder
@@ -560,11 +515,10 @@ export default function StyluxImageBlocksViews() {
                     <H34>
                         Tall Rounded Rectangle Image md
                     </H34>
-                    <TallRoundedRectangleImage
-                        size="md">
-                        {}
-                        Chris Hanging out
-                    </TallRoundedRectangleImage>
+                    <Image size="tn">
+                    {}
+                    Chris Hanging out
+                    </Image>
                 </Holder>
                 <HR />
                 <Holder
@@ -572,11 +526,10 @@ export default function StyluxImageBlocksViews() {
                     <H34>
                         Tall Rounded Rectangle Image lg
                     </H34>
-                    <TallRoundedRectangleImage
-                        size="lg">
-                        {}
-                        Chris Hanging out
-                    </TallRoundedRectangleImage>
+                    <Image size="tn">
+                    {}
+                    Chris Hanging out
+                    </Image>
                 </Holder>
                 <HR />
                 <Holder
@@ -584,11 +537,10 @@ export default function StyluxImageBlocksViews() {
                     <H34>
                         Tall Rounded Rectangle Image exlg
                     </H34>
-                    <TallRoundedRectangleImage
-                        size="exlg">
-                        {}
-                        Chris Hanging out
-                    </TallRoundedRectangleImage>
+                    <Image size="tn">
+                    {}
+                    Chris Hanging out
+                    </Image>
                 </Holder>
             </Container>
             <Container>
@@ -598,11 +550,10 @@ export default function StyluxImageBlocksViews() {
                     <H34>
                         Tall Rectangle Image tn
                     </H34>
-                    <TallRectangleImage
-                        size="tn">
-                        {}
-                        Chris Hanging out
-                    </TallRectangleImage>
+                    <Image size="tn">
+                    {}
+                    Chris Hanging out
+                    </Image>
                 </Holder>
                 <HR />
                 <Holder
@@ -610,11 +561,10 @@ export default function StyluxImageBlocksViews() {
                     <H34>
                         Tall Rectangle Image exsm
                     </H34>
-                    <TallRectangleImage
-                        size="exsm">
-                        {}
-                        Chris Hanging out
-                    </TallRectangleImage>
+                    <Image size="tn">
+                    {}
+                    Chris Hanging out
+                    </Image>
                 </Holder>
                 <HR />
                 <Holder
@@ -622,11 +572,10 @@ export default function StyluxImageBlocksViews() {
                     <H34>
                         Tall Rectangle Image sm
                     </H34>
-                    <TallRectangleImage
-                        size="sm">
-                        {}
-                        Chris Hanging out
-                    </TallRectangleImage>
+                    <Image size="tn">
+                    {}
+                    Chris Hanging out
+                    </Image>
                 </Holder>
                 <HR />
                 <Holder
@@ -634,11 +583,10 @@ export default function StyluxImageBlocksViews() {
                     <H34>
                         Tall Rectangle Image md
                     </H34>
-                    <TallRectangleImage
-                        size="md">
-                        {}
-                        Chris Hanging out
-                    </TallRectangleImage>
+                    <Image size="tn">
+                    {}
+                    Chris Hanging out
+                    </Image>
                 </Holder>
                 <HR />
                 <Holder
@@ -646,11 +594,10 @@ export default function StyluxImageBlocksViews() {
                     <H34>
                         Tall Rectangle Image lg
                     </H34>
-                    <TallRectangleImage
-                        size="lg">
-                        {}
-                        Chris Hanging out
-                    </TallRectangleImage>
+                    <Image size="tn">
+                    {}
+                    Chris Hanging out
+                    </Image>
                 </Holder>
                 <HR />
                 <Holder
@@ -658,11 +605,10 @@ export default function StyluxImageBlocksViews() {
                     <H34>
                         Tall Rectangle Image exlg
                     </H34>
-                    <TallRectangleImage
-                        size="exlg">
-                        {}
-                        Chris Hanging out
-                    </TallRectangleImage>
+                    <Image size="tn">
+                    {}
+                    Chris Hanging out
+                    </Image>
                 </Holder>
             </Container>
             <Container>
@@ -673,11 +619,10 @@ export default function StyluxImageBlocksViews() {
                         Figure
                     </H34>
                     <Figure>
-                        <CircleImage
-                            size="md">
-                            {}
-                            Chris Hanging out
-                        </CircleImage>
+                    <Image size="tn">
+                    {}
+                    Chris Hanging out
+                    </Image>
                         Just Chris Hanging Out
                     </Figure>
                 </Holder>

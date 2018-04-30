@@ -30,7 +30,7 @@ export default function StyluxParagraphBlocksViews() {
                     <Holder direction="column">
                         <H34> Sizes</H34>
                         <H42>large size:</H42>
-                        <BulletList1>
+                        <BulletList1 width="1200px">
                             1: Base Version - 1.333
                              2: Smaller Version - 0.9
                              3: Larger Version - 1.6
@@ -38,7 +38,7 @@ export default function StyluxParagraphBlocksViews() {
                              5: Open (Possible dropcap version) - 1.333
                     </BulletList1>
                         <H42>medium size:</H42>
-                        <BulletList1>
+                        <BulletList1 width="1200px">
                             1: Base Version - 1.333
                              2: Smaller Version - 0.9
                              3: Larger Version - 1.6
@@ -46,7 +46,7 @@ export default function StyluxParagraphBlocksViews() {
                              5: Open (Possible dropcap version) - 1.333
                     </BulletList1>
                         <H42>small size:</H42>
-                        <BulletList1>
+                        <BulletList1 width="1200px">
                             1: Base Version - 1.333
                              2: Smaller Version - 0.9
                              3: Larger Version - 1.6

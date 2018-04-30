@@ -27,7 +27,7 @@ export default function StyluxListBlocksViews() {
                     <Link to="/react-stylux/documentation/numberlist-1"><H34>
                         Number List 1
                     </H34></Link>
-                    <NumberList1>
+                    <NumberList1 width="500px">
                         {'listItem1'}
                         {'listItem2'}
                         {'listItem3'}
@@ -36,7 +36,7 @@ export default function StyluxListBlocksViews() {
                     <Link to="/react-stylux/documentation/numberlist-2"><H34>
                         Number List 2
                     </H34></Link>
-                    <NumberList2 listAmount='3'>
+                    <NumberList2 width="500px" listAmount='3'>
                         <p>listItem1</p>
                         <p>nestedlistItem1</p>
                         <p>nestedlistItem2</p>
@@ -56,7 +56,7 @@ export default function StyluxListBlocksViews() {
                     <Link to="/react-stylux/documentation/numberlist-3"><H34>
                         Number List 3
                     </H34></Link>
-                    <NumberList3>
+                    <NumberList3 width="500px">
                         {'listItem1'}
                         {'listItem2'}
                         {'listItem3'}
@@ -65,7 +65,7 @@ export default function StyluxListBlocksViews() {
                     <Link to="/react-stylux/documentation/bulletlist-1"><H34>
                         Bullet List 1
                     </H34></Link>
-                    <BulletList1>
+                    <BulletList1 width="500px">
                         {'listItem1'}
                         {'listItem2'}
                         {'listItem3'}
@@ -74,7 +74,7 @@ export default function StyluxListBlocksViews() {
                     <Link to="/react-stylux/documentation/bulletlist-2"><H34>
                         Bullet List 2
                     </H34></Link>
-                    <BulletList2>
+                    <BulletList2 width="500px">
                         {'listItem1'}
                         {'listItem2'}
                         {'listItem3'}
