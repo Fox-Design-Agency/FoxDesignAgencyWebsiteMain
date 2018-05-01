@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 
@@ -29,15 +30,18 @@ export default function PrintProjectMain() {
                     <HR />
                     <Holder direction="column">
                         <Holder>
+                        <Link to="/projects/print/nightmare-poster">
                             <Image
                                 type="square"
                                 size="lg">
                                 {nightmarePoster}
                             </Image>
+                            </Link>
                             <Holder direction="column">
-                                <H42>Nightmare Poster</H42>
+                                <Link to="/projects/print/nightmare-poster"><H42>Nightmare Poster</H42></Link>
                                 <BulletList1>
-                                    {""}
+                                {"Project for a friend's play"}
+                                {"Play was housed April 14th 2018"}
                                 </BulletList1>
                             </Holder>
 
