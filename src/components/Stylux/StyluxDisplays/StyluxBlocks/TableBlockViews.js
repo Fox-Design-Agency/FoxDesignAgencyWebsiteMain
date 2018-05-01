@@ -11,7 +11,6 @@ import {
     HR,
     Table1,
     Table2,
-    Table3,
 } from "react-stylux";
 
 export default function StyluxTableBlocksViews() {

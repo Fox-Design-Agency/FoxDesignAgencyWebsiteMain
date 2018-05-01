@@ -5,7 +5,6 @@ import {
     Container,
     Holder,
     Navbar1,
-    P4,
     Brand2
 } from "react-stylux";
 

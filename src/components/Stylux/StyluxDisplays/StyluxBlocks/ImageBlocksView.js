@@ -14,9 +14,9 @@ import {
     Hero3,
     Hero4,
     Hero5,
-   Image,
+    Image,
     Figure,
-   
+
     H42,
     BulletList1,
 } from "react-stylux";
@@ -28,144 +28,146 @@ export default function StyluxImageBlocksViews() {
             <Container>
                 <BlocksSubNavBar />
                 <H22>Image Blocks</H22>
-                <Holder direction="column">
-                    <H34> Sizes</H34>
-                    <H42>large size:</H42>
-                    <H42>Non-Rectangle Sizes:</H42>
-                    <BulletList1 width="1200px">
-                        tn - 50px X 50px
-                        exsm - 90px X 90px
-                         sm - 150px X 150px
-                        md - 300px X 300px
-                         lg - 500px X 500px
-                         exlg - 700px X 700px
-                    </BulletList1>
-                    <H42>Rectangle Sizes:</H42>
-                    <BulletList1 width="1200px">
-                        tn - 50px X 50px (Not finished)
-                        exsm - 81px X 50px
-                             sm - 243px X 150px
-                        md - 485px X 300px
-                        lg - 809px X 500px
-                            exlg - 1137px X 700px
-                    </BulletList1>
-                    <H42>Tall Rectangle Sizes:</H42>
-                    <BulletList1 width="1200px">
-                        tn - 50px X 50px (Not finished)
-                        exsm - 50px X 81px
-                        sm - 150px X 243px
-                        md - 300px X 485px
-                        lg - 500px X 809px
-                        exlg - 700px X 1137px
-                    </BulletList1>
-                </Holder>
-                <Holder direction="column">
-                    <H42>medium size:</H42>
-                    <H42>Non-Rectangle Sizes:</H42>
-                    <BulletList1 width="1200px">
-                        tn - 50px X 50px
-                         exsm - 90px X 90px
-                        sm - 150px X 150px
-                         md - 300px X 300px
-                         lg - 500px X 500px
-                         exlg - 700px X 700px
-                    </BulletList1>
-                    <H42>Rectangle Sizes:</H42>
-                    <BulletList1 width="1200px">
-                        tn - 50px X 50px (Not finished)
-                       exsm - 81px X 50px
-                        sm - 243px X 150px
-                        md - 485px X 300px
-                        lg - 809px X 500px
-                        exlg - 1137px X 700px
-                    </BulletList1>
-                    <H42>Tall Rectangle Sizes:</H42>
-                    <BulletList1 width="1200px">
-                        tn - 50px X 50px (Not finished)
-                        exsm - 50px X 81px
-                        sm - 150px X 243px
-                        md - 300px X 485px
-                        lg - 500px X 809px
-                        exlg - 700px X 1137px
-                    </BulletList1>
-                </Holder>
-                <Holder direction="column">
-                    <H42>small size:</H42>
-                    <H42>Non-Rectangle Sizes:</H42>
-                    <BulletList1 width="1200px">
-                        tn - 50px X 50px
-                    exsm - 90px X 90px
-                        sm - 150px X 150px
-                        md - 300px X 300px
-                        lg - 500px X 500px
-                       exlg - 700px X 700px
-                    </BulletList1>
-                    <H42>Rectangle Sizes:</H42>
-                    <BulletList1 width="1200px">
-                        tn - 50px X 50px (Not finished)
-    exsm - 81px X 50px
-    sm - 243px X 150px
-   md - 485px X 300px
-    lg - 809px X 500px
-    exlg - 1137px X 700px
-                    </BulletList1>
-                    <H42>Tall Rectangle Sizes:</H42>
-                    <BulletList1 width="1200px">
-                        tn - 50px X 50px (Not finished)
-                        exsm - 50px X 81px
-                        sm - 150px X 243px
-                        md - 300px X 485px
-                        lg - 500px X 809px
-                        exlg - 700px X 1137px
-                    </BulletList1>
+                <H34> Sizes</H34>
+                <Holder>
+                    <Holder direction="column">
+                        <H42>large size:</H42>
+                        <H42>Non-Rectangle Sizes:</H42>
+                        <BulletList1 width="350px">
+                            {"tn - 50px X 50px"}
+                            {"exsm - 90px X 90px"}
+                            {"sm - 150px X 150px"}
+                            {"md - 300px X 300px"}
+                            {"lg - 500px X 500px"}
+                            {"exlg - 700px X 700px"}
+                        </BulletList1>
+                        <H42>Rectangle Sizes:</H42>
+                        <BulletList1 width="350px">
+                            {"tn - 50px X 50px (Not finished)"}
+                            {"exsm - 81px X 50px"}
+                            {"sm - 243px X 150px"}
+                            {"md - 485px X 300px"}
+                            {"lg - 809px X 500px"}
+                            {"exlg - 1137px X 700px"}
+                        </BulletList1>
+                        <H42>Tall Rectangle Sizes:</H42>
+                        <BulletList1 width="350px">
+                            {"tn - 50px X 50px (Not finished)"}
+                            {"exsm - 50px X 81px"}
+                            {"sm - 150px X 243px"}
+                            {"md - 300px X 485px"}
+                            {"lg - 500px X 809px"}
+                            {"exlg - 700px X 1137px"}
+                        </BulletList1>
+                    </Holder>
+                    <Holder direction="column">
+                        <H42>medium size (Not set):</H42>
+                        <H42>Non-Rectangle Sizes:</H42>
+                        <BulletList1 width="350px">
+                            {"tn - 50px X 50px"}
+                            {"exsm - 90px X 90px"}
+                            {"sm - 150px X 150px"}
+                            {"md - 300px X 300px"}
+                            {"lg - 500px X 500px"}
+                            {"exlg - 700px X 700px"}
+                        </BulletList1>
+                        <H42>Rectangle Sizes:</H42>
+                        <BulletList1 width="350px">
+                            {"tn - 50px X 50px (Not finished)"}
+                            {"exsm - 81px X 50px"}
+                            {"sm - 243px X 150px"}
+                            {"md - 485px X 300px"}
+                            {"lg - 809px X 500px"}
+                            {"exlg - 1137px X 700px"}
+                        </BulletList1>
+                        <H42>Tall Rectangle Sizes:</H42>
+                        <BulletList1 width="350px">
+                            {"tn - 50px X 50px (Not finished)"}
+                            {"exsm - 50px X 81px"}
+                            {"sm - 150px X 243px"}
+                            {"md - 300px X 485px"}
+                            {"lg - 500px X 809px"}
+                            {"exlg - 700px X 1137px"}
+                        </BulletList1>
+                    </Holder>
+                    <Holder direction="column">
+                        <H42>small size (Not set):</H42>
+                        <H42>Non-Rectangle Sizes:</H42>
+                        <BulletList1 width="350px">
+                            {"tn - 50px X 50px"}
+                            {"exsm - 90px X 90px"}
+                            {"sm - 150px X 150px"}
+                            {"md - 300px X 300px"}
+                            {" lg - 500px X 500px"}
+                            {" exlg - 700px X 700px"}
+                        </BulletList1>
+                        <H42>Rectangle Sizes:</H42>
+                        <BulletList1 width="350px">
+                            {" tn - 50px X 50px (Not finished)"}
+                            {"exsm - 81px X 50px"}
+                            {"sm - 243px X 150px"}
+                            {"md - 485px X 300px"}
+                            {"lg - 809px X 500px"}
+                            {"exlg - 1137px X 700px"}
+                        </BulletList1>
+                        <H42>Tall Rectangle Sizes:</H42>
+                        <BulletList1 width="350px">
+                            {"tn - 50px X 50px (Not finished)"}
+                            {" exsm - 50px X 81px"}
+                            {" sm - 150px X 243px"}
+                            {" md - 300px X 485px"}
+                            {"  lg - 500px X 809px"}
+                            {"  exlg - 700px X 1137px"}
+                        </BulletList1>
+                    </Holder>
                 </Holder>
                 <Holder direction="column">
                     <H34>
                         Circle Image tn
                     </H34>
                     <Image size="tn">
-                    {}
-                    Chris Hanging out
+                        {}
+                        Chris Hanging out
                     </Image>
                     <HR />
                     <H34>
                         Circle Image exsm
                     </H34>
                     <Image size="tn">
-                    {}
-                    Chris Hanging out
+                        {}
+                        Chris Hanging out
                     </Image>
                     <HR />
                     <H34>
                         Circle Image sm
                     </H34>
                     <Image size="tn">
-                    {}
-                    Chris Hanging out
+                        {}
+                        Chris Hanging out
                     </Image>
                     <HR />
                     <H34>
                         Circle Image md
                     </H34>
                     <Image size="tn">
-                    {}
-                    Chris Hanging out
+                        {}
+                        Chris Hanging out
                     </Image>
                     <HR />
                     <H34>
                         Circle Image lg
                     </H34>
-                     <Image size="tn">
-                    {}
-                    Chris Hanging out
+                    <Image size="tn">
+                        {}
+                        Chris Hanging out
                     </Image>
                     <HR />
                     <H34>
                         Circle Image exlg
                     </H34>
                     <Image size="tn">
-                    {}
-                    Chris Hanging out
+                        {}
+                        Chris Hanging out
                     </Image>
                     <HR />
                 </Holder>
@@ -175,48 +177,48 @@ export default function StyluxImageBlocksViews() {
                         Oval Image tn
                     </H34>
                     <Image size="tn">
-                    {}
-                    Chris Hanging out
+                        {}
+                        Chris Hanging out
                     </Image>
                     <HR />
                     <H34>
                         Oval Image exsm
                     </H34>
                     <Image size="tn">
-                    {}
-                    Chris Hanging out
+                        {}
+                        Chris Hanging out
                     </Image>
                     <HR />
                     <H34>
                         Oval Image sm
                     </H34>
                     <Image size="tn">
-                    {}
-                    Chris Hanging out
+                        {}
+                        Chris Hanging out
                     </Image>
                     <HR />
                     <H34>
                         Oval Image md
                     </H34>
                     <Image size="tn">
-                    {}
-                    Chris Hanging out
+                        {}
+                        Chris Hanging out
                     </Image>
                     <HR />
                     <H34>
                         Oval Image lg
                     </H34>
                     <Image size="tn">
-                    {}
-                    Chris Hanging out
+                        {}
+                        Chris Hanging out
                     </Image>
                     <HR />
                     <H34>
                         Oval Image exlg
                     </H34>
                     <Image size="tn">
-                    {}
-                    Chris Hanging out
+                        {}
+                        Chris Hanging out
                     </Image>
                     <HR />
                 </Holder>
@@ -227,48 +229,48 @@ export default function StyluxImageBlocksViews() {
                         Rounded Image tn
                     </H34>
                     <Image size="tn">
-                    {}
-                    Chris Hanging out
+                        {}
+                        Chris Hanging out
                     </Image>
                     <HR />
                     <H34>
                         Rounded Image exsm
                     </H34>
                     <Image size="tn">
-                    {}
-                    Chris Hanging out
+                        {}
+                        Chris Hanging out
                     </Image>
                     <HR />
                     <H34>
                         Rounded Image sm
                     </H34>
                     <Image size="tn">
-                    {}
-                    Chris Hanging out
+                        {}
+                        Chris Hanging out
                     </Image>
                     <HR />
                     <H34>
                         Rounded Image md
                     </H34>
                     <Image size="tn">
-                    {}
-                    Chris Hanging out
+                        {}
+                        Chris Hanging out
                     </Image>
                     <HR />
                     <H34>
                         Rounded Image lg
                     </H34>
                     <Image size="tn">
-                    {}
-                    Chris Hanging out
+                        {}
+                        Chris Hanging out
                     </Image>
                     <HR />
                     <H34>
                         Rounded Image exlg
                     </H34>
                     <Image size="tn">
-                    {}
-                    Chris Hanging out
+                        {}
+                        Chris Hanging out
                     </Image>
                 </Holder>
             </Container>
@@ -280,8 +282,8 @@ export default function StyluxImageBlocksViews() {
                         Square Image tn
                     </H34>
                     <Image size="tn">
-                    {}
-                    Chris Hanging out
+                        {}
+                        Chris Hanging out
                     </Image>
                 </Holder>
                 <HR />
@@ -291,8 +293,8 @@ export default function StyluxImageBlocksViews() {
                         Square Image exsm
                     </H34>
                     <Image size="tn">
-                    {}
-                    Chris Hanging out
+                        {}
+                        Chris Hanging out
                     </Image>
                 </Holder>
                 <HR />
@@ -302,8 +304,8 @@ export default function StyluxImageBlocksViews() {
                         Square Image sm
                     </H34>
                     <Image size="tn">
-                    {}
-                    Chris Hanging out
+                        {}
+                        Chris Hanging out
                     </Image>
                 </Holder>
                 <Holder
@@ -312,8 +314,8 @@ export default function StyluxImageBlocksViews() {
                         Square Image md
                     </H34>
                     <Image size="tn">
-                    {}
-                    Chris Hanging out
+                        {}
+                        Chris Hanging out
                     </Image>
                 </Holder>
                 <HR />
@@ -323,8 +325,8 @@ export default function StyluxImageBlocksViews() {
                         Square Image lg
                     </H34>
                     <Image size="tn">
-                    {}
-                    Chris Hanging out
+                        {}
+                        Chris Hanging out
                     </Image>
                 </Holder>
                 <HR />
@@ -334,8 +336,8 @@ export default function StyluxImageBlocksViews() {
                         Square Image exlg
                     </H34>
                     <Image size="tn">
-                    {}
-                    Chris Hanging out
+                        {}
+                        Chris Hanging out
                     </Image>
                 </Holder>
             </Container>
@@ -347,8 +349,8 @@ export default function StyluxImageBlocksViews() {
                         Rounded Rectangle Image tn
                     </H34>
                     <Image size="tn">
-                    {}
-                    Chris Hanging out
+                        {}
+                        Chris Hanging out
                     </Image>
                 </Holder>
                 <HR />
@@ -358,8 +360,8 @@ export default function StyluxImageBlocksViews() {
                         Rounded Rectangle Image exsm
                     </H34>
                     <Image size="tn">
-                    {}
-                    Chris Hanging out
+                        {}
+                        Chris Hanging out
                     </Image>
                 </Holder>
                 <HR />
@@ -369,8 +371,8 @@ export default function StyluxImageBlocksViews() {
                         Rounded Rectangle Image sm
                     </H34>
                     <Image size="tn">
-                    {}
-                    Chris Hanging out
+                        {}
+                        Chris Hanging out
                     </Image>
                 </Holder>
                 <HR />
@@ -380,8 +382,8 @@ export default function StyluxImageBlocksViews() {
                         Rounded Rectangle Image md
                     </H34>
                     <Image size="tn">
-                    {}
-                    Chris Hanging out
+                        {}
+                        Chris Hanging out
                     </Image>
                 </Holder>
                 <HR />
@@ -391,8 +393,8 @@ export default function StyluxImageBlocksViews() {
                         Rounded Rectangle Image lg
                     </H34>
                     <Image size="tn">
-                    {}
-                    Chris Hanging out
+                        {}
+                        Chris Hanging out
                     </Image>
                 </Holder>
                 <HR />
@@ -402,8 +404,8 @@ export default function StyluxImageBlocksViews() {
                         Rounded Rectangle Image exlg
                     </H34>
                     <Image size="tn">
-                    {}
-                    Chris Hanging out
+                        {}
+                        Chris Hanging out
                     </Image>
                 </Holder>
             </Container>
@@ -415,8 +417,8 @@ export default function StyluxImageBlocksViews() {
                         Rectangle Image tn
                     </H34>
                     <Image size="tn">
-                    {}
-                    Chris Hanging out
+                        {}
+                        Chris Hanging out
                     </Image>
                 </Holder>
                 <HR />
@@ -426,8 +428,8 @@ export default function StyluxImageBlocksViews() {
                         Rectangle Image exsm
                     </H34>
                     <Image size="tn">
-                    {}
-                    Chris Hanging out
+                        {}
+                        Chris Hanging out
                     </Image>
                 </Holder>
                 <HR />
@@ -437,8 +439,8 @@ export default function StyluxImageBlocksViews() {
                         Rectangle Image sm
                     </H34>
                     <Image size="tn">
-                    {}
-                    Chris Hanging out
+                        {}
+                        Chris Hanging out
                     </Image>
                 </Holder>
                 <HR />
@@ -448,8 +450,8 @@ export default function StyluxImageBlocksViews() {
                         Rectangle Image md
                     </H34>
                     <Image size="tn">
-                    {}
-                    Chris Hanging out
+                        {}
+                        Chris Hanging out
                     </Image>
                 </Holder>
                 <HR />
@@ -459,8 +461,8 @@ export default function StyluxImageBlocksViews() {
                         Rectangle Image lg
                     </H34>
                     <Image size="tn">
-                    {}
-                    Chris Hanging out
+                        {}
+                        Chris Hanging out
                     </Image>
                 </Holder>
                 <HR />
@@ -470,8 +472,8 @@ export default function StyluxImageBlocksViews() {
                         Rectangle Image exlg
                     </H34>
                     <Image size="tn">
-                    {}
-                    Chris Hanging out
+                        {}
+                        Chris Hanging out
                     </Image>
                 </Holder>
             </Container>
@@ -483,8 +485,8 @@ export default function StyluxImageBlocksViews() {
                         Tall Rounded Rectangle Image tn
                     </H34>
                     <Image size="tn">
-                    {}
-                    Chris Hanging out
+                        {}
+                        Chris Hanging out
                     </Image>
                 </Holder>
                 <HR />
@@ -494,8 +496,8 @@ export default function StyluxImageBlocksViews() {
                         Tall Rounded Rectangle Image exsm
                     </H34>
                     <Image size="tn">
-                    {}
-                    Chris Hanging out
+                        {}
+                        Chris Hanging out
                     </Image>
                 </Holder>
                 <HR />
@@ -505,8 +507,8 @@ export default function StyluxImageBlocksViews() {
                         Tall Rounded Rectangle Image sm
                     </H34>
                     <Image size="tn">
-                    {}
-                    Chris Hanging out
+                        {}
+                        Chris Hanging out
                     </Image>
                 </Holder>
                 <HR />
@@ -516,8 +518,8 @@ export default function StyluxImageBlocksViews() {
                         Tall Rounded Rectangle Image md
                     </H34>
                     <Image size="tn">
-                    {}
-                    Chris Hanging out
+                        {}
+                        Chris Hanging out
                     </Image>
                 </Holder>
                 <HR />
@@ -527,8 +529,8 @@ export default function StyluxImageBlocksViews() {
                         Tall Rounded Rectangle Image lg
                     </H34>
                     <Image size="tn">
-                    {}
-                    Chris Hanging out
+                        {}
+                        Chris Hanging out
                     </Image>
                 </Holder>
                 <HR />
@@ -538,8 +540,8 @@ export default function StyluxImageBlocksViews() {
                         Tall Rounded Rectangle Image exlg
                     </H34>
                     <Image size="tn">
-                    {}
-                    Chris Hanging out
+                        {}
+                        Chris Hanging out
                     </Image>
                 </Holder>
             </Container>
@@ -551,8 +553,8 @@ export default function StyluxImageBlocksViews() {
                         Tall Rectangle Image tn
                     </H34>
                     <Image size="tn">
-                    {}
-                    Chris Hanging out
+                        {}
+                        Chris Hanging out
                     </Image>
                 </Holder>
                 <HR />
@@ -562,8 +564,8 @@ export default function StyluxImageBlocksViews() {
                         Tall Rectangle Image exsm
                     </H34>
                     <Image size="tn">
-                    {}
-                    Chris Hanging out
+                        {}
+                        Chris Hanging out
                     </Image>
                 </Holder>
                 <HR />
@@ -573,8 +575,8 @@ export default function StyluxImageBlocksViews() {
                         Tall Rectangle Image sm
                     </H34>
                     <Image size="tn">
-                    {}
-                    Chris Hanging out
+                        {}
+                        Chris Hanging out
                     </Image>
                 </Holder>
                 <HR />
@@ -584,8 +586,8 @@ export default function StyluxImageBlocksViews() {
                         Tall Rectangle Image md
                     </H34>
                     <Image size="tn">
-                    {}
-                    Chris Hanging out
+                        {}
+                        Chris Hanging out
                     </Image>
                 </Holder>
                 <HR />
@@ -595,8 +597,8 @@ export default function StyluxImageBlocksViews() {
                         Tall Rectangle Image lg
                     </H34>
                     <Image size="tn">
-                    {}
-                    Chris Hanging out
+                        {}
+                        Chris Hanging out
                     </Image>
                 </Holder>
                 <HR />
@@ -606,8 +608,8 @@ export default function StyluxImageBlocksViews() {
                         Tall Rectangle Image exlg
                     </H34>
                     <Image size="tn">
-                    {}
-                    Chris Hanging out
+                        {}
+                        Chris Hanging out
                     </Image>
                 </Holder>
             </Container>
@@ -619,9 +621,9 @@ export default function StyluxImageBlocksViews() {
                         Figure
                     </H34>
                     <Figure>
-                    <Image size="tn">
-                    {}
-                    Chris Hanging out
+                        <Image size="tn">
+                            {}
+                            Chris Hanging out
                     </Image>
                         Just Chris Hanging Out
                     </Figure>

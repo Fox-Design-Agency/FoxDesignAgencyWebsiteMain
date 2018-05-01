@@ -27,32 +27,38 @@ export default function StyluxParagraphBlocksViews() {
                 <BlocksSubNavBar />
                 <Holder direction="column">
                     <H22>Paragraph Blocks</H22>
-                    <Holder direction="column">
-                        <H34> Sizes</H34>
-                        <H42>large size:</H42>
-                        <BulletList1 width="1200px">
-                            1: Base Version - 1.333
-                             2: Smaller Version - 0.9
-                             3: Larger Version - 1.6
-                             4: Light Gray larger Version -  1.6
-                             5: Open (Possible dropcap version) - 1.333
-                    </BulletList1>
-                        <H42>medium size:</H42>
-                        <BulletList1 width="1200px">
-                            1: Base Version - 1.333
-                             2: Smaller Version - 0.9
-                             3: Larger Version - 1.6
-                         4: Light Gray larger Version -  1.6
-                             5: Open (Possible dropcap version) - 1.333
-                    </BulletList1>
-                        <H42>small size:</H42>
-                        <BulletList1 width="1200px">
-                            1: Base Version - 1.333
-                             2: Smaller Version - 0.9
-                             3: Larger Version - 1.6
-                             4: Light Gray larger Version -  1.6
-                             5: Open (Possible dropcap version) - 1.333
-                    </BulletList1>
+                    <H34> Sizes</H34>
+                    <Holder>
+                        <Holder direction="column">
+                            <H42>large size:</H42>
+                            <BulletList1 width="400px">
+                                {"1: Base Version - 1.333"}
+                                {"2: Smaller Version - 0.9"}
+                                {"3: Larger Version - 1.6"}
+                                {"4: Light Gray larger Version -  1.6"}
+                                {"5: Open (Possible dropcap version) - 1.333"}
+                            </BulletList1>
+                        </Holder>
+                        <Holder direction="column">
+                            <H42>medium size (Not set):</H42>
+                            <BulletList1 width="400px">
+                                {"1: Base Version - 1.333"}
+                                {"2: Smaller Version - 0.9"}
+                                {"3: Larger Version - 1.6"}
+                                {"4: Light Gray larger Version -  1.6"}
+                                {"5: Open (Possible dropcap version) - 1.333"}
+                            </BulletList1>
+                        </Holder>
+                        <Holder direction="column">
+                            <H42>small size (Not set):</H42>
+                            <BulletList1 width="400px">
+                                {"1: Base Version - 1.333"}
+                                {"2: Smaller Version - 0.9"}
+                                {"3: Larger Version - 1.6"}
+                                {"4: Light Gray larger Version -  1.6"}
+                                {"5: Open (Possible dropcap version) - 1.333"}
+                            </BulletList1>
+                        </Holder>
                     </Holder>
                     <Link to="/react-stylux/documentation/p-1"><H34>
                         P1

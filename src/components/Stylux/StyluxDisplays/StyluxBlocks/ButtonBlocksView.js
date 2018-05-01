@@ -6,6 +6,7 @@ import {
     Container,
     Holder,
     H22,
+    H34,
     HR,
     FlatButton1,
     RaisedButton1,
@@ -22,7 +23,7 @@ export default function StyluxButtonBlocksViews() {
             <Container>
                 <BlocksSubNavBar />
                 <H22>Button Blocks</H22>
-
+                <H34>Pre-0.6.3</H34>
                 <Holder direction="column">
                     <FlatButton1 onClick={() => window.alert("It was clicked")}>
                         Flat Button 1
@@ -45,6 +46,19 @@ export default function StyluxButtonBlocksViews() {
                     <TextButton1 onClick={() => window.alert("It was clicked")}>
                         Text Button 1
                     </TextButton1>
+                </Holder>
+                <HR />
+                <H34>Post-0.6.3</H34>
+                <Holder direction="column">
+
+                    <HR />
+
+                    <HR />
+
+                    <HR />
+
+                    <HR />
+
                 </Holder>
                 <HR />
             </Container>

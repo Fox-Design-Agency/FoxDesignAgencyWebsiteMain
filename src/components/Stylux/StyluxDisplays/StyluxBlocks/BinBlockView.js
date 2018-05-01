@@ -69,7 +69,16 @@ export default function StyluxBinBlocksViews() {
                     <Link to="/react-stylux/documentation/toggler-3"><H34>
                         Toggler 3
                     </H34></Link>
-
+                    <Toggler3>
+                        {'title'}
+                        {'some text'}
+                        {'another title'}
+                        {'moar text'}
+                        {'last title'}
+                        {'last text'}
+                        {'not last'}
+                        {'most last text'}
+                    </Toggler3>
                 </Holder>
                 <HR />
                 <Holder

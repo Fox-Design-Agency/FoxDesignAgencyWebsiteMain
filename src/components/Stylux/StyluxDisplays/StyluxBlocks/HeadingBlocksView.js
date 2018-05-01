@@ -38,33 +38,38 @@ export default function StyluxHeadingBlocksViews() {
                 <H22>Heading Blocks</H22>
                 <Holder
                     direction="column">
-                    <HR />
-                    <Holder direction="column">
-                        <H34> Sizes</H34>
-                        <H42>large size:</H42>
-                        <BulletList1 width="1200px">
-                            1: Base Version - 1.333 * 1.618ish
-                            2: Smaller Version - num/1.2ish
-                            3: Larger Version - num * 1.2ish
-                            4: Light Gray Base Version
-                            5: Open (Possible outline version)
-                    </BulletList1>
-                        <H42>medium size:</H42>
-                        <BulletList1 width="1200px">
-                            1: Base Version - 1.333 * 1.618ish
-                            2: Smaller Version - num/1.2ish
-                            3: Larger Version - num * 1.2ish
-                            4: Light Gray Base Version
-                            5: Open (Possible outline version)
-                    </BulletList1>
-                        <H42>small size:</H42>
-                        <BulletList1 width="1200px">
-                            1: Base Version - 1.333 * 1.618ish
-                             2: Smaller Version - num/1.2ish
-                             3: Larger Version - num * 1.2ish
-                             4: Light Gray Base Version
-                             5: Open (Possible outline version)
-                    </BulletList1>
+                    <HR /><H34> Sizes</H34>
+                    <Holder>
+                        <Holder direction="column">
+                            <H42>large size:</H42>
+                            <BulletList1 width="350px">
+                                {"1: Base Version - 1.333 * 1.618ish"}
+                                {"2: Smaller Version - num/1.2ish"}
+                                {"3: Larger Version - num * 1.2ish"}
+                                {"4: Light Gray Base Version"}
+                                {"5: Open (Possible outline version)"}
+                            </BulletList1>
+                        </Holder>
+                        <Holder direction="column">
+                            <H42>medium size (Not set):</H42>
+                            <BulletList1 width="350px">
+                                {"1: Base Version - 1.333 * 1.618ish"}
+                                {"2: Smaller Version - num/1.2ish"}
+                                {"3: Larger Version - num * 1.2ish"}
+                                {"4: Light Gray Base Version"}
+                                {"5: Open (Possible outline version)"}
+                            </BulletList1>
+                        </Holder>
+                        <Holder direction="column">
+                            <H42>small size (Not set):</H42>
+                            <BulletList1 width="350px">
+                                {"1: Base Version - 1.333 * 1.618ish"}
+                                {"2: Smaller Version - num/1.2ish"}
+                                {"3: Larger Version - num * 1.2ish"}
+                                {"4: Light Gray Base Version"}
+                                {"5: Open (Possible outline version)"}
+                            </BulletList1>
+                        </Holder>
                     </Holder>
                     <HR />
                     <H34>

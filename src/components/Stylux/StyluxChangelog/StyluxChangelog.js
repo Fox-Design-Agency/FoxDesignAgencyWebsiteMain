@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom"
 import StyluxHeader from "../StyluxHeader/StyluxHeader";
 import StyluxFooter from "../StyluxFooter/StyluxFooter";
 
@@ -28,6 +27,7 @@ export default function StyluxChangelog() {
                         <H42>Version Number</H42>
                         <Navbar1
                             direction="column">
+                            <a href="/react-stylux/changelog#0.6.4" >0.6.4 (Not Released)</a>
                             <a href="/react-stylux/changelog#0.6.3" >0.6.3</a>
                             <a href="/react-stylux/changelog#0.6.2" >0.6.2</a>
                             <a href="/react-stylux/changelog#0.6.1" >0.6.1</a>
@@ -75,9 +75,11 @@ export default function StyluxChangelog() {
                             <BulletList1
                                 width="900px">
                                 {"updates to default responsive Image sizes"}
+                                {"fix post 0.6.3 Button export"}
                                 {"update to Button block state"}
                                 {"update to Button block custom ability (not currently a thing)"}
                                 {"review every blocks responsive behavior"}
+                                
                             </BulletList1>
                             <H42 id="0.6.3">0.6.3</H42>
                             <BulletList1
