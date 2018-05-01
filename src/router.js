@@ -24,6 +24,7 @@ import StyluxHome from "./components/Stylux/StyluxHome/StyluxHome";
 import StyluxDocumentation from "./components/Stylux/StyluxDocumentation/StyluxDocumentation";
 import StyluxChangelog from "./components/Stylux/StyluxChangelog/StyluxChangelog";
 
+import StyluxLayoutView from "./components/Stylux/StyluxDisplays/StyluxLayoutView";
 import StyluxBlocksView from "./components/Stylux/StyluxDisplays/StyluxBlocksViews";
 import StyluxBinBlocksView from "./components/Stylux/StyluxDisplays/StyluxBlocks/BinBlockView";
 import StyluxButtonBlocksView from "./components/Stylux/StyluxDisplays/StyluxBlocks/ButtonBlocksView";
@@ -60,6 +61,7 @@ export default (
         <Route path="/react-stylux/documentation" component={StyluxDocumentation} />
         <Route path="/react-stylux/changelog" component={StyluxChangelog} />
 
+        <Route path="/react-stylux/layout" component={StyluxLayoutView} />
         <Route exact path="/react-stylux/blocks" component={StyluxBlocksView} />
         <Route path="/react-stylux/blocks/togglersviews" component={StyluxBinBlocksView}></Route>
         <Route path="/react-stylux/blocks/buttonviews" component={StyluxButtonBlocksView}></Route>

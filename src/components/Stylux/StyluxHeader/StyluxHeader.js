@@ -31,7 +31,7 @@ export default function StyluxHeader() {
                         <DropDownNav1
                             background='white'>
                             components
-                            <Link to="/react-stylux">layout</Link>
+                            <Link to="/react-stylux/layout">layout</Link>
                             <Link to="/react-stylux/blocks">blocks</Link>
                         </DropDownNav1>
                         <Link to="/react-stylux/documentation">documentation</Link>
