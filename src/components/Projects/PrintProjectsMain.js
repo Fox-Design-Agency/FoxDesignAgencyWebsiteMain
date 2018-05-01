@@ -10,7 +10,7 @@ import {
     BulletList1,
     H41,
     HR,
-    SquareImage,
+    Image,
 } from "react-stylux";
 
 // import comingSoon from "../../assets/placeholders/ComingSoon500Square.jpg";
@@ -29,10 +29,11 @@ export default function PrintProjectMain() {
                     <HR />
                     <Holder direction="column">
                         <Holder>
-                            <SquareImage
+                            <Image
+                                type="square"
                                 size="lg">
                                 {nightmarePoster}
-                            </SquareImage>
+                            </Image>
                             <Holder direction="column">
                                 <H42>Nightmare Poster</H42>
                                 <BulletList1>

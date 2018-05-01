@@ -6,7 +6,7 @@ import {
     Container,
     Holder,
     H41,
-    SquareImage,
+    Image,
     H42,
     HR,
     P1,
@@ -32,10 +32,11 @@ export default function Projects() {
                 <HR />
                 <Holder direction="column">
                     <Holder>
-                        <SquareImage
+                        <Image
+                            type="square"
                             size="lg">
                             {aristosPlaceholder}
-                        </SquareImage>
+                        </Image>
                         <Holder direction="column">
 
                             <H42>Aristos Project</H42>
@@ -47,10 +48,11 @@ export default function Projects() {
                     </Holder>
                     <HR />
                     <Holder>
-                        <SquareImage
+                        <Image
+                            type="square"
                             size="lg">
                             {reactStylux}
-                        </SquareImage>
+                        </Image>
                         <Holder direction="column">
                             <H42>react-stylux</H42>
                             <BulletList1>
@@ -61,10 +63,11 @@ export default function Projects() {
                     </Holder>
                     <HR />
                     <Holder>
-                        <SquareImage
+                        <Image
+                            type="square"
                             size="lg">
                             {ataraxyClothing}
-                        </SquareImage>
+                        </Image>
                         <Holder direction="column">
                             <H42>Ataraxy Clothing</H42>
                             <BulletList1>
@@ -75,10 +78,11 @@ export default function Projects() {
                     </Holder>
                     <HR />
                     <Holder>
-                        <SquareImage
+                        <Image
+                            type="square"
                             size="lg">
                             {comingSoon}
-                        </SquareImage>
+                        </Image>
                         <Holder direction="column">
                             <H42>FoxChrisRealThe</H42>
                             <BulletList1>
@@ -95,10 +99,11 @@ export default function Projects() {
                 <HR />
                 <Holder direction="column">
                     <Holder>
-                        <SquareImage
+                        <Image
+                            type="square"
                             size="lg">
                             {nightmarePoster}
-                        </SquareImage>
+                        </Image>
                         <Holder direction="column">
                             <H42>Nightmare Poster</H42>
                             <BulletList1>

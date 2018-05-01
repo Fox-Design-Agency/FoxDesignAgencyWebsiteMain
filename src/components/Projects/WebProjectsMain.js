@@ -9,7 +9,7 @@ import {
     HR,
     H41,
     BulletList1,
-    SquareImage,
+    Image,
     H42,
 
 } from "react-stylux";
@@ -32,10 +32,11 @@ export default function WebProjectMain() {
                 <HR />
                 <Holder direction="column">
                     <Holder>
-                        <SquareImage
+                        <Image
+                        type="square"
                             size="lg">
                             {aristosPlaceholder}
-                        </SquareImage>
+                        </Image>
                         <Holder direction="column">
 
                             <H42>Aristos Project</H42>
@@ -47,10 +48,11 @@ export default function WebProjectMain() {
                     </Holder>
                     <HR />
                     <Holder>
-                        <SquareImage
+                        <Image
+                        type="square"
                             size="lg">
                             {reactStylux}
-                        </SquareImage>
+                        </Image>
                         <Holder direction="column">
                             <H42>react-stylux</H42>
                             <BulletList1>
@@ -61,10 +63,11 @@ export default function WebProjectMain() {
                     </Holder>
                     <HR />
                     <Holder>
-                        <SquareImage
+                        <Image
+                        type="square"
                             size="lg">
                             {ataraxyClothing}
-                        </SquareImage>
+                        </Image>
                         <Holder direction="column">
                             <H42>Ataraxy Clothing</H42>
                             <BulletList1>
@@ -75,10 +78,11 @@ export default function WebProjectMain() {
                     </Holder>
                     <HR />
                     <Holder>
-                        <SquareImage
+                        <Image
+                        type="square"
                             size="lg">
                             {comingSoon}
-                        </SquareImage>
+                        </Image>
                         <Holder direction="column">
                             <H42>FoxChrisRealThe</H42>
                             <BulletList1>
