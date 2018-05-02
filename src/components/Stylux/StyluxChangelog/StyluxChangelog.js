@@ -27,7 +27,8 @@ export default function StyluxChangelog() {
                         <H42>Version Number</H42>
                         <Navbar1
                             direction="column">
-                            <a href="/react-stylux/changelog#0.6.4" >0.6.4 (Not Released)</a>
+                            <a href="/react-stylux/changelog#0.6.7" >0.6.7(Not Released)</a>
+                            <a href="/react-stylux/changelog#0.6.6" >0.6.6</a>
                             <a href="/react-stylux/changelog#0.6.3" >0.6.3</a>
                             <a href="/react-stylux/changelog#0.6.2" >0.6.2</a>
                             <a href="/react-stylux/changelog#0.6.1" >0.6.1</a>
@@ -71,15 +72,31 @@ export default function StyluxChangelog() {
                         direction="column">
                         <Holder
                             direction="column">
-                            <H42 id="0.6.3">0.6.4 (Not Released)</H42>
+                            <H42 id="0.6.7">0.6.67(Not Released)</H42>
                             <BulletList1
                                 width="900px">
-                                {"updates to default responsive Image sizes"}
+                                {"Condense Hero Blocks to Hero"}
+                                {"Condense Heading Blocks to H"}
+                                {"Condense List Blocks to List"}
+                                {"Condense Card Blocks to Card"}
+                                {"Condense Carousel Blocks to Carousel"}
+                                {"review every blocks responsive behavior"}
+                                {"review every block for className && Id"}
+                                {"Documentation correctly portraying current props"}
+                                {"Documentation finished"}
+                            </BulletList1>
+                            <H42 id="0.6.6">0.6.6</H42>
+                            <BulletList1
+                                width="900px">
+                                {"updates to default responsive Image sizes, first draft, not set"}
                                 {"fix post 0.6.3 Button export"}
                                 {"update to Button block state"}
-                                {"update to Button block custom ability (not currently a thing)"}
-                                {"review every blocks responsive behavior"}
-                                
+                                {"update to Button block custom ability, defaults to flat type"}
+                                {"Condensed Paragraph blocks to P, is not accurately displaying"}
+                                {"review every blocks responsive behavior, verified H, P, A, HR, Image"}
+                                {"review every block for className && Id , verified H, P, A, HR, Image"}
+                                {"fixed typo in index.js file for 0.6.4"}
+                                {"fixed missing variable in buttonFunctions that broke Button in 0.6.5"}
                             </BulletList1>
                             <H42 id="0.6.3">0.6.3</H42>
                             <BulletList1

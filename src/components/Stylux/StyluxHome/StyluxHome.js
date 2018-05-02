@@ -44,19 +44,18 @@ export default function StyluxHome() {
                             </Navbar1>
                         </Holder>
                         <Holder direction="column">
-                            <H32>Current Version: 0.6.3</H32>
+                            <H32>Current Version: 0.6.6</H32>
                             <H42>Latest Changes</H42>
                             <BulletList1 width="950px">
-                                {"Fixed typo in componentWillRecieveProps in Image && Button"}
-                                {"Fixed Button import typo"}
-                                {"Fixed Brand blocks for Image updates"}
-                                {"Changing all Buttons to a single component Button switched with 'type' prop"}
-                                {"Old Buttons components still available due to issue with hover on buttons render work around not finalized"}
-                                {"Changing all Images to a single component Image switched with 'type' prop"}
-                                {"Old images removed from package, will break on update, version number increased to 0.6.0"}
-                                {"Fixed media query name for Brands1-5"}
-                                {"Removed unused variables from Holders && Containers"}
-                                {"Removed duplicate key calls from Holders && Containers"}
+                                {"updates to default responsive Image sizes, first draft, not set"}
+                                {"fix post 0.6.3 Button export"}
+                                {"update to Button block state"}
+                                {"update to Button block custom ability, defaults to flat type"}
+                                {"Condensed Paragraph blocks to P, is not accurately displaying"}
+                                {"review every blocks responsive behavior, verified H, P, A, HR, Image"}
+                                {"review every block for className && Id , verified H, P, A, HR, Image"}
+                                {"fixed typo in index.js file for 0.6.4"}
+                                {"fixed missing variable in buttonFunctions"}
                             </BulletList1>
                         </Holder>
                     </Holder>

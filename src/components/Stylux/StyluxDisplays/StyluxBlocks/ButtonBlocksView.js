@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom"
 import StyluxHeader from "../../StyluxHeader/StyluxHeader";
 import StyluxFooter from "../../StyluxFooter/StyluxFooter";
 import BlocksSubNavBar from "./SubHeader/StyluxBlocksSubHeader";
@@ -13,6 +14,7 @@ import {
     FloatingButton1,
     BlockButton1,
     TextButton1,
+    Button,
 } from "react-stylux";
 
 export default function StyluxButtonBlocksViews() {
@@ -48,17 +50,17 @@ export default function StyluxButtonBlocksViews() {
                     </TextButton1>
                 </Holder>
                 <HR />
-                <H34>Post-0.6.3</H34>
+                <Link to=""><H34>Post-0.6.3</H34></Link>
                 <Holder direction="column">
-
+                    <Button onClick={() => window.alert("It was clicked")} type="flat">flat type</Button>
                     <HR />
-
+                    <Button onClick={() => window.alert("It was clicked")} type="raised">raised type</Button>
                     <HR />
-
+                    <Button onClick={() => window.alert("It was clicked")} type="floating">floating type</Button>
                     <HR />
-
+                    <Button onClick={() => window.alert("It was clicked")} type="block">block type</Button>
                     <HR />
-
+                    <Button onClick={() => window.alert("It was clicked")} type="text">text type</Button>
                 </Holder>
                 <HR />
             </Container>
