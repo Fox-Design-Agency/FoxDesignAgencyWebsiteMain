@@ -68,7 +68,7 @@ export default function StyluxHome() {
                         {"Get as many blocks as possible condensed to switch variant on type"}
                         {"Build the foundation for a themeing ability through a Provider"}
                         {"Make sure all props are linked correctly and work"}
-                        {"I'm not worried about make things look good right now, that will be a concern when I implement the themeing ability. Due to this, everything is going to look the same, but as long as it works, I'm happy."}
+                        {"I'm not worried about making things look good right now, that will be a concern when I implement the themeing ability. Due to this, everything is going to look the same, but as long as it works, I'm happy. It is possible to change the default look, but that gets repetetive and anti DRY. I am making sure that every block does have a className and id prop as well to help with this."}
                     </BulletList1>
                     <HR />
                     <H32>Known Bugs</H32>

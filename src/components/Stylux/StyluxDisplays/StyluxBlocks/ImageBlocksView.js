@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 import StyluxHeader from "../../StyluxHeader/StyluxHeader";
 import StyluxFooter from "../../StyluxFooter/StyluxFooter";
 import BlocksSubNavBar from "./SubHeader/StyluxBlocksSubHeader";
@@ -27,7 +28,7 @@ export default function StyluxImageBlocksViews() {
             <StyluxHeader />
             <Container>
                 <BlocksSubNavBar />
-                <H22>Image Blocks</H22>
+                <Link to="/react-stylux/documentation/image"><H22>Image Blocks</H22></Link>
                 <H34> Sizes</H34>
                 <Holder>
                     <Holder direction="column">

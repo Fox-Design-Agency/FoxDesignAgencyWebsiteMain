@@ -2,23 +2,21 @@ import React from "react";
 
 import {
     Holder,
-    H43,
-    P1,
-    P2,
+    H42,
     BulletList1,
+    HR,
 } from "react-stylux"
 
 export default function HolderDocumentation() {
 
     return (
         <Holder
+        alignBlock1="flex-start"
+        alignBlock2="flex-start">
+        <Holder
             direction="column">
-            <H43>Holder</H43>
-            <P1>Props:</P1>
-            <P2>x = number of block, for example block1 = '2'</P2>
-            <P2>This accepts up to twenty children and renders them. This is the current backbone for layout. Can be placed inside of itself to create very dynamic and responsive layouts.</P2>
-            <BulletList1
-                width='100px'>
+            <H42>Available Props</H42>
+            <BulletList1 width="300px">
                 {"display = 'flex'"}
                 {"direction = 'row'"}
                 {"height"}
@@ -46,36 +44,29 @@ export default function HolderDocumentation() {
                 {"mddis = 'flex'"}
                 {"smflexDir"}
                 {"mdflexDir"}
-            </BulletList1>
-            <P1>Examples</P1>
-            <pre>{`
-            <Holder>
-                <Block2 />
-                <Block2 />
+                </BulletList1>
+                </Holder>
+                <Holder direction="column">
+        
+                    <HR />
+                    <H42>Some Info</H42>
+                    <BulletList1>
+                        {""}
+                    </BulletList1>
+                    <HR />
+                    <H42>Suggested Use</H42>
+                    <BulletList1>
+                        {""}
+                    </BulletList1>
+                    <HR />
+                    <H42>Size Information</H42>
+                    <BulletList1>
+                        {"Large: ??"}
+                        {"Medium: ??"}
+                        {"Small: ??"}
+                    </BulletList1>
+        
+                </Holder>
             </Holder>
-            `}</pre>
-
-
-            
-            <pre>{`
-            <Holder>
-                <Holder
-                    direction='column'>
-                    <Block2 />
-                    <Holder>
-                        <Block2 />
-                        <Block2 />
-                    </Holder>
-                </Holder>
-                <Block2 />
-                <Holder
-                    direction='column'>
-                    <Block2 />
-                    <Block2 />
-                </Holder>
-            </Holder>`}</pre>
-            <H43>Suggested Use</H43>
-            <P1>Use to divide space and create complex layouts.</P1>
-        </Holder>
     )
 }

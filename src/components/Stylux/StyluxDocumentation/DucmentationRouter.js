@@ -49,15 +49,8 @@ import FloatingButton from "./Documentation/Buttons/FloatingButton";
 import RaisedButton from "./Documentation/Buttons/RaisedButton";
 import TextButton from "./Documentation/Buttons/TextButton";
 
-import CircleImage from "./Documentation/Images/CircleImage";
+import Image from "./Documentation/Images/Image";
 import Figure from "./Documentation/Images/Figure";
-import OvalImage from "./Documentation/Images/OvalImage";
-import RectangleImage from "./Documentation/Images/RectangleImage";
-import RoundedImage from "./Documentation/Images/RoundedImage";
-import RoundedRectangleImage from "./Documentation/Images/RoundedRectangleImage";
-import SquareImage from "./Documentation/Images/SquareImage";
-import TallRectangleImage from "./Documentation/Images/TallRectangleImage";
-import TallRoundedRectangleImage from "./Documentation/Images/TallRoundedRectangleImage";
 
 import Card1 from "./Documentation/Cards/Card1";
 import Card2 from "./Documentation/Cards/Card2";
@@ -150,15 +143,8 @@ export default (
         <Route path="/react-stylux/documentation/block-button" component={BlockButton} />
         <Route path="/react-stylux/documentation/text-button" component={TextButton} />
 
-        <Route path="/react-stylux/documentation/circle-image" component={CircleImage} />
-        <Route path="/react-stylux/documentation/oval-image" component={OvalImage} />
+        <Route path="/react-stylux/documentation/image" component={Image} />
         <Route path="/react-stylux/documentation/figure" component={Figure} />
-        <Route path="/react-stylux/documentation/rectangle-image" component={RectangleImage} />
-        <Route path="/react-stylux/documentation/rounded-image" component={RoundedImage} />
-        <Route path="/react-stylux/documentation/rounded-rectangle-image" component={RoundedRectangleImage} />
-        <Route path="/react-stylux/documentation/square-image" component={SquareImage} />
-        <Route path="/react-stylux/documentation/tall-rectangle-image" component={TallRectangleImage} />
-        <Route path="/react-stylux/documentation/tall-rounded-rectangle-image" component={TallRoundedRectangleImage} />
 
         <Route path="/react-stylux/documentation/card-1" component={Card1} />
         <Route path="/react-stylux/documentation/card-2" component={Card2} />

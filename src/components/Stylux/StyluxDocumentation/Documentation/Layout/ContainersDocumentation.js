@@ -2,23 +2,21 @@ import React from "react";
 
 import {
     Holder,
-    H43,
-    P1,
-    P2,
-    BulletList1
+    H42,
+    BulletList1,
+    HR,
 } from "react-stylux"
 
 export default function ContainerDocumentation() {
 
     return (
         <Holder
+        alignBlock1="flex-start"
+        alignBlock2="flex-start">
+        <Holder
             direction="column">
-            <H43>Container</H43>
-            <P1>Props:</P1>
-            <P2>x = number of block, for example block1 = '2'</P2>
-            <P2>This accepts up to twenty children and renders then. This is still currently a useless item, but can be used for visual clarity when creating. Future use will implement a Provider to deliver themes.</P2>
-            <BulletList1
-                width='100px'>
+            <H42>Available Props</H42>
+            <BulletList1 width="300px">
                 {"display = 'flex'"}
                 {"direction = 'row'"}
                 {"height"}
@@ -39,15 +37,29 @@ export default function ContainerDocumentation() {
                 {" mddis = 'flex'"}
                 {" smflexDir = 'column'"}
                 {" mdflexDir = 'column'"}
-            </BulletList1>
-            <P1>Example</P1>
-            <pre>{`
-            <Container >
-                < Holder1 >
-                </ Holder1>
-            </ Container>`}</pre>
-            <H43>Suggested Use</H43>
-            <P1>Use to wrap major items, use on the outer msot layer, use Holders to divide the inner space.</P1>
-        </Holder >
+                </BulletList1>
+                </Holder>
+                <Holder direction="column">
+        
+                    <HR />
+                    <H42>Some Info</H42>
+                    <BulletList1>
+                        {""}
+                    </BulletList1>
+                    <HR />
+                    <H42>Suggested Use</H42>
+                    <BulletList1>
+                        {""}
+                    </BulletList1>
+                    <HR />
+                    <H42>Size Information</H42>
+                    <BulletList1>
+                        {"Large: ??"}
+                        {"Medium: ??"}
+                        {"Small: ??"}
+                    </BulletList1>
+        
+                </Holder>
+            </Holder>
     )
 }

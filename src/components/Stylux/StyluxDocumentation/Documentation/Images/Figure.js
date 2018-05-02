@@ -2,36 +2,46 @@ import React from "react";
 
 import {
     Holder,
+    H42,
+    BulletList1,
+    HR,
 } from "react-stylux"
 
-export default function Figure() {
+export default function FigureView() {
 
     return (
         <Holder
+        alignBlock1="flex-start"
+        alignBlock2="flex-start">
+        <Holder
             direction="column">
-            Figure
-            figid
-            figCapid
-            figClassName
-            figCapClassName
-            smdis = 'flex'
-            mddis = 'flex'
-            margin = '5px'
-            padding
-            shadow 
-            hovShadow
-            
-        ```
-        This accepts and renders two children: first child and a caption child
-        ```
-        Figure
-            SquareImage size="md"
-                image
-                a neat alt tag
-            SquareImage
-            This is a neat caption
-        Figure
+            <H42>Available Props</H42>
+            <BulletList1 width="300px">
+
+            </BulletList1>
         </Holder>
+        <Holder direction="column">
+
+            <HR />
+            <H42>Some Info</H42>
+            <BulletList1>
+                {""}
+            </BulletList1>
+            <HR />
+            <H42>Suggested Use</H42>
+            <BulletList1>
+                {""}
+            </BulletList1>
+            <HR />
+            <H42>Size Information</H42>
+            <BulletList1>
+                {"Large: ??"}
+                {"Medium: ??"}
+                {"Small: ??"}
+            </BulletList1>
+
+        </Holder>
+    </Holder>
 
     )
 }

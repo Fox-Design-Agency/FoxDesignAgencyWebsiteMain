@@ -2,25 +2,47 @@ import React from "react";
 
 import {
     Holder,
+    H42,
+    BulletList1,
+    HR,
+   FloatingButton1
 } from "react-stylux"
 
-export default function FloatingButton() {
+export default function FloatingButtonView() {
 
     return (
         <Holder
+        alignBlock1="flex-start"
+        alignBlock2="flex-start">
+        <Holder
             direction="column">
-            FloatingButton1
-            onClick
-            ??
-            
-        ```
-        This accepts and renders one child
-        ```
-        FloatingButton1
-            onClick=this.somethingToDo
-            this is a button
-        FloatingButton1
+            <H42>Available Props</H42>
+            <BulletList1 width="300px">
+
+            </BulletList1>
         </Holder>
+        <Holder direction="column">
+
+            <HR />
+            <H42>Some Info</H42>
+            <BulletList1>
+                {""}
+            </BulletList1>
+            <HR />
+            <H42>Suggested Use</H42>
+            <BulletList1>
+                {""}
+            </BulletList1>
+            <HR />
+            <H42>Size Information</H42>
+            <BulletList1>
+                {"Large: ??"}
+                {"Medium: ??"}
+                {"Small: ??"}
+            </BulletList1>
+
+        </Holder>
+    </Holder>
 
     )
 }

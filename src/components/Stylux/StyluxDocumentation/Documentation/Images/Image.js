@@ -7,7 +7,7 @@ import {
     HR,
 } from "react-stylux"
 
-export default function Navbar2() {
+export default function ImageView() {
 
     return (
         <Holder

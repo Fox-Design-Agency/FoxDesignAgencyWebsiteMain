@@ -144,19 +144,19 @@ export default function StyluxHeadingBlocksViews() {
                         secondary subheadings
                     </H34>
                     <HR />
-                    <Link to="/react-stylux/documentation/h-3-1"><H41>
+                    <Link to="/react-stylux/documentation/h-4-1"><H41>
                         H41
                     </H41></Link>
-                    <Link to="/react-stylux/documentation/h-3-2"><H42>
+                    <Link to="/react-stylux/documentation/h-4-2"><H42>
                         H42
                     </H42></Link>
-                    <Link to="/react-stylux/documentation/h-3-3"><H43>
+                    <Link to="/react-stylux/documentation/h-4-3"><H43>
                         H43
                     </H43></Link>
-                    <Link to="/react-stylux/documentation/h-3-4"><H44>
+                    <Link to="/react-stylux/documentation/h-4-4"><H44>
                         H44
                     </H44></Link>
-                    <Link to="/react-stylux/documentation/h-3-5"><H45>
+                    <Link to="/react-stylux/documentation/h-4-5"><H45>
                         H45
                     </H45></Link>
                 </Holder>
