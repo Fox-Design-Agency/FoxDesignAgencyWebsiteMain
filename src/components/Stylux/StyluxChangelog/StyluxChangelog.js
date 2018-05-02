@@ -72,7 +72,7 @@ export default function StyluxChangelog() {
                         direction="column">
                         <Holder
                             direction="column">
-                            <H42 id="0.6.7">0.6.67(Not Released)</H42>
+                            <H42 id="0.6.7">0.6.7(Not Released)</H42>
                             <BulletList1
                                 width="900px">
                                 {"Condense Hero Blocks to Hero"}
