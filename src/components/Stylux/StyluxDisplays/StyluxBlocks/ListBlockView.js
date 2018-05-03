@@ -1,5 +1,5 @@
 import React from "react";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import StyluxHeader from "../../StyluxHeader/StyluxHeader";
 import StyluxFooter from "../../StyluxFooter/StyluxFooter";
 import BlocksSubNavBar from "./SubHeader/StyluxBlocksSubHeader";
@@ -9,6 +9,7 @@ import {
     H22,
     H34,
     HR,
+    List,
     BulletList1,
     BulletList2,
     NumberList1,
@@ -25,18 +26,18 @@ export default function StyluxListBlocksViews() {
                 <H22>List Blocks</H22>
                 <Holder direction="column">
                     <Link to="/react-stylux/documentation/numberlist-1"><H34>
-                        Number List 1
+                        List type="1"
                     </H34></Link>
-                    <NumberList1 width="500px">
+                    <List type="1" width="500px">
                         {'listItem1'}
                         {'listItem2'}
                         {'listItem3'}
                         {'listItem4'}
-                    </NumberList1>
+                    </List>
                     <Link to="/react-stylux/documentation/numberlist-2"><H34>
-                        Number List 2
+                        List type="2"
                     </H34></Link>
-                    <NumberList2 width="500px" listAmount='3'>
+                    <List type="2" width="500px" listAmount='3'>
                         <p>listItem1</p>
                         <p>nestedlistItem1</p>
                         <p>nestedlistItem2</p>
@@ -52,34 +53,34 @@ export default function StyluxListBlocksViews() {
                         <p>listItem5</p>
                         <p>nestedlistItem1</p>
                         <p>nestedlistItem2</p>
-                    </NumberList2>
+                    </List>
                     <Link to="/react-stylux/documentation/numberlist-3"><H34>
-                        Number List 3
+                        List type="3"
                     </H34></Link>
-                    <NumberList3 width="500px">
+                    <List type="3" width="500px">
                         {'listItem1'}
                         {'listItem2'}
                         {'listItem3'}
                         {'listItem4'}
-                    </NumberList3>
+                    </List>
                     <Link to="/react-stylux/documentation/bulletlist-1"><H34>
-                        Bullet List 1
+                        List type="4"
                     </H34></Link>
-                    <BulletList1 width="500px">
+                    <List type="4" width="500px">
                         {'listItem1'}
                         {'listItem2'}
                         {'listItem3'}
                         {'listItem4'}
-                    </BulletList1>
+                    </List>
                     <Link to="/react-stylux/documentation/bulletlist-2"><H34>
-                        Bullet List 2
+                        List type="5"
                     </H34></Link>
-                    <BulletList2 width="500px">
+                    <List type="5" width="500px">
                         {'listItem1'}
                         {'listItem2'}
                         {'listItem3'}
                         {'listItem4'}
-                    </BulletList2>
+                    </List>
                 </Holder>
                 <HR />
             </Container>

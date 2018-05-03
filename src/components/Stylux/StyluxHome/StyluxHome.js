@@ -44,18 +44,16 @@ export default function StyluxHome() {
                             </Navbar1>
                         </Holder>
                         <Holder direction="column">
-                            <H32>Current Version: 0.6.6</H32>
+                            <H32>Current Version: 0.6.7</H32>
                             <H42>Latest Changes</H42>
                             <BulletList1 width="950px">
-                                {"updates to default responsive Image sizes, first draft, not set"}
-                                {"fix post 0.6.3 Button export"}
-                                {"update to Button block state"}
-                                {"update to Button block custom ability, defaults to flat type"}
-                                {"Condensed Paragraph blocks to P, is not accurately displaying"}
-                                {"review every blocks responsive behavior, verified H, P, A, HR, Image"}
-                                {"review every block for className && Id , verified H, P, A, HR, Image"}
-                                {"fixed typo in index.js file for 0.6.4"}
-                                {"fixed missing variable in buttonFunctions"}
+                                {"Condense Hero Blocks to Hero"}
+                                {"Condense Brand Blocks to Brand"}
+                                {"Condense List Blocks to List"}
+                                {"Condense Card Blocks to Card"}
+                                {"Condense PLQ Blocks to PLQ"}
+                                {"review every blocks responsive behavior, verified Hero, Brand, List, Card, PLQ"}
+                                {"review every block for className && Id, verified Hero, Brand, List, Card, PLQ"}
                             </BulletList1>
                         </Holder>
                     </Holder>

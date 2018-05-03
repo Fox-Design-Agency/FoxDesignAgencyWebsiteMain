@@ -9,9 +9,7 @@ import {
     H34,
     H22,
     HR,
-    Card1,
-    Card2,
-    Card3,
+    Card,
 } from "react-stylux";
 
 export default function StyluxCardBlocksViews() {
@@ -24,30 +22,30 @@ export default function StyluxCardBlocksViews() {
                 <Holder
                     direction="column">
                     <Link to="/react-stylux/documentation/card-1"><H34>
-                        Card 1
+                        Card type="1"
                     </H34></Link>
-                    <Card1>
+                    <Card type="1">
                         {}
                         {'an alt tag is here'}
                         {'A Neat Name'}
                         {'What I do and stuff and some other stuff that is pretty long like even longer than this and more stuff to filll space and stuff and whateevr'}
-                    </Card1>
+                    </Card>
                     <HR />
                     <Link to="/react-stylux/documentation/card-1"><H34>
-                        Card 2
+                        Card type="2"
                     </H34></Link>
-                    <Card2>
+                    <Card type="2">
                         {}
                         {'an alt tag is here'}
                         {'A Neat Name'}
                         {'What I do and stuff and some other stuff that is pretty long like even longer than this and more stuff to filll space and stuff and whateevr and someother stuff just to see if the max height actually works or not and stuff but then I had to write just a little bit mroe to be sure'}
-                    </Card2>
+                    </Card>
 
                     <HR />
                     <Link to="/react-stylux/documentation/card-1"><H34>
-                        Card 3
+                        Card type="3"
                     </H34></Link>
-                    <Card3>
+                    <Card type="3">
                         {'Some Item'}
                         {'$00.00'}
                         {'Info'}
@@ -55,7 +53,7 @@ export default function StyluxCardBlocksViews() {
                         {'Info'}
                         {'Info'}
                         {'Call to action'}
-                    </Card3>
+                    </Card>
                 </Holder>
                 <HR />
             </Container>

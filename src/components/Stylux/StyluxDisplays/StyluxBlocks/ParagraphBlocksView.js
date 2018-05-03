@@ -16,6 +16,7 @@ import {
     P4,
     P5,
     H42,
+    PLQ,
     BulletList1,
 } from "react-stylux";
 
@@ -102,13 +103,19 @@ export default function StyluxParagraphBlocksViews() {
                     </H21>
                     <HR />
                     <Link to="/react-stylux/documentation/plq-1"><H34>
-                        Pull Quote 1
+                        PLQ type="1"
                     </H34></Link>
+                    <PLQ type="1">
+                        {"Banjo photo booth deep v bespoke typewriter twee iPhone lyft vegan meditation mumblecore copper mug blog whatever."}
+                        {"Neat Name"}</PLQ>
 
                     <HR />
                     <Link to="/react-stylux/documentation/plq-2"><H34>
-                        Pull Quote 2
+                        PLQ type="2"
                     </H34></Link>
+                    <PLQ type="2">
+                        {"Echo park XOXO seitan, fixie before they sold out bushwick edison bulb listicle 3 wolf moon irony hot chicken typewriter dreamcatcher."}
+                        {"Neat Name"}</PLQ>
                 </Holder>
                 <HR />
             </Container>

@@ -125,7 +125,7 @@ export default function StyluxImageBlocksViews() {
                 </Holder>
                 <Holder direction="column">
                     <H34>
-                        Circle Image tn
+                        Image type="circle" size="tn"
                     </H34>
                     <Image type="circle" size="tn">
                         {}
@@ -133,7 +133,7 @@ export default function StyluxImageBlocksViews() {
                     </Image>
                     <HR />
                     <H34>
-                        Circle Image exsm
+                    Image type="circle" size="exsm"
                     </H34>
                     <Image type="circle" size="exsm">
                         {}
@@ -141,7 +141,7 @@ export default function StyluxImageBlocksViews() {
                     </Image>
                     <HR />
                     <H34>
-                        Circle Image sm
+                    Image type="circle" size="sm"
                     </H34>
                     <Image type="circle" size="sm">
                         {}
@@ -149,7 +149,7 @@ export default function StyluxImageBlocksViews() {
                     </Image>
                     <HR />
                     <H34>
-                        Circle Image md
+                    Image type="circle" size="md"
                     </H34>
                     <Image type="circle" size="md">
                         {}
@@ -157,7 +157,7 @@ export default function StyluxImageBlocksViews() {
                     </Image>
                     <HR />
                     <H34>
-                        Circle Image lg
+                    Image type="circle" size="lg"
                     </H34>
                     <Image type="circle" size="lg">
                         {}
@@ -165,7 +165,7 @@ export default function StyluxImageBlocksViews() {
                     </Image>
                     <HR />
                     <H34>
-                        Circle Image exlg
+                    Image type="circle" size="exlg"
                     </H34>
                     <Image type="circle" size="exlg">
                         {}

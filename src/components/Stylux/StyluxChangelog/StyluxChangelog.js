@@ -27,7 +27,8 @@ export default function StyluxChangelog() {
                         <H42>Version Number</H42>
                         <Navbar1
                             direction="column">
-                            <a href="/react-stylux/changelog#0.6.7" >0.6.7(Not Released)</a>
+                            <a href="/react-stylux/changelog#0.6.8" >0.6.8(Not Released)</a>
+                            <a href="/react-stylux/changelog#0.6.7" >0.6.7</a>
                             <a href="/react-stylux/changelog#0.6.6" >0.6.6</a>
                             <a href="/react-stylux/changelog#0.6.3" >0.6.3</a>
                             <a href="/react-stylux/changelog#0.6.2" >0.6.2</a>
@@ -72,18 +73,29 @@ export default function StyluxChangelog() {
                         direction="column">
                         <Holder
                             direction="column">
-                            <H42 id="0.6.7">0.6.7(Not Released)</H42>
+                            <H42 id="0.6.8">0.6.8(Not Released)</H42>
                             <BulletList1
                                 width="900px">
-                                {"Condense Hero Blocks to Hero"}
                                 {"Condense Heading Blocks to H"}
-                                {"Condense List Blocks to List"}
-                                {"Condense Card Blocks to Card"}
                                 {"Condense Carousel Blocks to Carousel"}
+                                {"Condense Table Blocks to Table"}
                                 {"review every blocks responsive behavior"}
                                 {"review every block for className && Id"}
                                 {"Documentation correctly portraying current props"}
                                 {"Documentation finished"}
+                                {"maxWidth and maxHeight verified on all blocks"}
+                                {"Check Card type 3"}
+                            </BulletList1>
+                            <H42 id="0.6.7">0.6.7</H42>
+                            <BulletList1
+                                width="900px">
+                                {"Condense Hero Blocks to Hero"}
+                                {"Condense Brand Blocks to Brand"}
+                                {"Condense List Blocks to List"}
+                                {"Condense Card Blocks to Card"}
+                                {"Condense PLQ Blocks to PLQ"}
+                                {"review every blocks responsive behavior, verified Hero, Brand, List, Card, PLQ"}
+                                {"review every block for className && Id, verified Hero, Brand, List, Card, PLQ"}
                             </BulletList1>
                             <H42 id="0.6.6">0.6.6</H42>
                             <BulletList1
