@@ -25,7 +25,7 @@ export default function StyluxListBlocksViews() {
                 <BlocksSubNavBar />
                 <H22>List Blocks</H22>
                 <Holder direction="column">
-                    <Link to="/react-stylux/documentation/numberlist-1"><H34>
+                    <Link to="/react-stylux/documentation/list"><H34>
                         List type="1"
                     </H34></Link>
                     <List type="1" width="500px">
@@ -34,7 +34,7 @@ export default function StyluxListBlocksViews() {
                         {'listItem3'}
                         {'listItem4'}
                     </List>
-                    <Link to="/react-stylux/documentation/numberlist-2"><H34>
+                    <Link to="/react-stylux/documentation/list"><H34>
                         List type="2"
                     </H34></Link>
                     <List type="2" width="500px" listAmount='3'>
@@ -54,7 +54,7 @@ export default function StyluxListBlocksViews() {
                         <p>nestedlistItem1</p>
                         <p>nestedlistItem2</p>
                     </List>
-                    <Link to="/react-stylux/documentation/numberlist-3"><H34>
+                    <Link to="/react-stylux/documentation/list"><H34>
                         List type="3"
                     </H34></Link>
                     <List type="3" width="500px">
@@ -63,7 +63,7 @@ export default function StyluxListBlocksViews() {
                         {'listItem3'}
                         {'listItem4'}
                     </List>
-                    <Link to="/react-stylux/documentation/bulletlist-1"><H34>
+                    <Link to="/react-stylux/documentation/list"><H34>
                         List type="4"
                     </H34></Link>
                     <List type="4" width="500px">
@@ -72,7 +72,7 @@ export default function StyluxListBlocksViews() {
                         {'listItem3'}
                         {'listItem4'}
                     </List>
-                    <Link to="/react-stylux/documentation/bulletlist-2"><H34>
+                    <Link to="/react-stylux/documentation/list"><H34>
                         List type="5"
                     </H34></Link>
                     <List type="5" width="500px">

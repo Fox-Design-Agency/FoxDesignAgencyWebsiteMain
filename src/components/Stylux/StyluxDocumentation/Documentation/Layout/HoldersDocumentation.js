@@ -5,6 +5,7 @@ import {
     H42,
     BulletList1,
     HR,
+    H34,
 } from "react-stylux"
 
 export default function HolderDocumentation() {
@@ -47,7 +48,7 @@ export default function HolderDocumentation() {
                 </BulletList1>
                 </Holder>
                 <Holder direction="column">
-        
+                    <H34>Holder</H34>
                     <HR />
                     <H42>Some Info</H42>
                     <BulletList1>

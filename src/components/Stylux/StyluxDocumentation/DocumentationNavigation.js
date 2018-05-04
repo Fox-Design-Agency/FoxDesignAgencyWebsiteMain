@@ -60,9 +60,7 @@ export default function StyluxDocumentation() {
                         buttonText="Cards">
                         <Navbar1
                             direction="column">
-                            <Link to="/react-stylux/documentation/card-1">Card1</Link>
-                            <Link to="/react-stylux/documentation/card-2">Card2</Link>
-                            <Link to="/react-stylux/documentation/card-3">Card3</Link>
+                            <Link to="/react-stylux/documentation/card">Card</Link>
                         </Navbar1>
                     </Toggler2>
                     <Toggler2
@@ -116,11 +114,7 @@ export default function StyluxDocumentation() {
                         width="200px"
                         buttonText="Lists">
                         <Navbar1 direction="column">
-                            <Link to="/react-stylux/documentation/numberlist-1">Numberlist1</Link>
-                            <Link to="/react-stylux/documentation/numberlist-2">Numberlist2</Link>
-                            <Link to="/react-stylux/documentation/numberlist-3">Numberlist3</Link>
-                            <Link to="/react-stylux/documentation/bulletlist-1">Bulletlist1</Link>
-                            <Link to="/react-stylux/documentation/bulletlist-2">Bulletlist2</Link>
+                            <Link to="/react-stylux/documentation/list">List</Link>
                         </Navbar1>
                     </Toggler2>
                     <Toggler2
@@ -154,14 +148,7 @@ export default function StyluxDocumentation() {
                         width="200px"
                         buttonText="Images">
                         <Navbar1 direction="column">
-                            <Link to="/react-stylux/documentation/circle-image">CircleImage</Link>
-                            <Link to="/react-stylux/documentation/oval-image">OvalImage</Link>
-                            <Link to="/react-stylux/documentation/rounded-image">RoundedImage</Link>
-                            <Link to="/react-stylux/documentation/square-image">SquareImage</Link>
-                            <Link to="/react-stylux/documentation/rounded-rectangle-image">RoundedRectangleImage</Link>
-                            <Link to="/react-stylux/documentation/rectangle-image">RectangleImage</Link>
-                            <Link to="/react-stylux/documentation/tall-rounded-rectangle-image">TallRoundedRectangleImage</Link>
-                            <Link to="/react-stylux/documentation/tall-rectangle-image">TallRectangleImage</Link>
+                            <Link to="/react-stylux/documentation/image">Image</Link>
                             <Link to="/react-stylux/documentation/figure">Figure</Link>
                         </Navbar1>
                     </Toggler2>
@@ -171,11 +158,7 @@ export default function StyluxDocumentation() {
                         width="200px"
                         buttonText="Buttons">
                         <Navbar1 direction="column">
-                            <Link to="/react-stylux/documentation/flat-button">FlatButton</Link>
-                            <Link to="/react-stylux/documentation/raised-button">RaisedButton</Link>
-                            <Link to="/react-stylux/documentation/floating-button">FloatingButton</Link>
-                            <Link to="/react-stylux/documentation/block-button">BlockButton</Link>
-                            <Link to="/react-stylux/documentation/text-button">TextButton</Link>
+                            <Link to="/react-stylux/documentation/button">Button</Link>
                         </Navbar1>
                     </Toggler2>
                     <Toggler2
@@ -245,37 +228,16 @@ export default function StyluxDocumentation() {
 
                             </Toggler2>
                         </Toggler2>
-                        <Toggler2
-                            position="relative"
-                            shadow="0"
-                            width="200px"
-                            buttonText="Paragraphs">
-                            <Navbar1
-                                direction="column">
-                                <Link to="/react-stylux/documentation/p-1">P1</Link>
-                                <Link to="/react-stylux/documentation/p-2">P2</Link>
-                                <Link to="/react-stylux/documentation/p-3">P3</Link>
-                                <Link to="/react-stylux/documentation/p-4">P4</Link>
-                                <Link to="/react-stylux/documentation/p-5">P5</Link>
-                            </Navbar1>
-                        </Toggler2>
-                        <Toggler2
-                            position="relative"
-                            shadow="0"
-                            width="200px"
-                            buttonText="Pull Quotes">
-                            <Navbar1
-                                direction="column">
-                                <Link to="/react-stylux/documentation/plq-1">PLQ1</Link>
-                                <Link to="/react-stylux/documentation/plq-2">PLQ2</Link>
-                            </Navbar1>
-                        </Toggler2>
-
-                    </Toggler2>
+                        <Navbar1 direction="column">
+                            <Link to="/react-stylux/documentation/p">P</Link>
+                            <Link to="/react-stylux/documentation/plq">PLQ</Link>
+                        </Navbar1>
 
                 </Toggler2>
 
-            </Holder>
-        </Container>
+                </Toggler2>
+
+            </Holder >
+        </Container >
     )
 } 

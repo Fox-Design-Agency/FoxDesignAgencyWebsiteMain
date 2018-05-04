@@ -34,27 +34,16 @@ import H43 from "./Documentation/Text/Headers/H4/H43";
 import H44 from "./Documentation/Text/Headers/H4/H44";
 import H45 from "./Documentation/Text/Headers/H4/H45";
 
-import P1 from "./Documentation/Text/Paragraphs/P1";
-import P2 from "./Documentation/Text/Paragraphs/P2";
-import P3 from "./Documentation/Text/Paragraphs/P3";
-import P4 from "./Documentation/Text/Paragraphs/P4";
-import P5 from "./Documentation/Text/Paragraphs/P5";
+import P from "./Documentation/Text/Paragraphs/P";
 
-import PLQ1 from "./Documentation/Text/PullQuotes/PLQ1";
-import PLQ2 from "./Documentation/Text/PullQuotes/PLQ2";
+import PLQ from "./Documentation/Text/PullQuotes/PLQ";
 
-import BlockButton from "./Documentation/Buttons/BlockButton";
-import FlatButton from "./Documentation/Buttons/FlatButton";
-import FloatingButton from "./Documentation/Buttons/FloatingButton";
-import RaisedButton from "./Documentation/Buttons/RaisedButton";
-import TextButton from "./Documentation/Buttons/TextButton";
+import Button from "./Documentation/Buttons/Button";
 
 import Image from "./Documentation/Images/Image";
 import Figure from "./Documentation/Images/Figure";
 
-import Card1 from "./Documentation/Cards/Card1";
-import Card2 from "./Documentation/Cards/Card2";
-import Card3 from "./Documentation/Cards/Card3";
+import Card from "./Documentation/Cards/Card";
 
 import Carousel1 from "./Documentation/Carousel/Carousel1";
 import Carousel2 from "./Documentation/Carousel/Carousel2";
@@ -72,11 +61,7 @@ import Modal3 from "./Documentation/Togglers/Modals/Modal3";
 import Popup1 from "./Documentation/Togglers/Popups/Popup1";
 import Popup2 from "./Documentation/Togglers/Popups/Popup2";
 
-import BulletList1 from "./Documentation/Lists/BulletList1";
-import BulletList2 from "./Documentation/Lists/BulletList2";
-import NumberList1 from "./Documentation/Lists/NumberList1";
-import NumberList2 from "./Documentation/Lists/NumberList2";
-import NumberList3 from "./Documentation/Lists/NumberList3";
+import List from "./Documentation/Lists/List";
 
 import DropDownnav1 from "./Documentation/Navigation/DropDownnav1";
 import DropDownnav3 from "./Documentation/Navigation/DropDownnav3";
@@ -128,27 +113,16 @@ export default (
         <Route path="/react-stylux/documentation/h-4-4" component={H44} />
         <Route path="/react-stylux/documentation/h-4-5" component={H45} />
 
-        <Route path="/react-stylux/documentation/p-1" component={P1} />
-        <Route path="/react-stylux/documentation/p-2" component={P2} />
-        <Route path="/react-stylux/documentation/p-3" component={P3} />
-        <Route path="/react-stylux/documentation/p-4" component={P4} />
-        <Route path="/react-stylux/documentation/p-5" component={P5} />
+        <Route path="/react-stylux/documentation/p" component={P} />
 
-        <Route path="/react-stylux/documentation/plq-1" component={PLQ1} />
-        <Route path="/react-stylux/documentation/plq-2" component={PLQ2} />
+        <Route path="/react-stylux/documentation/plq" component={PLQ} />
 
-        <Route path="/react-stylux/documentation/flat-button" component={FlatButton} />
-        <Route path="/react-stylux/documentation/raised-button" component={RaisedButton} />
-        <Route path="/react-stylux/documentation/floating-button" component={FloatingButton} />
-        <Route path="/react-stylux/documentation/block-button" component={BlockButton} />
-        <Route path="/react-stylux/documentation/text-button" component={TextButton} />
+        <Route path="/react-stylux/documentation/button" component={Button} />
 
         <Route path="/react-stylux/documentation/image" component={Image} />
         <Route path="/react-stylux/documentation/figure" component={Figure} />
 
-        <Route path="/react-stylux/documentation/card-1" component={Card1} />
-        <Route path="/react-stylux/documentation/card-2" component={Card2} />
-        <Route path="/react-stylux/documentation/card-3" component={Card3} />
+        <Route path="/react-stylux/documentation/card" component={Card} />
 
         <Route path="/react-stylux/documentation/carousel-1" component={Carousel1} />
         <Route path="/react-stylux/documentation/carousel-2" component={Carousel2} />
@@ -166,11 +140,7 @@ export default (
         <Route path="/react-stylux/documentation/toggler-popup-1" component={Popup1} />
         <Route path="/react-stylux/documentation/toggler-popup-2" component={Popup2} />
 
-        <Route path="/react-stylux/documentation/bulletlist-1" component={BulletList1} />
-        <Route path="/react-stylux/documentation/bulletlist-2" component={BulletList2} />
-        <Route path="/react-stylux/documentation/numberlist-1" component={NumberList1} />
-        <Route path="/react-stylux/documentation/numberlist-2" component={NumberList2} />
-        <Route path="/react-stylux/documentation/numberlist-3" component={NumberList3} />
+        <Route path="/react-stylux/documentation/list" component={List} />
 
         <Route path="/react-stylux/documentation/dropdownnav-1" component={DropDownnav1} />
         <Route path="/react-stylux/documentation/dropdownnav-3" component={DropDownnav3} />

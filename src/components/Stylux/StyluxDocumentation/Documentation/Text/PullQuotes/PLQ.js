@@ -5,10 +5,11 @@ import {
     H42,
     BulletList1,
     HR,
-    Card1
+    PLQ,
+    H34,
 } from "react-stylux"
 
-export default function Card1View() {
+export default function PLQView() {
 
     return (
         <Holder
@@ -16,33 +17,41 @@ export default function Card1View() {
         alignBlock2="flex-start">
         <Holder
             direction="column">
+
             <H42>Available Props</H42>
             <BulletList1 width="300px">
-            {"shadow = '1px 4px 8px 0 rgba(0,0,0,0.2)'"}
-            {" hovShadow = '1px 8px 16px 0 rgba(0,0,0,0.2)'"}
-            {" corners"}
+                {"aniCount"}
+                {"aniTime"}
+                {"aniName"}
+                {"aniDur"}
+                {"transform"}
+                {"transformOrigin"}
+                {"aniFillMode"}
+                {"smDis"}
+                {"mdDis"}
+                {"type"}
             </BulletList1>
             </Holder>
-            <Holder direction="column">
-    
+            <Holder direction="column">   
+            <H34>PLQ</H34>
+                <PLQ>{"Some Text"}{"Someone"}</PLQ>
                 <HR />
                 <H42>Some Info</H42>
                 <BulletList1>
-                    {""}
+                    {"type='1' horizontal pull quote"}
+                    {"type='2' vertical pull quote"}
                 </BulletList1>
                 <HR />
                 <H42>Suggested Use</H42>
                 <BulletList1>
-                    {""}
+                    {"Use to break up text and highlight stuff"}
                 </BulletList1>
                 <HR />
                 <H42>Size Information</H42>
                 <BulletList1>
-                    {"Large: ??"}
-                    {"Medium: ??"}
-                    {"Small: ??"}
+                    {"Nothing to see here just yet..."}
                 </BulletList1>
-    
+
             </Holder>
         </Holder>
 

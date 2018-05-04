@@ -50,7 +50,7 @@ export default function StyluxButtonBlocksViews() {
                     </TextButton1>
                 </Holder>
                 <HR />
-                <Link to=""><H34>Post-0.6.3</H34></Link>
+                <Link to="/react-stylux/documentation/button"><H34>Post-0.6.3</H34></Link>
                 <Holder direction="column">
                     <Button onClick={() => window.alert("It was clicked")} type="flat">flat type</Button>
                     <HR />

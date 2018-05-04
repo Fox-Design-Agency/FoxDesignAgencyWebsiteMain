@@ -21,7 +21,7 @@ export default function StyluxCardBlocksViews() {
                 <H22>Card Blocks</H22>
                 <Holder
                     direction="column">
-                    <Link to="/react-stylux/documentation/card-1"><H34>
+                    <Link to="/react-stylux/documentation/card"><H34>
                         Card type="1"
                     </H34></Link>
                     <Card type="1">
@@ -31,7 +31,7 @@ export default function StyluxCardBlocksViews() {
                         {'What I do and stuff and some other stuff that is pretty long like even longer than this and more stuff to filll space and stuff and whateevr'}
                     </Card>
                     <HR />
-                    <Link to="/react-stylux/documentation/card-1"><H34>
+                    <Link to="/react-stylux/documentation/card"><H34>
                         Card type="2"
                     </H34></Link>
                     <Card type="2">
@@ -42,7 +42,7 @@ export default function StyluxCardBlocksViews() {
                     </Card>
 
                     <HR />
-                    <Link to="/react-stylux/documentation/card-1"><H34>
+                    <Link to="/react-stylux/documentation/card"><H34>
                         Card type="3"
                     </H34></Link>
                     <Card type="3">

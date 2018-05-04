@@ -61,35 +61,35 @@ export default function StyluxParagraphBlocksViews() {
                             </BulletList1>
                         </Holder>
                     </Holder>
-                    <Link to="/react-stylux/documentation/p-1"><H34>
+                    <Link to="/react-stylux/documentation/p"><H34>
                         P1
                     </H34></Link>
                     <P1>
                         Pabst vice flannel semiotics, typewriter ethical cliche echo park cred. Mlkshk single-origin coffee man bun whatever. Chillwave unicorn pickled normcore kickstarter migas heirloom. Cloud bread synth plaid kogi vegan tilde disrupt salvia bespoke brunch. Live-edge prism post-ironic letterpress, put a bird on it palo santo direct trade flannel kitsch 90's.
                     </P1>
                     <HR />
-                    <Link to="/react-stylux/documentation/p-2"><H34>
+                    <Link to="/react-stylux/documentation/p"><H34>
                         P2
                     </H34></Link>
                     <P2>
                         Vinyl gochujang irony, microdosing synth VHS mlkshk keytar mumblecore kale chips roof party meggings cliche. Shoreditch unicorn artisan single-origin coffee. Tattooed asymmetrical umami vegan. Mixtape kombucha bicycle rights vice mustache pop-up photo booth af woke pour-over raw denim fashion axe. Readymade green juice bespoke, migas shabby chic hexagon fingerstache. Iceland stumptown activated charcoal YOLO schlitz keffiyeh jean shorts butcher mumblecore. Retro stumptown seitan mustache.
                     </P2>
                     <HR />
-                    <Link to="/react-stylux/documentation/p-3"><H34>
+                    <Link to="/react-stylux/documentation/p"><H34>
                         P3
                     </H34></Link>
                     <P3>
                         Humblebrag whatever vinyl umami, flexitarian glossier seitan meditation celiac sriracha enamel pin. Echo park XOXO seitan, fixie before they sold out bushwick edison bulb listicle 3 wolf moon irony hot chicken typewriter dreamcatcher. Fixie shaman truffaut marfa, listicle four loko iceland snackwave banjo lomo glossier stumptown. Jean shorts jianbing mlkshk, prism asymmetrical godard fashion axe.
                     </P3>
                     <HR />
-                    <Link to="/react-stylux/documentation/p-4"><H34>
+                    <Link to="/react-stylux/documentation/p"><H34>
                         P4
                     </H34></Link>
                     <P4>
                         Retro blue bottle succulents, shoreditch subway tile blog skateboard cray butcher flannel meditation marfa jianbing hashtag. Activated charcoal readymade iceland, tousled health goth green juice lumbersexual live-edge hexagon helvetica church-key edison bulb listicle ugh subway tile. Gluten-free wolf blue bottle, kale chips salvia bushwick selfies vaporware pour-over farm-to-table art party jean shorts af twee tote bag. Pickled waistcoat offal fingerstache butcher selvage. Snackwave vinyl mustache chicharrones tacos shabby chic activated charcoal tousled tumblr. Organic occupy lomo fanny pack cardigan twee tousled. Food truck fingerstache cold-pressed blog la croix church-key.
                     </P4>
                     <HR />
-                    <Link to="/react-stylux/documentation/p-5"><H34>
+                    <Link to="/react-stylux/documentation/p"><H34>
                         P5
                     </H34></Link>
                     <P5>
@@ -102,7 +102,7 @@ export default function StyluxParagraphBlocksViews() {
                         Pull Quotes
                     </H21>
                     <HR />
-                    <Link to="/react-stylux/documentation/plq-1"><H34>
+                    <Link to="/react-stylux/documentation/plq"><H34>
                         PLQ type="1"
                     </H34></Link>
                     <PLQ type="1">
@@ -110,7 +110,7 @@ export default function StyluxParagraphBlocksViews() {
                         {"Neat Name"}</PLQ>
 
                     <HR />
-                    <Link to="/react-stylux/documentation/plq-2"><H34>
+                    <Link to="/react-stylux/documentation/plq"><H34>
                         PLQ type="2"
                     </H34></Link>
                     <PLQ type="2">

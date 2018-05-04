@@ -5,6 +5,7 @@ import {
     H42,
     BulletList1,
     HR,
+    H34,
 } from "react-stylux"
 
 export default function FigureView() {
@@ -21,7 +22,7 @@ export default function FigureView() {
             </BulletList1>
         </Holder>
         <Holder direction="column">
-
+        <H34>Figure</H34>
             <HR />
             <H42>Some Info</H42>
             <BulletList1>

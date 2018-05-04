@@ -5,6 +5,7 @@ import {
     H42,
     BulletList1,
     HR,
+    H34,
 } from "react-stylux"
 
 export default function Form1() {
@@ -21,11 +22,11 @@ export default function Form1() {
                 </BulletList1>
             </Holder>
             <Holder direction="column">
-
+                <H34>Form</H34>
                 <HR />
                 <H42>Some Info</H42>
                 <BulletList1>
-                    {""}
+                    {"Not currently a thing on the live package"}
                 </BulletList1>
                 <HR />
                 <H42>Suggested Use</H42>
