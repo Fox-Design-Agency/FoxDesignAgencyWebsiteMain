@@ -27,7 +27,7 @@ export default function StyluxChangelog() {
                         <H42>Version Number</H42>
                         <Navbar1
                             direction="column">
-                            <a href="/react-stylux/changelog#0.6.8" >0.6.8(Not Released)</a>
+                            <a href="/react-stylux/changelog#0.7.0" >0.7.0(Not Released)</a>
                             <a href="/react-stylux/changelog#0.6.7" >0.6.7</a>
                             <a href="/react-stylux/changelog#0.6.6" >0.6.6</a>
                             <a href="/react-stylux/changelog#0.6.3" >0.6.3</a>
@@ -73,9 +73,16 @@ export default function StyluxChangelog() {
                         direction="column">
                         <Holder
                             direction="column">
-                            <H42 id="0.6.8">0.6.8(Not Released)</H42>
+                            <H42 id="0.7.0">0.7.0(Not Released)</H42>
                             <BulletList1
                                 width="900px">
+                                {"Removal of old buttons, mages, cards, paragraphs, pull quotes, brands, lists"}
+                                {"Renaming Container to Wrapper"}
+                                {"Renaming type=' ' to box=' '"}
+                                {"Button && Image box='explicitName' being changed to box='#' "}
+                                {"List being reworked, documentation will reflect changes"}
+                                {"Initial Form block started"}
+                                {"Initial Input block started"}
                                 {"Condense Heading Blocks to H"}
                                 {"Condense Carousel Blocks to Carousel"}
                                 {"Condense Table Blocks to Table"}
@@ -84,8 +91,13 @@ export default function StyluxChangelog() {
                                 {"Documentation correctly portraying current props"}
                                 {"Documentation finished"}
                                 {"maxWidth and maxHeight verified on all blocks"}
-                                {"Check Card type 3"}
+                                {"Check Card box='3'"}
                             </BulletList1>
+
+                            <a href="/react-stylux/changelog#topofpage">Back to top...</a>
+                        </Holder>
+                        <Holder
+                            direction="column">
                             <H42 id="0.6.7">0.6.7</H42>
                             <BulletList1
                                 width="900px">
