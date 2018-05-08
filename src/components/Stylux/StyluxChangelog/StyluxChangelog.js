@@ -76,7 +76,7 @@ export default function StyluxChangelog() {
                             <H42 id="0.7.0">0.7.0(Not Released)</H42>
                             <BulletList1
                                 width="900px">
-                                {"Removal of old buttons, mages, cards, paragraphs, pull quotes, brands, lists"}
+                                {"Removal of old buttons, images, cards, paragraphs, pull quotes, brands, lists"}
                                 {"Renaming Container to Wrapper"}
                                 {"Renaming type=' ' to box=' '"}
                                 {"Button && Image box='explicitName' being changed to box='#' "}
