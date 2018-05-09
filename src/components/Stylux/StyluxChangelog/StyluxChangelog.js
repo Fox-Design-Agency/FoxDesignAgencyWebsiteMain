@@ -92,6 +92,7 @@ export default function StyluxChangelog() {
                                 {"Documentation finished"}
                                 {"maxWidth and maxHeight verified on all blocks"}
                                 {"Check Card box='3'"}
+                                {"key now will remain consistant across renders and not break onChange for input handling"}
                             </BulletList1>
 
                             <a href="/react-stylux/changelog#topofpage">Back to top...</a>
