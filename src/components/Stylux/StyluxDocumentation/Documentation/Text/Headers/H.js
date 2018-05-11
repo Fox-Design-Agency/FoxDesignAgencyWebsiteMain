@@ -2,13 +2,12 @@ import React from "react";
 
 import {
     Holder,
-    H42,
-    BulletList1,
+    H,
+    List,
     HR,
-    H13,
 } from "react-stylux"
 
-export default function H13View() {
+export default function H11View() {
 
     return (
         <Holder
@@ -16,20 +15,20 @@ export default function H13View() {
             alignBlock2="flex-start">
             <Holder
                 direction="column">
-                <H42>Available Props</H42>
-                <BulletList1 width="300px">
-                    {"color"}
-                    {"font = 'sans-serif'"}
-                    {"size = '7.5em'"}
-                    {"smSize =  '4.4em'"}
-                    {"mdSize = '5.7em'"}
+                <H>Available Props</H>
+                <List width="300px">
+                    {"color = 'black'"}
+                    {"font = 'inherit'"}
+                    {"size = '7em'"}
+                    {"smSize =  '3.939em'"}
+                    {"mdSize = '5.25em'"}
                     {"weight = '900'"}
                     {"variant"}
                     {"display = 'flex'"}
                     {"align = 'center'"}
                     {"textAlign = 'center'"}
                     {"padding = '0 0 15px 0'"}
-                    {"margin = '0'"}
+                    {"margin = '1px'"}
                     {"width = 'inherit'"}
                     {"height"}
                     {"shadow"}
@@ -47,29 +46,28 @@ export default function H13View() {
                     {"smdis = 'flex'"}
                     {"mddis = 'flex'"}
                     {"hoverColor"}
-                </BulletList1>
+                </List>
             </Holder>
             <Holder direction="column">
-                <H13>H13</H13>
+                <H>H11</H>
                 <HR />
-                <H42>Some Info</H42>
-                <BulletList1>
+                <H>Some Info</H>
+                <List>
                     {"This accepts and renders one child into an h1"}
-                </BulletList1>
+                </List>
                 <HR />
-                <H42>Suggested Use</H42>
-                <BulletList1>
+                <H>Suggested Use</H>
+                <List>
                     {"Use once on a page, don't spam h1 tags"}
                     {"describe a page, or call attention to an area"}
-                </BulletList1>
+                </List>
                 <HR />
-                <H42>Size Information</H42>
-                <BulletList1>
-                    {"Large: num * 1.2ish"}
-                    {"Medium: num * 1.2ish"}
-                    {"Small: num * 1.2ish"}
-                </BulletList1>
-
+                <H>Size Information</H>
+                <List>
+                    {"Large: 1.333 * 1.618ish"}
+                    {"Medium: 1.333 * 1.618ish"}
+                    {"Small: 1.333 * 1.618ish"}
+                </List>
             </Holder>
         </Holder>
 

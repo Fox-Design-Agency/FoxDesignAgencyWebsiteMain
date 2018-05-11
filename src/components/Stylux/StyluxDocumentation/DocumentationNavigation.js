@@ -1,22 +1,22 @@
 import React from "react";
 import { Link } from "react-router-dom"
 import {
-    Container,
+    Wrapper,
     Holder,
-    Toggler2,
-    Navbar1,
+    Toggler,
+    Navbar,
 } from "react-stylux";
 
 export default function StyluxDocumentation() {
     return (
-        <Container>
+        <Wrapper>
             <Holder direction="column">
-                <Toggler2
+                <Toggler
                     buttonText="How to Use"
                     position="relative"
                     shadow="0"
                     width="200px">
-                    <Navbar1
+                    <Navbar
                         direction="column">
                         <Link to="/react-stylux/documentation/introduction">Introduction</Link>
                         <Link to="/react-stylux/documentation/getting-started">Getting Started</Link>
@@ -24,220 +24,163 @@ export default function StyluxDocumentation() {
                         <Link to="/react-stylux/documentation/step-by-step">Step by Step</Link>
                         <Link to="/react-stylux/documentation/animation-notes">Animation Notes</Link>
                         <Link to="/react-stylux/documentation/responsive-notes">Responsive Notes</Link>
-                    </Navbar1>
-                </Toggler2>
-                <Toggler2
+                    </Navbar>
+                </Toggler>
+                <Toggler
                     position="relative"
                     shadow="0"
                     width="200px"
                     buttonText="Layout">
-                    <Navbar1
+                    <Navbar
                         direction="column">
-                        <Link to="/react-stylux/documentation/layout-container">Container</Link>
+                        <Link to="/react-stylux/documentation/layout-wrapper">Wrapper</Link>
                         <Link to="/react-stylux/documentation/layout-holder">Holder</Link>
                         <Link to="/react-stylux/documentation/layout-hr">HR</Link>
-                    </Navbar1>
-                </Toggler2>
-                <Toggler2
+                    </Navbar>
+                </Toggler>
+                <Toggler
                     position="relative"
                     shadow="0"
                     width="200px"
                     buttonText="Blocks">
-                    <Toggler2
+                    <Toggler
                         position="relative"
                         shadow="0"
                         width="200px"
                         buttonText="Other">
-                        <Navbar1
+                        <Navbar
                             direction="column">
                             <Link to="/react-stylux/documentation/other-a">A</Link>
-                        </Navbar1>
-                    </Toggler2>
-                    <Toggler2
+                        </Navbar>
+                    </Toggler>
+                    <Toggler
                         position="relative"
                         shadow="0"
                         width="200px"
                         buttonText="Cards">
-                        <Navbar1
+                        <Navbar
                             direction="column">
                             <Link to="/react-stylux/documentation/card">Card</Link>
-                        </Navbar1>
-                    </Toggler2>
-                    <Toggler2
+                        </Navbar>
+                    </Toggler>
+                    <Toggler
                         position="relative"
                         shadow="0"
                         width="200px"
                         buttonText="Togglers">
-                        <Navbar1
+                        <Navbar
                             direction="column">
-                            <Link to="/react-stylux/documentation/toggler-1">Toggler1</Link>
-                            <Link to="/react-stylux/documentation/toggler-2">Toggler2</Link>
-                            <Link to="/react-stylux/documentation/toggler-3">Toggler3</Link>
-                            <Link to="/react-stylux/documentation/toggler-4">Toggler4</Link>
-                        </Navbar1>
-                        <Toggler2
+                            <Link to="/react-stylux/documentation/toggler">Toggler1</Link>
+                        </Navbar>
+                        <Toggler
                             position="relative"
                             shadow="0"
                             width="200px"
                             buttonText="Popups">
-                            <Navbar1
+                            <Navbar
                                 direction="column">
-                                <Link to="/react-stylux/documentation/toggler-popup-1">Popup1</Link>
-                                <Link to="/react-stylux/documentation/toggler-popup-2">Popup2</Link>
-                            </Navbar1>
-                        </Toggler2>
-                        <Toggler2
+                                <Link to="/react-stylux/documentation/toggler-popup">Popup1</Link>
+                            </Navbar>
+                        </Toggler>
+                        <Toggler
                             position="relative"
                             shadow="0"
                             width="200px"
                             buttonText="Modals">
-                            <Navbar1
+                            <Navbar
                                 direction="column">
-                                <Link to="/react-stylux/documentation/toggler-modal-1">Modal1</Link>
-                                <Link to="/react-stylux/documentation/toggler-modal-2">Modal2</Link>
-                                <Link to="/react-stylux/documentation/toggler-modal-3">Modal3</Link>
-                            </Navbar1>
-                        </Toggler2>
-                    </Toggler2>
-                    <Toggler2
+                                <Link to="/react-stylux/documentation/toggler-modal">Modal1</Link>
+                            </Navbar>
+                        </Toggler>
+                    </Toggler>
+                    <Toggler
                         position="relative"
                         shadow="0"
                         width="200px"
                         buttonText="Forms">
-                        <Navbar1 direction="column">
-                            <Link to="/react-stylux/documentation/form-1">Form1</Link>
-                        </Navbar1>
-                    </Toggler2>
-                    <Toggler2
+                        <Navbar direction="column">
+                            <Link to="/react-stylux/documentation/form">Form1</Link>
+                        </Navbar>
+                    </Toggler>
+                    <Toggler
                         position="relative"
                         shadow="0"
                         width="200px"
                         buttonText="Lists">
-                        <Navbar1 direction="column">
+                        <Navbar direction="column">
                             <Link to="/react-stylux/documentation/list">List</Link>
-                        </Navbar1>
-                    </Toggler2>
-                    <Toggler2
+                        </Navbar>
+                    </Toggler>
+                    <Toggler
                         position="relative"
                         shadow="0"
                         width="200px"
                         buttonText="Carousels">
-                        <Navbar1 direction="column">
-                            <Link to="/react-stylux/documentation/carousel-1">Carousel1</Link>
-                            <Link to="/react-stylux/documentation/carousel-2">Carousel2</Link>
-                            <Link to="/react-stylux/documentation/carousel-3">Carousel3</Link>
-                            <Link to="/react-stylux/documentation/carousel-4">Carousel4</Link>
-                            <Link to="/react-stylux/documentation/carousel-5">Carousel5</Link>
-                        </Navbar1>
-                    </Toggler2>
-                    <Toggler2
+                        <Navbar direction="column">
+                            <Link to="/react-stylux/documentation/carousel">Carousel1</Link>
+                        </Navbar>
+                    </Toggler>
+                    <Toggler
                         position="relative"
                         shadow="0"
                         width="200px"
                         buttonText="Navigation">
-                        <Navbar1 direction="column">
-                            <Link to="/react-stylux/documentation/navbar-1">Navbar1</Link>
-                            <Link to="/react-stylux/documentation/navbar-2">Navbar2</Link>
-                            <Link to="/react-stylux/documentation/subnavbar-1">Subnavbar1</Link>
-                            <Link to="/react-stylux/documentation/dropdownnav-1">Dropdownnav1</Link>
-                        </Navbar1>
-                    </Toggler2>
-                    <Toggler2
+                        <Navbar direction="column">
+                            <Link to="/react-stylux/documentation/navbar">Navbar</Link>
+                            <Link to="/react-stylux/documentation/subnavbar">SubNavbar</Link>
+                            <Link to="/react-stylux/documentation/dropdownnav">Dropdownnav1</Link>
+                        </Navbar>
+                    </Toggler>
+                    <Toggler
                         position="relative"
                         shadow="0"
                         width="200px"
                         buttonText="Images">
-                        <Navbar1 direction="column">
+                        <Navbar direction="column">
                             <Link to="/react-stylux/documentation/image">Image</Link>
                             <Link to="/react-stylux/documentation/figure">Figure</Link>
-                        </Navbar1>
-                    </Toggler2>
-                    <Toggler2
+                        </Navbar>
+                    </Toggler>
+                    <Toggler
                         position="relative"
                         shadow="0"
                         width="200px"
                         buttonText="Buttons">
-                        <Navbar1 direction="column">
+                        <Navbar direction="column">
                             <Link to="/react-stylux/documentation/button">Button</Link>
-                        </Navbar1>
-                    </Toggler2>
-                    <Toggler2
+                        </Navbar>
+                    </Toggler>
+                    <Toggler
                         position="relative"
                         shadow="0"
                         width="200px"
                         buttonText="Text">
-                        <Toggler2
+                        <Toggler
                             position="relative"
                             shadow="0"
                             width="200px"
                             buttonText="Headings">
 
-                            <Toggler2
+                            <Toggler
                                 position="relative"
                                 shadow="0"
                                 width="200px"
                                 buttonText="H4">
-                                <Navbar1 direction="column">
-                                    <Link to="/react-stylux/documentation/h-4-1">H41</Link>
-                                    <Link to="/react-stylux/documentation/h-4-2">H42</Link>
-                                    <Link to="/react-stylux/documentation/h-4-3">H43</Link>
-                                    <Link to="/react-stylux/documentation/h-4-4">H44</Link>
-                                    <Link to="/react-stylux/documentation/h-4-5">H45</Link>
-                                </Navbar1>
+                                <Navbar direction="column">
+                                    <Link to="/react-stylux/documentation/h">H41</Link>
+                                </Navbar>
+                            </Toggler>
 
-                            </Toggler2> <Toggler2
-                                position="relative"
-                                shadow="0"
-                                width="200px"
-                                buttonText="H3">
-                                <Navbar1 direction="column">
-                                    <Link to="/react-stylux/documentation/h-3-1">H31</Link>
-                                    <Link to="/react-stylux/documentation/h-3-2">H32</Link>
-                                    <Link to="/react-stylux/documentation/h-3-3">H33</Link>
-                                    <Link to="/react-stylux/documentation/h-3-4">H34</Link>
-                                    <Link to="/react-stylux/documentation/h-3-5">H35</Link>
-                                </Navbar1>
+                        </Toggler>
+                    </Toggler>
+                    <Navbar direction="column">
+                        <Link to="/react-stylux/documentation/p">P</Link>
+                        <Link to="/react-stylux/documentation/plq">PLQ</Link>
+                    </Navbar>
 
-                            </Toggler2>
-                            <Toggler2
-                                position="relative"
-                                shadow="0"
-                                width="200px"
-                                buttonText="H2">
-                                <Navbar1 direction="column">
-                                    <Link to="/react-stylux/documentation/h-2-1">H21</Link>
-                                    <Link to="/react-stylux/documentation/h-2-2">H22</Link>
-                                    <Link to="/react-stylux/documentation/h-2-3">H23</Link>
-                                    <Link to="/react-stylux/documentation/h-2-4">H24</Link>
-                                    <Link to="/react-stylux/documentation/h-2-5">H25</Link>
-                                </Navbar1>
-
-                            </Toggler2>
-                            <Toggler2
-                                position="relative"
-                                shadow="0"
-                                width="200px"
-                                buttonText="H1">
-                                <Navbar1 direction="column">
-                                    <Link to="/react-stylux/documentation/h-1-1">H11</Link>
-                                    <Link to="/react-stylux/documentation/h-1-2">H12</Link>
-                                    <Link to="/react-stylux/documentation/h-1-3">H13</Link>
-                                    <Link to="/react-stylux/documentation/h-1-4">H14</Link>
-                                    <Link to="/react-stylux/documentation/h-1-5">H15</Link>
-                                </Navbar1>
-
-                            </Toggler2>
-                        </Toggler2>
-                        <Navbar1 direction="column">
-                            <Link to="/react-stylux/documentation/p">P</Link>
-                            <Link to="/react-stylux/documentation/plq">PLQ</Link>
-                        </Navbar1>
-
-                </Toggler2>
-
-                </Toggler2>
+                </Toggler>
 
             </Holder >
-        </Container >
+        </Wrapper >
     )
 } 

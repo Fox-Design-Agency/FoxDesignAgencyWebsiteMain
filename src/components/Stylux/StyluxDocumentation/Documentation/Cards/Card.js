@@ -2,11 +2,10 @@ import React from "react";
 
 import {
     Holder,
-    H42,
-    BulletList1,
+    H,
+    List,
     HR,
     Card,
-    H34,
 } from "react-stylux"
 
 export default function CardView() {
@@ -17,8 +16,8 @@ export default function CardView() {
             alignBlock2="flex-start">
             <Holder
                 direction="column">
-                <H42>Available Props</H42>
-                <BulletList1 width="300px">
+                <H>Available Props</H>
+                <List width="300px">
                     {"shadow = '1px 4px 8px 0 rgba(0,0,0,0.2)'"}
                     {" hovShadow = '1px 8px 16px 0 rgba(0,0,0,0.2)'"}
                     {" corners"}
@@ -27,30 +26,30 @@ export default function CardView() {
                     {"smDis"}
                     {"mdDis"}
                     {"type"}
-                </BulletList1>
+                </List>
             </Holder>
             <Holder direction="column">
-                <H34>Card</H34>
+                <H>Card</H>
                 <Card></Card>
                 <HR />
-                <H42>Some Info</H42>
-                <BulletList1>
+                <H>Some Info</H>
+                <List>
                     {"type='1' Img, alt tag, Header, Paragraph"}
                     {"type='2' Img, alt tag, Header, Paragraph, Button Text"}
                     {"type='3' 7 Slots"}
-                </BulletList1>
+                </List>
                 <HR />
-                <H42>Suggested Use</H42>
-                <BulletList1>
+                <H>Suggested Use</H>
+                <List>
                     {""}
-                </BulletList1>
+                </List>
                 <HR />
-                <H42>Size Information</H42>
-                <BulletList1>
+                <H>Size Information</H>
+                <List>
                     {"Large: ??"}
                     {"Medium: ??"}
                     {"Small: ??"}
-                </BulletList1>
+                </List>
 
             </Holder>
         </Holder>

@@ -4,34 +4,33 @@ import StyluxFooter from "../StyluxFooter/StyluxFooter";
 import DocumentaionNavigation from "./DocumentationNavigation"
 import DocumentationRouter from "./DucmentationRouter";
 import {
-    Container,
+    Wrapper,
     Holder,
-    H22,
-    P1,
-    Toggler2,
-    BulletList1
+    H,
+    Toggler,
+    List
 } from "react-stylux";
 
 export default function StyluxDocumentation() {
     return (
-        <section>
+        <Wrapper>
             <StyluxHeader />
-            <Container>
-                <H22>Documentation</H22>
+
+            <H>Documentation</H>
+            <Holder
+                alignBlock1="flex-start"
+                block1="0.25"
+                alignBlock2="flex-start">
+                <DocumentaionNavigation />
                 <Holder
-                    alignBlock1="flex-start"
-                    block1="0.25"
-                    alignBlock2="flex-start">
-                    <DocumentaionNavigation />
-                    <Holder
-                        padding= "20px"
-                        direction="column"
-                            >
-                        {DocumentationRouter}
-                    </Holder>
+                    padding="20px"
+                    direction="column"
+                >
+                    {DocumentationRouter}
                 </Holder>
-            </Container>
+            </Holder>
+
             <StyluxFooter />
-        </section>
+        </Wrapper>
     )
 } 

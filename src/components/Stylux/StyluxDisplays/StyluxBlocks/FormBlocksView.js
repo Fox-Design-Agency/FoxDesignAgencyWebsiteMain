@@ -3,22 +3,22 @@ import StyluxHeader from "../../StyluxHeader/StyluxHeader";
 import StyluxFooter from "../../StyluxFooter/StyluxFooter";
 import BlocksSubNavBar from "./SubHeader/StyluxBlocksSubHeader";
 import {
-    Container,
-    H22,
+    Wrapper,
+    H,
     HR,
 } from "react-stylux";
 
 export default function StyluxFormBlocksViews() {
     return (
-        <section>
+      <Wrapper>
             <StyluxHeader />
-            <Container>
+           
                 <BlocksSubNavBar />
-                <H22>Form Blocks</H22>
+                <H>Form Blocks</H>
 
                 <HR />
-            </Container>
+           
             <StyluxFooter />
-        </section>
+         </Wrapper>
     )
 } 

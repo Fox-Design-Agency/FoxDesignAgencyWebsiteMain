@@ -3,14 +3,13 @@ import { Link } from "react-router-dom"
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 import {
-    Container,
+    Wrapper,
     Holder,
-    H41,
+    H,
     Image,
-    H42,
     HR,
-    P1,
-    BulletList1,
+    P,
+    List,
 } from "react-stylux";
 
 import comingSoon from "../../assets/placeholders/ComingSoon500Square.jpg";
@@ -25,10 +24,10 @@ export default function Projects() {
 
     return (
         <section>
-            <Container>
+            <Wrapper>
                 <Header />
                 <HR />
-                <Link to="/projects/web"><H41>Web Projects</H41></Link>
+                <Link to="/projects/web"><H>Web Projects</H></Link>
                 <HR />
                 <Holder direction="column">
                     <Holder>
@@ -41,14 +40,14 @@ export default function Projects() {
                         </Link>
                         <Holder direction="column">
 
-                            <Link to="/projects/web/aristos"><H42>Aristos Project</H42></Link>
-                            <BulletList1>
+                            <Link to="/projects/web/aristos"><H>Aristos Project</H></Link>
+                            <List>
                                 {"In initial development stages"}
                                 {"CMS and Website builder built in Golang"}
                                 {"All pages set up with HTTPS through Let's Encrypt"}
                                 {"Multiple encoders and decoders built for many file types"}
                                 {"Working on full AWS integration"}
-                            </BulletList1>
+                            </List>
                         </Holder>
 
                     </Holder>
@@ -62,13 +61,13 @@ export default function Projects() {
                             </Image>
                         </Link>
                         <Holder direction="column">
-                            <Link to="/projects/web/react-stylux"><H42>react-stylux</H42></Link>
-                            <BulletList1>
+                            <Link to="/projects/web/react-stylux"><H>react-stylux</H></Link>
+                            <List>
                                 {"Still under development"}
                                 {"Component library with layout mechanic"}
                                 {"Uses style object to style components through props"}
                                 {"This web page was built with react-stylux to test capability"}
-                            </BulletList1>
+                            </List>
                         </Holder>
 
                     </Holder>
@@ -82,12 +81,12 @@ export default function Projects() {
                         </Image>
                         </Link>
                         <Holder direction="column">
-                            <Link to="/projects/web/ataraxy-clothing"><H42>Ataraxy Clothing</H42></Link>
-                            <BulletList1>
+                            <Link to="/projects/web/ataraxy-clothing"><H>Ataraxy Clothing</H></Link>
+                            <List>
                                 {"Won most technical award during personal project presentations"}
                                 {"Designed a component library (react-stylux) to build this project"}
                                 {"This is a full-stack application with complete stripe integration"}
-                            </BulletList1>
+                            </List>
                         </Holder>
 
                     </Holder>
@@ -101,18 +100,18 @@ export default function Projects() {
                         </Image>
                         </Link>
                         <Holder direction="column">
-                            <Link to="/projects/web/foxchrisrealthe"><H42>FoxChrisRealThe</H42></Link>
-                            <BulletList1>
+                            <Link to="/projects/web/foxchrisrealthe"><H>FoxChrisRealThe</H></Link>
+                            <List>
                                 {""}
-                            </BulletList1>
+                            </List>
                         </Holder>
 
                     </Holder>
-                    <Link to="/projects/web"><P1>More Web Projects...</P1></Link>
+                    <Link to="/projects/web"><P>More Web Projects...</P></Link>
                     <HR />
                 </Holder>
 
-                <Link to="/projects/print"><H41>Print Projects</H41></Link>
+                <Link to="/projects/print"><H>Print Projects</H></Link>
                 <HR />
                 <Holder direction="column">
                     <Holder>
@@ -125,21 +124,21 @@ export default function Projects() {
                         </Link>
                         <Holder direction="column">
                             <Link to="/projects/print/nightmare-poster">
-                                <H42>Nightmare Poster</H42>
+                                <H>Nightmare Poster</H>
                             </Link>
-                            <BulletList1>
+                            <List>
                                 {"Project for a friend's play"}
                                 {"Play was housed April 14th 2018"}
-                            </BulletList1>
+                            </List>
                         </Holder>
 
                     </Holder>
-                    <Link to="/projects/print"><P1>More Print Projects...</P1></Link>
+                    <Link to="/projects/print"><P>More Print Projects...</P></Link>
                     <HR />
 
                 </Holder>
                 <Footer />
-            </Container>
+            </Wrapper>
         </section>
     )
 }

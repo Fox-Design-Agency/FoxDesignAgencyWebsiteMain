@@ -4,54 +4,53 @@ import StyluxHeader from "../StyluxHeader/StyluxHeader";
 import StyluxFooter from "../StyluxFooter/StyluxFooter";
 
 import {
-    Container,
+    Wrapper,
     Holder,
-    H22,
-    H34,
+    H,
     HR,
     Block2,
 } from "react-stylux";
 
 export default function StyluxBlocksView() {
     return (
-        <section>
+       <Wrapper>
             <StyluxHeader />
-            <Container>
+            
                 <Holder
                     direction="column">
-                    <H22>
+                    <H>
                         Layout
-                    </H22>
+                    </H>
                     <HR />
-                    <Link to="/react-stylux/documentation/layout-container">
-                        <H34>
-                            Container with one child
-                    </H34>
+                    <Link to="/react-stylux/documentation/layout-wrapper">
+                        <H>
+                            Wrapper with one child
+                        </H>
                     </Link>
-                    <Container>
+                    <Wrapper>
                         <Block2 />
-                    </Container>
+                    </Wrapper>
                     <Link to="/react-stylux/documentation/layout-holder">
-                        <H34>
+                        <H>
                             Holder with one child
-                        </H34>
+                        </H>
                     </Link>
                     <Holder>
                         <Block2 />
                     </Holder>
-                    <H34>
-                        Holder nested inside of container with two children
-                    </H34>
-                    <Container>
+                    <H>
+                        Holder nested inside of Wrapper with two children
+                    </H>
+                    <Wrapper>
                         <Holder>
                             <Block2 />
                             <Block2 />
                         </Holder>
-                    </Container>
-                    <H34>
+                    </Wrapper>
+                    <H>
                         Two column example
-                    </H34>
-                    <Container>
+                    </H>
+                    <Wrapper>
                         <Block2 />
                         <Holder alignBlock2="flex-start">
                             <Holder direction="column">
@@ -65,11 +64,11 @@ export default function StyluxBlocksView() {
                             </Holder>
                         </Holder>
                         <Block2 />
-                    </Container>
+                    </Wrapper>
                     <HR />
                 </Holder>
-            </Container>
+            
             <StyluxFooter />
-        </section>
+       </Wrapper>
     )
 }

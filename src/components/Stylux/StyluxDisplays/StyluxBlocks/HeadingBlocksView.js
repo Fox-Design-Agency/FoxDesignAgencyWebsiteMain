@@ -4,165 +4,147 @@ import StyluxHeader from "../../StyluxHeader/StyluxHeader";
 import StyluxFooter from "../../StyluxFooter/StyluxFooter";
 import BlocksSubNavBar from "./SubHeader/StyluxBlocksSubHeader";
 import {
-    Container,
+    Wrapper,
     Holder,
-    H11,
-    H12,
-    H13,
-    H14,
-    H15,
-    H21,
-    H22,
-    H23,
-    H24,
-    H25,
-    H31,
-    H32,
-    H33,
-    H34,
-    H35,
-    H41,
-    H42,
-    H43,
-    H44,
-    H45,
-    HR, BulletList1
+    H,
+    HR, 
+    List
 } from "react-stylux";
 
 export default function StyluxHeadingBlocksViews() {
     return (
-        <section>
+        <Wrapper>
             <StyluxHeader />
-            <Container>
+           
                 <BlocksSubNavBar />
-                <H22>Heading Blocks</H22>
+                <H>Heading Blocks</H>
                 <Holder
                     direction="column">
-                    <HR /><H34> Sizes</H34>
+                    <HR /><H> Sizes</H>
                     <Holder>
                         <Holder direction="column">
-                            <H42>large size:</H42>
-                            <BulletList1 width="350px">
+                            <H>large size:</H>
+                            <List width="350px">
                                 {"1: Base Version - 1.333 * 1.618ish"}
                                 {"2: Smaller Version - num/1.2ish"}
                                 {"3: Larger Version - num * 1.2ish"}
                                 {"4: Light Gray Base Version"}
                                 {"5: Open (Possible outline version)"}
-                            </BulletList1>
+                            </List>
                         </Holder>
                         <Holder direction="column">
-                            <H42>medium size (Not set):</H42>
-                            <BulletList1 width="350px">
+                            <H>medium size (Not set):</H>
+                            <List width="350px">
                                 {"1: Base Version - 1.333 * 1.618ish"}
                                 {"2: Smaller Version - num/1.2ish"}
                                 {"3: Larger Version - num * 1.2ish"}
                                 {"4: Light Gray Base Version"}
                                 {"5: Open (Possible outline version)"}
-                            </BulletList1>
+                            </List>
                         </Holder>
                         <Holder direction="column">
-                            <H42>small size (Not set):</H42>
-                            <BulletList1 width="350px">
+                            <H>small size (Not set):</H>
+                            <List width="350px">
                                 {"1: Base Version - 1.333 * 1.618ish"}
                                 {"2: Smaller Version - num/1.2ish"}
                                 {"3: Larger Version - num * 1.2ish"}
                                 {"4: Light Gray Base Version"}
                                 {"5: Open (Possible outline version)"}
-                            </BulletList1>
+                            </List>
                         </Holder>
                     </Holder>
                     <HR />
-                    <H34>
+                    <H>
                         main headings
-                    </H34>
+                    </H>
                     <HR />
-                    <Link to="/react-stylux/documentation/h-1-1"><H11>
+                    <Link to="/react-stylux/documentation/h"><H>
                         H11
-                    </H11></Link>
-                    <Link to="/react-stylux/documentation/h-1-2"><H12>
+                    </H></Link>
+                    <Link to="/react-stylux/documentation/h"><H>
                         H12
-                    </H12></Link>
-                    <Link to="/react-stylux/documentation/h-1-3"><H13>
+                    </H></Link>
+                    <Link to="/react-stylux/documentation/h"><H>
                         H13
-                </H13></Link>
-                    <Link to="/react-stylux/documentation/h-1-4"><H14>
+                </H></Link>
+                    <Link to="/react-stylux/documentation/h"><H>
                         H14
-                </H14></Link>
-                    <Link to="/react-stylux/documentation/h-1-5"><H15>
+                </H></Link>
+                    <Link to="/react-stylux/documentation/h"><H>
                         H15
-                </H15></Link>
+                </H></Link>
                 </Holder>
                 <Holder direction="column">
                     <HR />
-                    <H34>
+                    <H>
                         heading
-                    </H34>
+                    </H>
                     <HR />
-                    <Link to="/react-stylux/documentation/h-2-1"><H21>
+                    <Link to="/react-stylux/documentation/h"><H>
                         H21
-                    </H21></Link>
-                    <Link to="/react-stylux/documentation/h-2-2"><H22>
+                    </H></Link>
+                    <Link to="/react-stylux/documentation/h"><H>
                         H22
-                    </H22></Link>
-                    <Link to="/react-stylux/documentation/h-2-3"><H23>
+                    </H></Link>
+                    <Link to="/react-stylux/documentation/h"><H>
                         H23
-                    </H23></Link>
-                    <Link to="/react-stylux/documentation/h-2-4"><H24>
+                    </H></Link>
+                    <Link to="/react-stylux/documentation/h"><H>
                         H24
-                    </H24></Link>
-                    <Link to="/react-stylux/documentation/h-2-5"><H25>
+                    </H></Link>
+                    <Link to="/react-stylux/documentation/h"><H>
                         H25
-                    </H25></Link>
+                    </H></Link>
                 </Holder>
                 <Holder
                     direction="column">
                     <HR />
-                    <H34>
+                    <H>
                         subheadings
-                    </H34>
+                    </H>
                     <HR />
-                    <Link to="/react-stylux/documentation/h-3-1"><H31>
+                    <Link to="/react-stylux/documentation/h"><H>
                         H31
-                    </H31></Link>
-                    <Link to="/react-stylux/documentation/h-3-2"><H32>
+                    </H></Link>
+                    <Link to="/react-stylux/documentation/h"><H>
                         H32
-                    </H32></Link>
-                    <Link to="/react-stylux/documentation/h-3-3"><H33>
+                    </H></Link>
+                    <Link to="/react-stylux/documentation/h"><H>
                         H33
-                    </H33></Link>
-                    <Link to="/react-stylux/documentation/h-3-4"><H34>
-                        H34
-                    </H34></Link>
-                    <Link to="/react-stylux/documentation/h-3-5"><H35>
+                    </H></Link>
+                    <Link to="/react-stylux/documentation/h"><H>
+                        H box='4'
+                    </H></Link>
+                    <Link to="/react-stylux/documentation/h"><H>
                         H35
-                    </H35></Link>
+                    </H></Link>
                 </Holder>
                 <Holder
                     direction="column">
                     <HR />
-                    <H34>
+                    <H>
                         secondary subheadings
-                    </H34>
+                    </H>
                     <HR />
-                    <Link to="/react-stylux/documentation/h-4-1"><H41>
+                    <Link to="/react-stylux/documentation/h"><H>
                         H41
-                    </H41></Link>
-                    <Link to="/react-stylux/documentation/h-4-2"><H42>
+                    </H></Link>
+                    <Link to="/react-stylux/documentation/h"><H>
                         H42
-                    </H42></Link>
-                    <Link to="/react-stylux/documentation/h-4-3"><H43>
+                    </H></Link>
+                    <Link to="/react-stylux/documentation/h"><H>
                         H43
-                    </H43></Link>
-                    <Link to="/react-stylux/documentation/h-4-4"><H44>
+                    </H></Link>
+                    <Link to="/react-stylux/documentation/h"><H>
                         H44
-                    </H44></Link>
-                    <Link to="/react-stylux/documentation/h-4-5"><H45>
+                    </H></Link>
+                    <Link to="/react-stylux/documentation/h"><H>
                         H45
-                    </H45></Link>
+                    </H></Link>
                 </Holder>
                 <HR />
-            </Container>
+           
             <StyluxFooter />
-        </section>
+         </Wrapper>
     )
 } 

@@ -2,13 +2,13 @@ import React from "react";
 
 import {
     Holder,
-    H42,
-    BulletList1,
+    H,
+    List,
     HR,
-    Carousel2
+    Carousel
 } from "react-stylux"
 
-export default function Carousel2View() {
+export default function Carousel1View() {
 
     return (
         <Holder
@@ -16,41 +16,46 @@ export default function Carousel2View() {
             alignBlock2="flex-start">
             <Holder
                 direction="column">
-                <H42>Available Props</H42>
-                <BulletList1 width="300px">
+                <H>Available Props</H>
+                <List width="300px">
                     {"arrowColor = 'white'"}
                     {"background = 'black'"}
                     {"padding"}
-                    {"height: '450px'"}
+                    {" height: '450px'"}
                     {"sliderTimer = '5000'"}
                     {"mainid"}
-                    {"sliderid"}
-                    {"mainClassName"}
-                    {"sliderClassName"}
+                    {" leftArrowid"}
+                    {" rightArrowid"}
+                    {" sliderid"}
+                    {" mainClassName"}
+                    {" leftArrowClassName"}
+                    {" rightArrowClassName"}
+                    {" sliderClassName"}
 
-                </BulletList1>
+                </List>
             </Holder>
             <Holder direction="column">
 
                 <HR />
-                <H42>Some Info</H42>
-                <BulletList1>
+                <H>Some Info</H>
+                <List>
                     {""}
-                </BulletList1>
+                </List>
                 <HR />
-                <H42>Suggested Use</H42>
-                <BulletList1>
+                <H>Suggested Use</H>
+                <List>
                     {""}
-                </BulletList1>
+                </List>
                 <HR />
-                <H42>Size Information</H42>
-                <BulletList1>
+                <H>Size Information</H>
+                <List>
                     {"Large: ??"}
                     {"Medium: ??"}
                     {"Small: ??"}
-                </BulletList1>
+                </List>
 
             </Holder>
         </Holder>
+
     )
 }

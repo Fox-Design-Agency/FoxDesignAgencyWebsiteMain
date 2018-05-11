@@ -2,11 +2,10 @@ import React from "react";
 
 import {
     Holder,
-    H42,
+    H,
     P,
-    BulletList1,
+    List,
     HR,
-    H34,
 } from "react-stylux"
 
 export default function PView() {
@@ -17,8 +16,8 @@ export default function PView() {
             alignBlock2="flex-start">
             <Holder
                 direction="column">
-                <H42>Available Props</H42>
-                <BulletList1 width="300px">
+                <H>Available Props</H>
+                <List width="300px">
                     {" color"}
                     {"shadow"}
                     {"font"}
@@ -56,32 +55,32 @@ export default function PView() {
                     {"  hovColor"}
                     {"wordWrap"}
                     {"type"}
-                </BulletList1>
+                </List>
             </Holder>
             <Holder direction="column">
-                <H34>P</H34>
+                <H>P</H>
                 <P type="1">This is paragraph or more just a sentence.</P>
                 <HR />
-                <H42>Some Info</H42>
-                <BulletList1>
+                <H>Some Info</H>
+                <List>
                     {"This accepts and renders multiple children all rendered into a p tag"}
                     {"type='1' = P1"}
                     {"type='2' = P2"}
                     {"type='3' = P3"}
                     {"type='4' = P4"}
                     {"type='5' = P5"}
-                </BulletList1>
+                </List>
                 <HR />
-                <H42>Suggested Use</H42>
-                <BulletList1>
+                <H>Suggested Use</H>
+                <List>
                     {"Use as a hParagraph and stuff related to text."}
-                </BulletList1>
+                </List>
                 <HR />
-                <H42>Size Information</H42>
+                <H>Size Information</H>
 
-                <BulletList1>
+                <List>
                     {" "}
-                </BulletList1>
+                </List>
 
             </Holder>
         </Holder>

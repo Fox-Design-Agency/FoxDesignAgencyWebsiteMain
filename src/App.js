@@ -8,6 +8,8 @@ import Footer from "./components/Footer/Footer";
 //import main pages that are not store or blog
 import LandingPage from "./components/Home/LandingPage";
 
+import About from "./components/About/About";
+
 //project imports
 import Projects from "./components/Projects/Projects";
 import WebProjects from "./components/Projects/WebProjectsMain";
@@ -47,6 +49,8 @@ export default function App() {
         <div>
             <Switch>
                 <Route exact path="/" component={LandingPage} />
+
+                <Route path="/about" component={About} />
 
                 <Route exact path="/projects" component={Projects} />
                 <Route exact path="/projects/web" component={WebProjects} />

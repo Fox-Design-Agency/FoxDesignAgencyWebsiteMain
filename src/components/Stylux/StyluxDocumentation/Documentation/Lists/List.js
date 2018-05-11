@@ -2,11 +2,9 @@ import React from "react";
 
 import {
     Holder,
-    H42,
-    BulletList1,
-    HR,
-    H34,
+    H,
     List,
+    HR,
 } from "react-stylux"
 
 export default function List1View() {
@@ -17,8 +15,8 @@ export default function List1View() {
             alignBlock2="flex-start">
             <Holder
                 direction="column">
-                <H42>Available Props</H42>
-                <BulletList1 width="300px">
+                <H>Available Props</H>
+                <List width="300px">
                     {"listAmount = '1'"}
                     {"color = 'black'"}
                     {"font = 'serif'"}
@@ -41,31 +39,31 @@ export default function List1View() {
                     {"aniFillMode"}
                     {"width='100%'"}
                     {"type"}
-                </BulletList1>
+                </List>
             </Holder>
             <Holder direction="column">
-                <H34>List</H34>
+                <H>List</H>
                 <HR />
-                <H42>Some Info</H42>
-                <BulletList1>
+                <H>Some Info</H>
+                <List>
                     {"type='1' basic number"}
                     {"type='2' big number list, needs work"}
                     {"type='3' open"}
                     {"type='4' disc bullet"}
                     {"type='5' square bullet"}
-                </BulletList1>
+                </List>
                 <HR />
-                <H42>Suggested Use</H42>
-                <BulletList1>
+                <H>Suggested Use</H>
+                <List>
                     {"Use to list things"}
-                </BulletList1>
+                </List>
                 <HR />
-                <H42>Size Information</H42>
-                <BulletList1>
+                <H>Size Information</H>
+                <List>
                     {"Large: ??"}
                     {"Medium: ??"}
                     {"Small: ??"}
-                </BulletList1>
+                </List>
 
             </Holder>
         </Holder>

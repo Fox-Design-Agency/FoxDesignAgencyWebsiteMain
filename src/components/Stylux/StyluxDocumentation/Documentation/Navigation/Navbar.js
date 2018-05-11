@@ -2,8 +2,8 @@ import React from "react";
 
 import {
     Holder,
-    H42,
-    BulletList1,
+    H,
+    List,
     HR,
 } from "react-stylux"
 
@@ -15,8 +15,8 @@ export default function Navbar1() {
         alignBlock2="flex-start">
         <Holder
             direction="column">
-            <H42>Available Props</H42>
-            <BulletList1 width="300px">
+            <H>Available Props</H>
+            <List width="300px">
             {"position"}
             {"top"}
             {"left"}
@@ -55,27 +55,27 @@ export default function Navbar1() {
             {"itemsid"}
             {"navClassName"}
             {"itemsClassName"}
-            </BulletList1>
+            </List>
             </Holder>
             <Holder direction="column">
     
                 <HR />
-                <H42>Some Info</H42>
-                <BulletList1>
+                <H>Some Info</H>
+                <List>
                     {""}
-                </BulletList1>
+                </List>
                 <HR />
-                <H42>Suggested Use</H42>
-                <BulletList1>
+                <H>Suggested Use</H>
+                <List>
                     {""}
-                </BulletList1>
+                </List>
                 <HR />
-                <H42>Size Information</H42>
-                <BulletList1>
+                <H>Size Information</H>
+                <List>
                     {"Large: ??"}
                     {"Medium: ??"}
                     {"Small: ??"}
-                </BulletList1>
+                </List>
     
             </Holder>
         </Holder>

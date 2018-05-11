@@ -3,15 +3,14 @@ import Header from "../../Header/Header";
 import Footer from "../../Footer/Footer";
 import { Link } from "react-router-dom";
 import {
-    Container,
+    Wrapper,
     Holder,
     HR,
-    H31,
-    P1,
+    H,
+    P,
     A,
     Image,
-    H42,
-    BulletList1,
+    List,
 } from "react-stylux"
 
 import ataraxyClothing from "../../../assets/projects/web/AtaraxyClothingHomepage_LG.jpg";
@@ -21,13 +20,13 @@ export default function AtaraxyClothingView() {
     return (
         <section>
             <Header />
-            <Container>
+            <Wrapper>
                 <HR height="300px" />
                 <Holder
                     direction="column">
-                    <H31>
+                    <H>
                         Ataraxy Clothing
-                    </H31>
+                    </H>
                     <Holder
                         direction="column">
                         <Holder>
@@ -39,24 +38,24 @@ export default function AtaraxyClothingView() {
                             </Image>
                             <Holder
                                 direction="column">
-                                <H42 margin="0 0 50px 0">
+                                <H margin="0 0 50px 0">
                                     Ataraxy Clothing
-                                    </H42>
-                                <BulletList1>
+                                    </H>
+                                <List>
                                     {"Won most technical award during personal project presentations"}
                                     {"Designed a component library (react-stylux) to build this project"}
                                     {"This is a full-stack application with complete stripe integration"}
 
-                                </BulletList1>
+                                </List>
                             </Holder>
                         </Holder>
                         <HR />
                     </Holder>
 
-                    <Link to="/projects/web"><P1>Back to Web Projects...</P1></Link>
+                    <Link to="/projects/web"><P>Back to Web Projects...</P></Link>
                 </Holder>
                 <HR height="300px" />
-            </Container>
+            </Wrapper>
             <Footer />
         </section>
     )

@@ -2,7 +2,7 @@ import React from "react";
 
 import {
     Holder,
-    P1,
+    P,
 
 } from "react-stylux"
 
@@ -11,7 +11,7 @@ export default function AnimationNotes() {
     return (
         <Holder
             direction="column">
-            <P1>The animation library is currently mostly from: animate.css, Massive credit for the animations to Daniel Eden - animate.css - http://daneden.me/animate</P1>
+            <P>The animation library is currently mostly from: animate.css, Massive credit for the animations to Daniel Eden - animate.css - http://daneden.me/animate</P>
 
             all blocks have access to:
 - animationIterationCount in the form of: props.aniCount,

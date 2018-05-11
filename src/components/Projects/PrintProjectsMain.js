@@ -5,11 +5,10 @@ import Footer from "../Footer/Footer";
 
 
 import {
-    Container,
+    Wrapper,
     Holder,
-    H42,
-    BulletList1,
-    H41,
+    H,
+    List,
     HR,
     Image,
 } from "react-stylux";
@@ -22,11 +21,11 @@ export default function PrintProjectMain() {
 
     return (
         <section>
-            <Container>
+            <Wrapper>
                 <Header />
                 <Holder direction="column">
                     <HR />
-                    <H41>Print Projects</H41>
+                    <H>Print Projects</H>
                     <HR />
                     <Holder direction="column">
                         <Holder>
@@ -38,11 +37,11 @@ export default function PrintProjectMain() {
                             </Image>
                             </Link>
                             <Holder direction="column">
-                                <Link to="/projects/print/nightmare-poster"><H42>Nightmare Poster</H42></Link>
-                                <BulletList1>
+                                <Link to="/projects/print/nightmare-poster"><H>Nightmare Poster</H></Link>
+                                <List>
                                 {"Project for a friend's play"}
                                 {"Play was housed April 14th 2018"}
-                                </BulletList1>
+                                </List>
                             </Holder>
 
                         </Holder>
@@ -51,7 +50,7 @@ export default function PrintProjectMain() {
                 <HR />
 
                 <Footer />
-            </Container>
+            </Wrapper>
         </section>
     )
 }

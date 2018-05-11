@@ -3,15 +3,14 @@ import Header from "../../Header/Header";
 import Footer from "../../Footer/Footer";
 import { Link } from "react-router-dom";
 import {
-    Container,
+    Wrapper,
     Holder,
     HR,
-    H31,
-    P1,
+    H,
+    P,
     A,
     Image,
-    H42,
-    BulletList1,
+    List,
 } from "react-stylux"
 
 import nightmarePoster from "../../../assets/projects/print/nightmaresPoster.jpg";
@@ -21,13 +20,13 @@ export default function NightmaresPosterView() {
     return (
         <section>
             <Header />
-            <Container>
+            <Wrapper>
                 <HR height="300px" />
                 <Holder
                     direction="column">
-                    <H31>
+                    <H>
                         Nightmares Poster
-                </H31>
+                </H>
                     <Holder
                         direction="column">
                             <Holder>
@@ -39,23 +38,23 @@ export default function NightmaresPosterView() {
                                 </Image>
                                 <Holder
                                     direction="column">
-                                    <H42 margin="0 0 50px 0">
+                                    <H margin="0 0 50px 0">
                                         Nightmares Poster
-                                    </H42>
-                                    <BulletList1>
+                                    </H>
+                                    <List>
                                         {"Project for a friend's play"}
                                         {"Play was housed April 14th 2018"}
 
-                                    </BulletList1>
+                                    </List>
                                 </Holder>
                             </Holder>
                         <HR />
                     </Holder>
 
-                    <Link to="/projects/print"><P1>Back to Print Projects...</P1></Link>
+                    <Link to="/projects/print"><P>Back to Print Projects...</P></Link>
                 </Holder>
                 <HR height="300px" />
-            </Container>
+            </Wrapper>
             <Footer />
         </section>
     )

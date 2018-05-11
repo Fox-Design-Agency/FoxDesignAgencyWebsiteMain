@@ -5,13 +5,12 @@ import Footer from "../Footer/Footer";
 
 
 import {
-    Container,
+    Wrapper,
     Holder,
     HR,
-    H41,
-    BulletList1,
+    H,
+    List,
     Image,
-    H42,
 
 } from "react-stylux";
 
@@ -26,10 +25,10 @@ export default function WebProjectMain() {
 
     return (
         <section>
-            <Container>
+            <Wrapper>
                 <Header />
                 <HR />
-                <H41>Web Projects</H41>
+                <H>Web Projects</H>
                 <HR />
                 <Holder direction="column">
                     <Holder>
@@ -42,14 +41,14 @@ export default function WebProjectMain() {
                         </Link>
                         <Holder direction="column">
 
-                            <Link to="/projects/web/aristos"><H42>Aristos Project</H42></Link>
-                            <BulletList1>
+                            <Link to="/projects/web/aristos"><H>Aristos Project</H></Link>
+                            <List>
                                 {"In initial development stages"}
                                 {"CMS and Website builder built in Golang"}
                                 {"All pages set up with HTTPS through Let's Encrypt"}
                                 {"Multiple encoders and decoders built for many file types"}
                                 {"Working on full AWS integration"}
-                            </BulletList1>
+                            </List>
                         </Holder>
 
                     </Holder>
@@ -63,13 +62,13 @@ export default function WebProjectMain() {
                         </Image>
                         </Link>
                         <Holder direction="column">
-                            <Link to="/projects/web/react-stylux"><H42>react-stylux</H42></Link>
-                            <BulletList1>
+                            <Link to="/projects/web/react-stylux"><H>react-stylux</H></Link>
+                            <List>
                                 {"Still under development"}
                                 {"Component library with layout mechanic"}
                                 {"Uses style object to style components through props"}
                                 {"This web page was built with react-stylux to test capability"}
-                            </BulletList1>
+                            </List>
                         </Holder>
 
                     </Holder>
@@ -83,12 +82,12 @@ export default function WebProjectMain() {
                         </Image>
                         </Link>
                         <Holder direction="column">
-                            <Link to="/projects/web/ataraxy-clothing"><H42>Ataraxy Clothing</H42></Link>
-                            <BulletList1>
+                            <Link to="/projects/web/ataraxy-clothing"><H>Ataraxy Clothing</H></Link>
+                            <List>
                                 {"Won most technical award during personal project presentations"}
                                 {"Designed a component library (react-stylux) to build this project"}
                                 {"This is a full-stack application with complete stripe integration"}
-                            </BulletList1>
+                            </List>
                         </Holder>
 
                     </Holder>
@@ -102,10 +101,10 @@ export default function WebProjectMain() {
                         </Image>
                         </Link>
                         <Holder direction="column">
-                            <Link to="/projects/web/foxchrisrealthe"><H42>FoxChrisRealThe</H42></Link>
-                            <BulletList1>
+                            <Link to="/projects/web/foxchrisrealthe"><H>FoxChrisRealThe</H></Link>
+                            <List>
                                 {""}
-                            </BulletList1>
+                            </List>
                         </Holder>
 
                     </Holder>
@@ -113,7 +112,7 @@ export default function WebProjectMain() {
 
                 <HR />
                 <Footer />
-            </Container>
+            </Wrapper>
         </section>
     )
 }

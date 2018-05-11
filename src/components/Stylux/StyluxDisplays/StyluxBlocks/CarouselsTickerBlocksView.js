@@ -1,62 +1,55 @@
 import React from "react";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import StyluxHeader from "../../StyluxHeader/StyluxHeader";
 import StyluxFooter from "../../StyluxFooter/StyluxFooter";
 import BlocksSubNavBar from "./SubHeader/StyluxBlocksSubHeader";
 import {
-    Container,
+    Wrapper,
     Holder,
-    H21,
-    H22,
-    H34,
-    P2,
+    H,
+    P,
     HR,
-    Hero1,
-    Hero2,
-    Carousel1,
-    Carousel2,
-    Carousel3,
-    Carousel4,
-    Carousel5,
+    Hero,
+    Carousel,
 } from "react-stylux";
 
 export default function StyluxCarouselBlocksViews() {
     return (
-        <section>
+        <Wrapper>
             <StyluxHeader />
-            <Container>
-                <BlocksSubNavBar />
-                <H22>Carousel Blocks</H22>
-                <Holder direction="column">
-                    <Link to="/react-stylux/documentation/carousel-1"><H34>
-                        carousel 1
-                    </H34></Link>
-                    <Carousel1>
-                    </Carousel1>
-                    <Link to="/react-stylux/documentation/carousel-2"><H34>
-                        carousel 2
-                    </H34></Link>
-                    <Carousel2>
-                    </Carousel2>
-                    <Link to="/react-stylux/documentation/carousel-3"><H34>
-                        carousel 3
-                    </H34></Link>
-                    <Carousel3>
-                    </Carousel3>
-                    <Link to="/react-stylux/documentation/carousel-4"><H34>
-                        carousel 4
-                    </H34></Link>
-                    <Carousel4>
-                    </Carousel4>
-                    <Link to="/react-stylux/documentation/carousel-5"><H34>
-                        carousel 5
-                    </H34></Link>
-                    <Carousel5>
-                    </Carousel5>
-                </Holder>
-                <HR />
-            </Container>
+
+            <BlocksSubNavBar />
+            <H>Carousel Blocks</H>
+            <Holder direction="column">
+                <Link to="/react-stylux/documentation/carousel"><H>
+                    carousel box="1"
+                    </H></Link>
+                <Carousel box="1">
+                </Carousel>
+                <Link to="/react-stylux/documentation/carousel"><H>
+                    carousel 2 default &&  box="1"
+                    </H></Link>
+                <Carousel box="2">
+                </Carousel>
+                <Link to="/react-stylux/documentation/carousel"><H>
+                    carousel 3  box="3"
+                    </H></Link>
+                <Carousel box="3">
+                </Carousel>
+                <Link to="/react-stylux/documentation/carousel"><H>
+                    carousel 4  box="4"
+                    </H></Link>
+                <Carousel box="4">
+                </Carousel>
+                <Link to="/react-stylux/documentation/carousel"><H>
+                    carousel 5  box="5"
+                    </H></Link>
+                <Carousel box="5">
+                </Carousel>
+            </Holder>
+            <HR />
+
             <StyluxFooter />
-        </section>
+        </Wrapper>
     )
 } 

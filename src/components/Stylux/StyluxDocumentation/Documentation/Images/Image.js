@@ -2,10 +2,9 @@ import React from "react";
 
 import {
     Holder,
-    H42,
-    BulletList1,
+    List,
     HR,
-    H34,
+    H,
 } from "react-stylux"
 
 export default function ImageView() {
@@ -16,8 +15,8 @@ export default function ImageView() {
             alignBlock2="flex-start">
             <Holder
                 direction="column">
-                <H42>Available Props</H42>
-                <BulletList1 width="300px">
+                <H>Available Props</H>
+                <List width="300px">
                     {"size='sm'"}
                     {"type"}
                     {"id"}
@@ -43,13 +42,13 @@ export default function ImageView() {
                     {"mdwidth"}
                     {"mdheight"}
                     {"borderRadius"}
-                </BulletList1>
+                </List>
             </Holder>
             <Holder direction="column">
-                <H34>Image</H34>
+                <H>Image</H>
                 <HR />
-                <H42>Some Info</H42>
-                <BulletList1>
+                <H>Some Info</H>
+                <List>
                     {"type='circle'"}
                     {"type='oval'"}
                     {"type='rounded'"}
@@ -59,19 +58,19 @@ export default function ImageView() {
                     {"type='tallRoundedRectangle'"}
                     {"type='tallRectangle'"}
                     {"size= 'tn' 'exsm' 'sm' 'md' 'lg' 'exlg'"}
-                </BulletList1>
+                </List>
                 <HR />
-                <H42>Suggested Use</H42>
-                <BulletList1>
+                <H>Suggested Use</H>
+                <List>
                     {"Use for images and image related things being that of images."}
-                </BulletList1>
+                </List>
                 <HR />
-                <H42>Size Information</H42>
-                <BulletList1>
+                <H>Size Information</H>
+                <List>
                     {"Large: ??"}
                     {"Medium: ??"}
                     {"Small: ??"}
-                </BulletList1>
+                </List>
 
             </Holder>
         </Holder>

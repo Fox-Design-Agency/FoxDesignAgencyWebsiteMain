@@ -4,40 +4,34 @@ import StyluxHeader from "../../StyluxHeader/StyluxHeader";
 import StyluxFooter from "../../StyluxFooter/StyluxFooter";
 import BlocksSubNavBar from "./SubHeader/StyluxBlocksSubHeader";
 import {
-    Container,
+    Wrapper,
     Holder,
-    H22,
-    H34,
+    H,
     HR,
     List,
-    BulletList1,
-    BulletList2,
-    NumberList1,
-    NumberList2,
-    NumberList3,
 } from "react-stylux";
 
 export default function StyluxListBlocksViews() {
     return (
-        <section>
+     <Wrapper>
             <StyluxHeader />
-            <Container>
+            
                 <BlocksSubNavBar />
-                <H22>List Blocks</H22>
+                <H>List Blocks</H>
                 <Holder direction="column">
-                    <Link to="/react-stylux/documentation/list"><H34>
-                        List type="1"
-                    </H34></Link>
-                    <List type="1" width="500px">
+                    <Link to="/react-stylux/documentation/list"><H>
+                        List box="1"
+                    </H></Link>
+                    <List box="1" width="500px">
                         {'listItem1'}
                         {'listItem2'}
                         {'listItem3'}
                         {'listItem4'}
                     </List>
-                    <Link to="/react-stylux/documentation/list"><H34>
-                        List type="2"
-                    </H34></Link>
-                    <List type="2" width="500px" listAmount='3'>
+                    <Link to="/react-stylux/documentation/list"><H>
+                        List box="2"
+                    </H></Link>
+                    <List box="2" width="500px" listAmount='3'>
                         <p>listItem1</p>
                         <p>nestedlistItem1</p>
                         <p>nestedlistItem2</p>
@@ -54,28 +48,19 @@ export default function StyluxListBlocksViews() {
                         <p>nestedlistItem1</p>
                         <p>nestedlistItem2</p>
                     </List>
-                    <Link to="/react-stylux/documentation/list"><H34>
-                        List type="3"
-                    </H34></Link>
-                    <List type="3" width="500px">
+                    <Link to="/react-stylux/documentation/list"><H>
+                        List default && box="3"
+                    </H></Link>
+                    <List box="3" width="500px">
                         {'listItem1'}
                         {'listItem2'}
                         {'listItem3'}
                         {'listItem4'}
                     </List>
-                    <Link to="/react-stylux/documentation/list"><H34>
-                        List type="4"
-                    </H34></Link>
-                    <List type="4" width="500px">
-                        {'listItem1'}
-                        {'listItem2'}
-                        {'listItem3'}
-                        {'listItem4'}
-                    </List>
-                    <Link to="/react-stylux/documentation/list"><H34>
-                        List type="5"
-                    </H34></Link>
-                    <List type="5" width="500px">
+                    <Link to="/react-stylux/documentation/list"><H>
+                        List box="4"
+                    </H></Link>
+                    <List box="4" width="500px">
                         {'listItem1'}
                         {'listItem2'}
                         {'listItem3'}
@@ -83,8 +68,8 @@ export default function StyluxListBlocksViews() {
                     </List>
                 </Holder>
                 <HR />
-            </Container>
+            
             <StyluxFooter />
-        </section>
+       </Wrapper>
     )
 } 

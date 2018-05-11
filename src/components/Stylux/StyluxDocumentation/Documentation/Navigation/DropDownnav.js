@@ -2,12 +2,12 @@ import React from "react";
 
 import {
     Holder,
-    H42,
-    BulletList1,
+    H,
+    List,
     HR,
 } from "react-stylux"
 
-export default function DropDownnav5() {
+export default function DropDownnav1View() {
 
     return (
         <Holder
@@ -15,42 +15,46 @@ export default function DropDownnav5() {
             alignBlock2="flex-start">
             <Holder
                 direction="column">
-                <H42>Available Props</H42>
-                <BulletList1 width="300px">
+                <H>Available Props</H>
+                <List width="300px">
                     {"background"}
                     {"boxShadow = '1px 2px 2px black'"}
-                    {"borderRadius = '0 5px 5px 0'"}
+                    {"borderRadius = '0 0 5px 5px'"}
                     {"offset"}
+                    {"color = 'black'"}
+                    {"textAlign = 'left'"}
+                    {"margin"}
+                    {"padding"}
                     {"width"}
-                    {"mainid"}
-                    {"titleid"}
-                    {" itemsid"}
+                    {" mainid"}
+                    {" titleid"}
+                    {"itemsid"}
                     {"mainClassName"}
                     {"titleClassName"}
-                    {" itemsClassName"}
+                    {"itemsClassName"}
                     {"smDis = 'flex'"}
                     {"mdDis = 'flex'"}
-                </BulletList1>
+                </List>
             </Holder>
             <Holder direction="column">
 
                 <HR />
-                <H42>Some Info</H42>
-                <BulletList1>
+                <H>Some Info</H>
+                <List>
                     {""}
-                </BulletList1>
+                </List>
                 <HR />
-                <H42>Suggested Use</H42>
-                <BulletList1>
+                <H>Suggested Use</H>
+                <List>
                     {""}
-                </BulletList1>
+                </List>
                 <HR />
-                <H42>Size Information</H42>
-                <BulletList1>
+                <H>Size Information</H>
+                <List>
                     {"Large: ??"}
                     {"Medium: ??"}
                     {"Small: ??"}
-                </BulletList1>
+                </List>
 
             </Holder>
         </Holder>

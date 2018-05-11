@@ -4,37 +4,36 @@ import StyluxHeader from "../../StyluxHeader/StyluxHeader";
 import StyluxFooter from "../../StyluxFooter/StyluxFooter";
 import BlocksSubNavBar from "./SubHeader/StyluxBlocksSubHeader";
 import {
-    Container,
+    Wrapper,
     Holder,
-    H34,
-    H22,
+    H,
     HR,
     Card,
 } from "react-stylux";
 
 export default function StyluxCardBlocksViews() {
     return (
-        <section>
+        <Wrapper>
             <StyluxHeader />
-            <Container>
+            
                 <BlocksSubNavBar />
-                <H22>Card Blocks</H22>
+                <H>Card Blocks</H>
                 <Holder
                     direction="column">
-                    <Link to="/react-stylux/documentation/card"><H34>
-                        Card type="1"
-                    </H34></Link>
-                    <Card type="1">
+                    <Link to="/react-stylux/documentation/card"><H>
+                        Card default && box="1"
+                    </H></Link>
+                    <Card box="1">
                         {}
                         {'an alt tag is here'}
                         {'A Neat Name'}
                         {'What I do and stuff and some other stuff that is pretty long like even longer than this and more stuff to filll space and stuff and whateevr'}
                     </Card>
                     <HR />
-                    <Link to="/react-stylux/documentation/card"><H34>
-                        Card type="2"
-                    </H34></Link>
-                    <Card type="2">
+                    <Link to="/react-stylux/documentation/card"><H>
+                        Card box="2"
+                    </H></Link>
+                    <Card box="2">
                         {}
                         {'an alt tag is here'}
                         {'A Neat Name'}
@@ -42,10 +41,10 @@ export default function StyluxCardBlocksViews() {
                     </Card>
 
                     <HR />
-                    <Link to="/react-stylux/documentation/card"><H34>
-                        Card type="3"
-                    </H34></Link>
-                    <Card type="3">
+                    <Link to="/react-stylux/documentation/card"><H>
+                        Card box="3"
+                    </H></Link>
+                    <Card box="3">
                         {'Some Item'}
                         {'$00.00'}
                         {'Info'}
@@ -56,8 +55,8 @@ export default function StyluxCardBlocksViews() {
                     </Card>
                 </Holder>
                 <HR />
-            </Container>
+           
             <StyluxFooter />
-        </section>
+         </Wrapper>
     )
 } 

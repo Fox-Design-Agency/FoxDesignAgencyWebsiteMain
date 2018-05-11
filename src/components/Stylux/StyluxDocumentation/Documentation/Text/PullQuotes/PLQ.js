@@ -2,7 +2,7 @@ import React from "react";
 
 import {
     Holder,
-    H42,
+    H,
     BulletList1,
     HR,
     PLQ,
@@ -18,7 +18,7 @@ export default function PLQView() {
         <Holder
             direction="column">
 
-            <H42>Available Props</H42>
+            <H>Available Props</H>
             <BulletList1 width="300px">
                 {"aniCount"}
                 {"aniTime"}
@@ -36,18 +36,18 @@ export default function PLQView() {
             <H34>PLQ</H34>
                 <PLQ>{"Some Text"}{"Someone"}</PLQ>
                 <HR />
-                <H42>Some Info</H42>
+                <H>Some Info</H>
                 <BulletList1>
                     {"type='1' horizontal pull quote"}
                     {"type='2' vertical pull quote"}
                 </BulletList1>
                 <HR />
-                <H42>Suggested Use</H42>
+                <H>Suggested Use</H>
                 <BulletList1>
                     {"Use to break up text and highlight stuff"}
                 </BulletList1>
                 <HR />
-                <H42>Size Information</H42>
+                <H>Size Information</H>
                 <BulletList1>
                     {"Nothing to see here just yet..."}
                 </BulletList1>

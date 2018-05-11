@@ -2,12 +2,12 @@ import React from "react"
 import { Link } from "react-router-dom"
 
 import {
-    SubNavbar1,
+    SubNavbar,
 } from "react-stylux"
 
 export default function BlocksSubHeader() {
     return (
-        <SubNavbar1
+        <SubNavbar
             navbarWidth="70%">
             <Link to="/react-stylux/blocks/headingviews">headings</Link>
             <Link to="/react-stylux/blocks/paragraphviews">paragraphs</Link>
@@ -20,6 +20,6 @@ export default function BlocksSubHeader() {
             <Link to="/react-stylux/blocks/togglersviews">togglers</Link>
             <Link to="/react-stylux/blocks/tableviews">tables</Link>
             <Link to="/react-stylux/blocks/formviews">forms</Link>
-        </SubNavbar1>
+        </SubNavbar>
     )
 }

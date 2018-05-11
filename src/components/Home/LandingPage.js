@@ -4,11 +4,9 @@ import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 
 import {
-    Container,
-    H23,
-    Brand3,
-    NavBar1,
-    P4,
+    Wrapper,
+    H,
+    Brand,
     HR
 } from "react-stylux";
 
@@ -16,16 +14,16 @@ import foxtail from "../../assets/logo/foxtail2-1.svg";
 
 export default function LandingPage() {
     return (
-        <Container>
+        <Wrapper>
             <Header />
             <HR />
-            <H23>Coming Soon...</H23>
-            <Brand3
+            <H>Coming Soon...</H>
+            <Brand box="3"
                 size="lg">
                 {foxtail}
-            </Brand3>
+            </Brand>
             <HR />
             <Footer />
-        </Container>
+        </Wrapper>
     );
 }

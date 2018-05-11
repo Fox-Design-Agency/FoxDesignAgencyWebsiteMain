@@ -2,13 +2,12 @@ import React from "react";
 
 import {
     Holder,
-    H42,
-    BulletList1,
+    H,
+    List,
     HR,
-    H34,
 } from "react-stylux"
 
-export default function ContainerDocumentation() {
+export default function WrapperDocumentation() {
 
     return (
         <Holder
@@ -16,8 +15,8 @@ export default function ContainerDocumentation() {
         alignBlock2="flex-start">
         <Holder
             direction="column">
-            <H42>Available Props</H42>
-            <BulletList1 width="300px">
+            <H>Available Props</H>
+            <List width="300px">
                 {"display = 'flex'"}
                 {"direction = 'row'"}
                 {"height"}
@@ -38,27 +37,27 @@ export default function ContainerDocumentation() {
                 {" mddis = 'flex'"}
                 {" smflexDir = 'column'"}
                 {" mdflexDir = 'column'"}
-                </BulletList1>
+                </List>
                 </Holder>
                 <Holder direction="column">
-                    <H34>Container</H34>
+                    <H>Container</H>
                     <HR />
-                    <H42>Some Info</H42>
-                    <BulletList1>
+                    <H>Some Info</H>
+                    <List>
                         {""}
-                    </BulletList1>
+                    </List>
                     <HR />
-                    <H42>Suggested Use</H42>
-                    <BulletList1>
+                    <H>Suggested Use</H>
+                    <List>
                         {""}
-                    </BulletList1>
+                    </List>
                     <HR />
-                    <H42>Size Information</H42>
-                    <BulletList1>
+                    <H>Size Information</H>
+                    <List>
                         {"Large: ??"}
                         {"Medium: ??"}
                         {"Small: ??"}
-                    </BulletList1>
+                    </List>
         
                 </Holder>
             </Holder>
