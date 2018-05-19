@@ -9,7 +9,6 @@ import {
     HR,
     Hero,
     Image,
-    Figure,
     H,
     List,
 } from "react-stylux";
@@ -608,25 +607,8 @@ export default function StyluxImageBlocksViews() {
                     </Image>
                 </Holder>
             </Wrapper>
-            <Wrapper>
-                <HR />
-                <Holder
-                    direction="column">
-                    <H>
-                        Figure
-                    </H>
-                    <Figure>
-                        <Image size="tn">
-                            {}
-                            Chris Hanging out
-                    </Image>
-                        Just Chris Hanging Out
-                    </Figure>
-                </Holder>
-                <HR />
-
+        
                 <StyluxFooter />
-            </Wrapper>
         </Wrapper>
     )
 } 

@@ -22,7 +22,13 @@ export default function Header() {
                 </Link>
                 <Navbar
                     navbarWidth="800px"
-                    align="flex-end">
+                    align="flex-end"
+                    count="5">
+                    <Link to="/">Home</Link>
+                    <Link to="/react-stylux">Stylux</Link>
+                    <Link to="/projects">Projects</Link>
+                    <Link to="/about">About</Link>
+                    <Link to="/">Contact</Link>
                     <Link to="/">Home</Link>
                     <Link to="/react-stylux">Stylux</Link>
                     <Link to="/projects">Projects</Link>

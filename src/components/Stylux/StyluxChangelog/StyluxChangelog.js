@@ -26,7 +26,8 @@ export default function StyluxChangelog() {
                     <H>Version Number</H>
                     <Navbar
                         direction="column">
-                        <a href="/react-stylux/changelog#0.7.12" >0.7.12(Not Released)</a>
+                        <a href="/react-stylux/changelog#0.7.25" >0.7.26(Not Released)</a>
+                        <a href="/react-stylux/changelog#0.7.24" >0.7.24</a>
                         <a href="/react-stylux/changelog#0.7.11" >0.7.11</a>
                         <a href="/react-stylux/changelog#0.7.6" >0.7.6</a>
                         <a href="/react-stylux/changelog#0.6.7" >0.6.7</a>
@@ -74,23 +75,37 @@ export default function StyluxChangelog() {
                     direction="column">
                     <Holder
                         direction="column">
-                        <H id="0.7.12">0.7.12(Not Released)</H>
+                        <H id="0.7.26">0.7.26(Not Released)</H>
                         <List
                             width="900px">
                             {"review every blocks responsive behavior"}
                             {"review every block for className && Id"}
+                            {"review every block for vars on box"}
                             {"Documentation correctly portraying current props"}
+                            {"Documentation correctly showing box and vars mapping"}
+                            {"Documentation correctly showing theme and fonts"}
                             {"Documentation finished"}
                             {"maxWidth and maxHeight verified on all blocks"}
-                            {"Initial Form block started"}
+                            {"Initial Form block started using context"}
                             {"Initial Input block started"}
-                            {"Creating a better set of prop inheritance items to prep for themeing create a channel for every block to have variations from box # through vars='' testing with H and will soon be testing with button && hopefully Carousel"}
                             {"Popups that can be connected to a switch trigger"}
-                            {"rebuilt of Wrapper and Holder, some block styles are not working correctly and need a massive look over for verification"}
                             {"rebuild of Navbar and more Navbar boxes"}
                             {"rebuild of Subnavbar and more Subnavbar boxes"}
                             {"rebuild of DropDownnav and more DropDownnav options"}
                             
+                        </List>
+                    </Holder>
+                    <Holder
+                        direction="column">
+                        <H id="0.7.25">0.7.25</H>
+                        <List
+                            width="900px">
+                            {"Got rid of nestingstyles and rebuilt everything to use react-responsive"}
+                            {"Fixed wrapper && Holder keys"}
+                            {"Starting to add theme and fonts implementation through context"}
+                            {"Theme and fonts work through the wrapper, a wrapper can inherit from another wrapper but that inheritence does not flow through the wrapper like a holder"}
+                            {"box and vars switch statements being added to every block"}
+                            {"The entire library has basically been rebuilt, so there are still a lot of errors that are being worked out"}
                         </List>
                     </Holder>
                     <Holder

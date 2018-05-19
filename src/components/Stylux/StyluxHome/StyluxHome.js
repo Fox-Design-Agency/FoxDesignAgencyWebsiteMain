@@ -43,24 +43,16 @@ export default function StyluxHome() {
                         </Navbar>
                     </Holder>
                     <Holder direction="column">
-                        <H>Current Version: 0.7.11</H>
+                        <H>Current Version: 0.7.25</H>
                         <H>Latest Changes</H>
                         <List width="950px">
-                            {"The entire library has basically been rebuilt in 0.7.6 && 0.7.11"}
-                            {"Fixed Modal Export"}
-                            {"rebuilt Image, needs image responsive size work."}
-                            {"rebuilt Button"}
-                            {"rebuilt P"}
-                            {"rebuilt PLQ"}
-                            {"rebuilt Hero"}
-                            {"rebuilt Brand"}
-                            {"rebuilt Carousel"}
-                            {"rebuilt List"}
-                            {"rebuilt Table"}
-                            {"rebuilt Modal"}
-                            {"rebuilt Toggler"}
-                            {"got rid of setting toggle text on props for modal and toggler, the first child now toggles the modal or toggler box 1 & 2. This should allow these two items to wrap other components."}
-                            {"rebuilt H, needs mad amount of more work for font sizes and actual variations."}
+                        {"Got rid of nestingstyles and rebuilt everything to use react-responsive"}
+                        {"Fixed wrapper && Holder keys"}
+                        {"Starting to add theme and fonts implementation through context"}
+                        {"Theme and fonts work through the wrapper, a wrapper can inherit from another wrapper but that inheritence does not flow through the wrapper like a holder"}
+                        {"box and vars switch statements being added to every block"}
+                        {"The entire library has basically been rebuilt, so there are still a lot of errors that are being worked out"}
+                        {"Very close to a full beta release, contributions system and forms being worked on."}
                             
                         </List>
                     </Holder>
@@ -70,14 +62,14 @@ export default function StyluxHome() {
                 <List width="800px">
                     {"Getting all blocks to have some responsive behavior"}
                     {"Get a first draft on all blocks"}
-                    {"Get as many blocks as possible condensed to switch variant on type"}
-                    {"Build the foundation for a themeing ability through a Provider"}
+                    {"Get as many blocks as possible working with vars through box declaration"}
+                    {"Adding more themes and correctly attaching the flow to all blocks"}
                     {"Make sure all props are linked correctly and work"}
-                    {"I'm not worried about making things look good right now, that will be a concern when I implement the themeing ability. Due to this, everything is going to look the same, but as long as it works, I'm happy. It is possible to change the default look, but that gets repetetive and anti DRY. I am making sure that every block does have a className and id prop as well to help with this."}
+                    {"I'm still not real worried about things looking good, just that the theme system flows color to everything."}
                 </List>
                 <HR />
                 <H>Known Bugs</H>
-                <P>Too many...</P>
+                <P>This section will be filled out when the library moves into Beta on a stable release</P>
                 <HR />
                 <H>Want to Help?</H>
                 <P>Well... Right now you can't, but soon... soon you will be able to contribute and comment on changes.</P>
