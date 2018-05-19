@@ -75,7 +75,7 @@ export default function StyluxChangelog() {
                     direction="column">
                     <Holder
                         direction="column">
-                        <H id="0.7.26">0.7.26(Not Released)</H>
+                        <H id="0.7.27">0.7.27(Not Released)</H>
                         <List
                             width="900px">
                             {"review every blocks responsive behavior"}
@@ -97,7 +97,7 @@ export default function StyluxChangelog() {
                     </Holder>
                     <Holder
                         direction="column">
-                        <H id="0.7.25">0.7.25</H>
+                        <H id="0.7.26">0.7.26</H>
                         <List
                             width="900px">
                             {"Got rid of nestingstyles and rebuilt everything to use react-responsive"}

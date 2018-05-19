@@ -43,7 +43,7 @@ export default function StyluxHome() {
                         </Navbar>
                     </Holder>
                     <Holder direction="column">
-                        <H>Current Version: 0.7.25</H>
+                        <H>Current Version: 0.7.26</H>
                         <H>Latest Changes</H>
                         <List width="950px">
                         {"Got rid of nestingstyles and rebuilt everything to use react-responsive"}
