@@ -5,19 +5,22 @@ import Footer from "../Footer/Footer";
 import {
     Wrapper,
     Holder,
-    Card
+    Card,
+    HR
 } from "react-stylux";
 
 export default function About() {
     return (
         <Wrapper>
             <Header />
+            <HR />
             <Holder>
                 <Card>
                 </Card>
                 <Card>
                 </Card>
             </Holder>
+            <HR />
             <Footer />
         </Wrapper>
     );

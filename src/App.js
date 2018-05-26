@@ -47,8 +47,9 @@ import StyluxTableBlockView from "./components/Stylux/StyluxDisplays/StyluxBlock
 
 //aristos imports
 import AristosHome from "./components/Aristos/AristosHome/AristosHome";
-
-
+import AristosDocumentation from "./components/Aristos/AristosDocumentation.js/AristosDocumentation";
+import AristosChangelog from "./components/Aristos/AristosChangelog/AristosChangelog";
+import AristosDisplays from "./components/Aristos/AristosDisplays/AristosDisplays";
 
 export default function App() {
 
@@ -92,6 +93,10 @@ export default function App() {
 
 
                 <Route exact path="/aristos" component={AristosHome}></Route>
+
+                <Route path="/aristos/documentation" component={AristosDocumentation}></Route>
+                <Route path="/aristos/changelog" component={AristosChangelog}></Route>
+                <Route path="/aristos/displays" component={AristosDisplays}></Route>
             </Switch>
         </div >
     );

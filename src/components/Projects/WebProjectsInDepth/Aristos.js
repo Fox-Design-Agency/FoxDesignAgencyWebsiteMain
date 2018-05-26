@@ -42,11 +42,9 @@ export default function AristosView() {
                                     Aristos Project
                                     </H>
                                 <List>
-                                    {"In initial development stages"}
-                                    {"CMS and Website builder built in Golang"}
-                                    {"All pages set up with HTTPS through Let's Encrypt"}
-                                    {"Multiple encoders and decoders built for many file types"}
-                                    {"Working on full AWS integration"}
+                                {"In Alpha development stages"}
+                                {"CMS and Website builder built in Nodejs"}
+                                {"Working on support for more template types"}
 
                                 </List>
                             </Holder>

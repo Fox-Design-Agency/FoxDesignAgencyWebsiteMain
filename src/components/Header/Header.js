@@ -14,7 +14,8 @@ export default function Header() {
     return (
         <Wrapper>
             <Holder
-                block2="6">
+                block2="6"
+                justifyBlock2="flex-end">
                 <Link to="/">
                     <Brand>
                         {foxtail}
@@ -22,21 +23,21 @@ export default function Header() {
                 </Link>
                 <Navbar
                     box="2"
-                    navbarWidth="800px"
-                    align="flex-end"
+                    totalWidth="800px"
+                    fontVariant="small-caps"
                     count="5">
-                    <Link to="/">Home</Link>
-                    <Link to="/react-stylux">Stylux</Link>
-                    <Link to="/aristos">Aristos</Link>
-                    <Link to="/projects">Projects</Link>
-                    <Link to="/about">About</Link>
-                    <Link to="/">Contact</Link>
-                    <Link to="/">Home</Link>
-                    <Link to="/react-stylux">Stylux</Link>
-                    <Link to="/aristos">Aristos</Link>
-                    <Link to="/projects">Projects</Link>
-                    <Link to="/about">About</Link>
-                    <Link to="/">Contact</Link>
+                    <Link to="/">home</Link>
+                    <Link to="/react-stylux">stylux</Link>
+                    <Link to="/aristos">aristos</Link>
+                    <Link to="/projects">projects</Link>
+                    <Link to="/about">about</Link>
+                    <Link to="/">contact</Link>
+                    <Link to="/">hjome</Link>
+                    <Link to="/react-stylux">stylux</Link>
+                    <Link to="/aristos">aristos</Link>
+                    <Link to="/projects">projects</Link>
+                    <Link to="/about">about</Link>
+                    <Link to="/">contact</Link>
                 </Navbar>
             </Holder>
         </Wrapper>

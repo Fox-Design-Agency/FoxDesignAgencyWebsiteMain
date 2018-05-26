@@ -14,9 +14,10 @@ export default function AristosFooter() {
             <Wrapper>
                 <Navbar
                     block="1"
-                    navbarWidth='75%'>
+                    totalWidth='75%'>
                     <a href="https://www.facebook.com/FoxDesignAgency/"  target="_blank" rel="noopener noreferrer"></a>
-                    <a href="https://github.com/Fox-Design-Agency/react-stylux"  target="_blank" rel="noopener noreferrer"></a>
+                    <a href="https://github.com/Fox-Design-Agency/Aristos-CMS-node"  target="_blank" rel="noopener noreferrer"></a>
+                    <a href="https://github.com/Fox-Design-Agency/Aristos-CMS-Themes-ejs"  target="_blank" rel="noopener noreferrer"></a>
                 </Navbar>
                 <HR />
                 <Holder
@@ -31,7 +32,7 @@ export default function AristosFooter() {
                     </Navbar>
                 </Holder>
                 <HR />
-                <P box="2">Copyright &copy; 2018 - <a href="https://foxdesignagency.com" target="_blank" rel="noopener noreferrer">Fox Design Agency</a></P>
+                <P box="2">Copyright &copy; 2018 - &nbsp;<a href="https://foxdesignagency.com" target="_blank" rel="noopener noreferrer">Fox Design Agency</a></P>
             </Wrapper>
     )
 }

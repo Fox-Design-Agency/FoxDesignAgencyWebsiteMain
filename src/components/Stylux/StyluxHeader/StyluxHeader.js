@@ -25,7 +25,7 @@ export default function StyluxHeader() {
                     <Navbar
                         block="1"
                         fontVariant="small-caps"
-                        navbarWidth='80%'
+                        totalWidth='80%'
                         smDis='none'>
                         <Link to="/react-stylux">home</Link>
                         <DropDownNav
@@ -39,7 +39,7 @@ export default function StyluxHeader() {
                     </Navbar>
                     <Navbar
                         box="1"
-                        navbarWidth="50%"
+                        totalWidth="200px"
                         align="flex-end"
                         count='2'>
                         <a href="https://www.facebook.com/FoxDesignAgency/" target="_blank" rel="noopener noreferrer"></a>
