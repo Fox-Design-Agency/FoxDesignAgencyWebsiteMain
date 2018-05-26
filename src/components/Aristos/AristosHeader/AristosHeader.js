@@ -11,7 +11,7 @@ import {
     SubNavbar,
 } from 'react-stylux';
 
-export default function StyluxHeader() {
+export default function AristosHeader() {
     return (
             <Wrapper>
                 <SubNavbar
@@ -38,7 +38,7 @@ export default function StyluxHeader() {
                         <Link to="/react-stylux/changelog">changelog</Link>
                     </Navbar>
                     <Navbar
-                        box="1"
+                        block="1"
                         navbarWidth="50%"
                         align="flex-end"
                         count='2'>

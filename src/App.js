@@ -43,8 +43,15 @@ import StyluxNavbarBlocksview from "./components/Stylux/StyluxDisplays/StyluxBlo
 import StyluxParagraphBlocksView from "./components/Stylux/StyluxDisplays/StyluxBlocks/ParagraphBlocksView";
 import StyluxTableBlockView from "./components/Stylux/StyluxDisplays/StyluxBlocks/TableBlockViews";
 
+
+
+//aristos imports
+import AristosHome from "./components/Aristos/AristosHome/AristosHome";
+
+
+
 export default function App() {
-    
+
     return (
         <div>
             <Switch>
@@ -82,6 +89,9 @@ export default function App() {
                 <Route path="/react-stylux/blocks/navbarviews" component={StyluxNavbarBlocksview}></Route>
                 <Route path="/react-stylux/blocks/paragraphviews" component={StyluxParagraphBlocksView}></Route>
                 <Route path="/react-stylux/blocks/tableviews" component={StyluxTableBlockView}></Route>
+
+
+                <Route exact path="/aristos" component={AristosHome}></Route>
             </Switch>
         </div >
     );

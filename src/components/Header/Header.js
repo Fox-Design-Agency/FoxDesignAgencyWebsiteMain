@@ -21,16 +21,19 @@ export default function Header() {
                     </Brand>
                 </Link>
                 <Navbar
+                    box="2"
                     navbarWidth="800px"
                     align="flex-end"
                     count="5">
                     <Link to="/">Home</Link>
                     <Link to="/react-stylux">Stylux</Link>
+                    <Link to="/aristos">Aristos</Link>
                     <Link to="/projects">Projects</Link>
                     <Link to="/about">About</Link>
                     <Link to="/">Contact</Link>
                     <Link to="/">Home</Link>
                     <Link to="/react-stylux">Stylux</Link>
+                    <Link to="/aristos">Aristos</Link>
                     <Link to="/projects">Projects</Link>
                     <Link to="/about">About</Link>
                     <Link to="/">Contact</Link>
