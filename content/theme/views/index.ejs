@@ -1,0 +1,154 @@
+<% include _layouts/header %>
+
+    <div class="large-hero">
+    <% media.forEach(function(medias){ %>
+    <% if (medias.category == "main-slider"){ %>
+        <img src="<%= medias.path %>" alt="<%= medias.alt %>">
+        <% } %>
+            <% }) %>
+            <div class="large-hero__text-content">
+    <div class="wrapper">
+        <h1 class="large-hero__title">we build neat things.</h1>
+        <h2 class="large-hero__subtitle">Like really neat.</h2>
+        <p class="large-hero__description">Let us know what we can do for you.</p>
+        <p>
+            <a href="#" class="btn btn--orange btn--large open-modal">Get in Touch</a>
+        </p>
+    </div>
+</div>
+    </div>
+    <div class="page__icons-holder">
+    <div class="wrapper">
+    <% media.forEach(function(medias){ %>
+    <% if (medias.category == "code-icons"){ %>
+        <img class="page__icon" src="<%= medias.path %>" alt="<%= medias.alt %>">
+        <% } %>
+            <% }) %>
+            </div>
+</div>
+
+<div class="page__section  page__section--dark">
+<div class="wrapper">
+<div class="row row--gutters-large generic-content-container">
+<div class="row__medium-6 ">
+            <div class="feature-item">
+                <span class="icon icon--rain feature-item__icon"></span>
+                <h3 class="feature-item__title">Got Designs?</h3>
+                
+                <p>Let us help you convert them into code. That's right! We can turn your designs into pixel perfect copies for the world to see.</p>
+            </div>
+
+            <div class="feature-item">
+                <span class="icon icon--globe feature-item__icon"></span>
+                <h3 class="feature-item__title">Front-End Design</h3>
+                <p>Our front-end designers can make your ideas real by coding them into HTML or into a single page application using Reactjs.</p>
+            </div>
+        </div>
+        <div class="row__medium-6">
+        <div class="feature-item">
+            <span class="icon icon--wifi feature-item__icon"></span>
+            <h3 class="feature-item__title">Got an Idea?</h3>
+            <p>Don't quite have the designs worked out? no problem, let us make a wireframe that you are proud of.
+            </p>
+        </div>
+        <div class="feature-item">
+            <span class="icon icon--fire feature-item__icon"></span>
+            <h3 class="feature-item__title">Back-End Design</h3>
+            <p>Need a server too? Well that's easy with our Aristos CMS. Coded in Nodejs so it's easy to maintain, and fast! If you don't like it, we can always make something special just for you.</p>
+        </div>
+    </div>
+    
+    </div>
+    </div>
+</div>
+
+<div class="page__section">
+<div class="wrapper">
+<h2 class="section-title">Ecommerce Made Easy</h2>
+<div class="row">
+        
+        <div class="row row__large-6 ">
+            <div class="generic-content-container">
+                <h2 class="headline headline--no-t-margin">Managing Products With Aristos is so easy&hellip;</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam,
+                    <a href="#">quis nostrud exercitation</a> ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+                    id est laborum.</p>
+                <p>Duis aute irure dolor in
+                    <strong>reprehenderit in</strong> voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                    sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua.</p>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+                    id est laborum velit esse cillum
+                    <strong>dolore eu fugiat.</strong>
+                </p>
+            </div>
+        </div>  
+        <div class="row__medium-4 row__medium-4--larger row__b-margin-until-medium">
+      
+        <% media.forEach(function(medias){ %>
+        <% if (medias.category == "ecommerce-image"){ %>
+            <img style="margin-top: 30px;" src="<%= medias.path %>" alt="<%= medias.alt %>">
+            <% } %>
+                <% }) %>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="page__section  page__section--dark">
+<div class="wrapper">
+<h2 class="section-title">Contributors to Open Source</h2>
+<div class="row row--gutters">
+        <div class="row__medium-4 row__medium-4--larger row__b-margin-until-medium">
+           <!-- image here??? -->
+        </div>
+        <div class="row__medium-8 row__medium-8-smaller">
+            <div class="generic-content-container">
+                <h2 class="headline headline--no-t-margin">Here&rsquo;s how we got started&hellip;</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam,
+                    <a href="#">quis nostrud exercitation</a> ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+                    id est laborum.</p>
+                <p>Duis aute irure dolor in
+                    <strong>reprehenderit in</strong> voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                    sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua.</p>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+                    id est laborum velit esse cillum
+                    <strong>dolore eu fugiat.</strong>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+<div class="page__section">
+<div class="wrapper">
+<h2 class="section-title">Contact Us Today!</h2>
+<div class="row ">
+<div class=" row__centered-flex">
+<div class="row__medium-4">
+<h3 class="headline headline--centered headline--orange headline--small headline--narrow  headline--light headline--b-margin-large">Our mission is to connect individuals with avenues that they can receive help. This is in order to promote long term happiness of individuals that we are able to assist.
+    </h3>
+
+    <p>
+            <a href="#" class="btn btn--orange btn--full open-modal">Get in Touch</a>
+        </p>
+        </div>
+       </div>
+</div>
+</div>
+
+
+        <% include _layouts/footer %>

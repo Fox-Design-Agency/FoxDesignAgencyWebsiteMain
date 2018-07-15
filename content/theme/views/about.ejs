@@ -1,0 +1,30 @@
+<% include _layouts/header %>
+    <div class="img-holder">
+        <img src="<%= media.path %>">
+    </div>
+    <h1 class="large-hero__title"></h1>
+    <div class="page__quote">
+        <blockquote>
+           <%- content %>
+        </blockquote>
+    </div>
+    <div class="page__section">
+        <h1>The Team</h1>
+        <div class="page__stuff-holder">
+            <% team.forEach(function(team){ %>
+                <a href="<%= team.link %>" target="_blank">
+                    <div class="card card__team-card">
+                        <img src="<%= team.path %>" alt="<%= team.alt %>">
+                        <h3>
+                            <%= team.title %>
+                        </h3>
+                        <p class="team-descripiton">
+                            <%= team.description %>
+                        </p>
+                    </div>
+                </a>
+                <% }) %>
+        </div>
+    </div>
+
+    <% include _layouts/footer %>

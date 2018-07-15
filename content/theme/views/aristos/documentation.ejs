@@ -1,0 +1,19 @@
+<% include ../_layouts/aristosHeader %>
+   <h1 class="page__title">Documentation</h1>
+   <div class="wrapper">
+   <div class="documentation__categories">
+   <h2>Categories</h2>
+   <% documentation.forEach((doc)=>{ %>
+       <a href="/aristos/documentation/<%= doc._id %>"><%= doc.title %></a>
+       <% }) %>
+   </div>
+   <div class="documentation__content">
+   <% documentation.forEach((doc)=>{ %>
+   <h2 class="documentation__content__title"><%= doc.title %></h2>
+       <%- doc.content %>
+       <% }) %>
+   </div>
+   </div>
+
+
+   <% include ../_layouts/footer %>

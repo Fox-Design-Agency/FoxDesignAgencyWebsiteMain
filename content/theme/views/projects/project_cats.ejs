@@ -1,0 +1,52 @@
+<% include ../_layouts/header %>
+    <h1 class="page__title page__title--padding-top">Portfolio</h1>
+    <h1 class="large-hero__title"></h1>
+    <% include ../_layouts/messages/messages %>
+    <% include ../_layouts/messages/errors %>
+    <div class="projects__icons-holder">
+        <% media.forEach(function(icon){ %>
+            <% if(icon.category == "portfolio-icon"){ %>
+                <img class="portfolio__icon" src="<%= icon.path %>" alt="<%= icon.alt %>">
+                <% } %>
+                    <% }) %>
+    </div>
+    <div class="projects__holder">
+
+        <div class="projects__work-categories">
+            <h5>Project Categories</h5>
+            <a class="projects__project-category" href="/projects#projects">all projects</a>
+            <% portfolioCats.forEach(function(portCat){ %>
+                <% if(portCat.slug != "publications") { %>
+                    <a class="projects__project-category" href="/projects/<%= portCat.slug %>#projects">
+                        <%= portCat.title.toLowerCase() %>
+                    </a>
+                    <% } %>
+                        <% }) %>
+        </div>
+        <div class="projects__work-stuffs">
+            <h3 class="projects__category-title" id="projects">
+                <%= title %>
+            </h3>
+            <div class="projects--col">
+            <% projects.forEach(function(project){ %>
+                <% if(project.category !== "publications") { %>
+                    <a href="/portfolio/<%= project.category %>/<%= project._id %>#projects">
+                    <div class="page__work-holder">
+        
+                            <img class="page__work-img" src="/portfolio_images/<%= project._id %>/<%= project.image %>" alt="">
+                    
+                        <div class="page__work-information">
+                            <h5>
+                                <%= project.title %>
+                            </h5>
+                            <p>
+                                <%- project.content %>
+                            </p>
+                        </div>
+                    </div>
+        </a>
+        <% } %>
+            <% }) %>
+</div>
+    </div>
+    <% include ../_layouts/footer %>
