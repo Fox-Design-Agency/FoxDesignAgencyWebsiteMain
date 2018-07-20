@@ -11,6 +11,7 @@ const EditLogs = require("../models/queries/changelog/EditLog");
 const DeleteLogs = require("../models/queries/changelog/DeleteLog");
 const FindAllSortedLogs = require("../models/queries/changelog/FindAllSortedLogs");
 const FindAllRevSortedLogs = require("../models/queries/changelog/FindAllSortedLogs");
+const sortLogsById = require("../models/queries/changelog/SortLogByID");
 /* media model Queries */
 const FindAllMedia = require("../../../../important/admin/adminModels/queries/media/FindAllMedia");
 /* media categories Queries */
@@ -234,48 +235,12 @@ module.exports = {
     User.then(user => {
       if (user.admin === 1) {
         let ids = req.body["id[]"];
-
-        sortProjects(ids, () => {
-          Product.find({})
-            .sort({ sorting: 1 })
-            .exec(function(err, product) {
-              if (err) {
-                Logger.error(err);
-              }
-            });
-        });
+        sortLogsById(ids);
+        FindAllSortedLogs();
       } else {
         res.redirect("/users/login");
       }
     });
   }
 };
-/* move to queries */
-/* Sort projects function */
-function sortProjects(ids, cb) {
-  let count = 0;
 
-  for (let i = 0; i < ids.length; i++) {
-    let id = ids[i];
-    count++;
-
-    (function(count) {
-      Product.findById(id, function(err, product) {
-        if (err) {
-          Logger.error(err);
-        }
-        product.sorting = count;
-        product.save(function(err) {
-          if (err) {
-            Logger.error(err);
-          }
-
-          ++count;
-          if (count >= ids.length) {
-            cb();
-          }
-        });
-      });
-    })(count);
-  }
-}
