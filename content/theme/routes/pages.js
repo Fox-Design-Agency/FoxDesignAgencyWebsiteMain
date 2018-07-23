@@ -17,5 +17,5 @@ router.get("/about", pagesController.about)
 */
 router.get("/:slug", pagesController.anyPage)
 
-//Exports
+/* Exports */
 module.exports = router;

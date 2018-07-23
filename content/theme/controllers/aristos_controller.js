@@ -49,19 +49,23 @@ module.exports = {
     });
   }, // end of changelog function
   documentationItem(req, res, next) {
-    const documentation = findSortedDocumentationWithParams({
+    const docItem = findSortedDocumentationWithParams({
       _id: req.params.id,
       category: "aristos"
     });
-    documentation.then(docs => {
+    const documentation = findSortedDocumentationWithParams({
+      category: "aristos"
+    });
+    Promise.all([docItem, documentation]).then(result => {
       res.render("../views/aristos/documentation", {
         title: "Documentation",
-        content: "",
-        keywords: "",
-        description: "",
-        author: "",
-        documentation: docs
+        content: result[0][0].content,
+        keywords:  result[0][0].keywords,
+        description: result[0][0].description,
+        author: result[0][0].author,
+        documentationItem: result[0],
+        documentation: result[1]
       });
     });
-  } // end of changelog function
+  } /* end of documentation item function */
 };

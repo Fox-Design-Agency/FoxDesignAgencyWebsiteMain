@@ -1,7 +1,7 @@
 // GET page model
 const FindPageWithParam = require("../../../important/admin/adminModels/queries/page/FindPageWithParam");
 const createPage = require("../../../important/admin/adminModels/queries/page/CreatePage");
-// GET media model
+// GET media queries
 const FindAllMedia = require("../../../important/admin/adminModels/queries/media/FindAllMedia");
 const findMediaWithParam = require("../../../important/admin/adminModels/queries/media/FindAllMediaWithParam");
 //GET project categories
