@@ -1,18 +1,17 @@
 <% include ../_layouts/styluxHeader %>
-   <h1 class="page__title">Changelog</h1>
-   <div class="wrapper">
-   <div class="documentation__categories">
-   <h2>Version Numbers</h2>
-   <% changelog.forEach((log)=>{ %>
-       <a href="/stylux/changelog/#<%= log.slug %>"><%= log.title %></a>
-       <% }) %>
-   </div>
-   <div class="documentation__content">
-   <% changelog.forEach((log)=>{ %>
-   <h2 id="<%= log.slug %>" class="documentation__content__title"><%= log.title %></h2>
-       <%- log.content %>
-       <% }) %>
-   </div>
-   </div>
-
-   <% include ../_layouts/footer %>
+    <h1 class="page__title">Changelog</h1>
+    <div class="wrapper">
+        <div class="documentation__categories">
+            <h2>Version Numbers</h2>
+            <% changelog.forEach((log)=>{ %>
+                <a href="/stylux/changelog/#<%= log.slug %>"><%= log.title %></a>
+            <% }) %>
+        </div>
+        <div class="documentation__content">
+            <% changelog.forEach((log)=>{ %>
+                <h2 id="<%= log.slug %>" class="documentation__content__title"><%= log.title %></h2>
+                <%- log.content %>
+            <% }) %>
+        </div>
+    </div>
+<% include ../_layouts/footer %>

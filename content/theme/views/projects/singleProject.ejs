@@ -2,7 +2,6 @@
     <h1 class="page__title">Portfolio</h1>
     <% include ../_layouts/messages/messages %>
     <% include ../_layouts/messages/errors %>
-
     <div class="projects__holder">
         <div class="projects__work-categories">
             <h5>Project Categories</h5>
@@ -12,26 +11,21 @@
                     <a class="projects__project-category" href="/portfolio/<%= portCat.slug %>#projects">
                         <%= portCat.title.toLowerCase() %>
                     </a>
-                    <% } %>
-                        <% }) %>
+                <% } %>
+            <% }) %>
         </div>
         <div class="project__work-stuffs">
             <h3 class="project__category-title" id="projects"><%= title %></h3>
             <div class="project--col">
-                
-                    <div class="page__work-holder">
-                   
-                            <img class="page__work-img" src="/portfolio_images/<%= project._id %>/<%= project.image %>" alt="">
-                     
-                        <div class="page__work-information">
-                            <p>
-                                <%- content %>
-                            </p>
-                        </div>
+                <div class="page__work-holder">
+                    <img class="page__work-img" src="/portfolio_images/<%= project._id %>/<%= project.image %>" alt="">
+                    <div class="page__work-information">
+                         <p>
+                            <%- content %>
+                        </p>
                     </div>
+                </div>
+            </div>
         </div>
-
-</div>
     </div>
-
-    <% include ../_layouts/footer %>
+<% include ../_layouts/footer %>

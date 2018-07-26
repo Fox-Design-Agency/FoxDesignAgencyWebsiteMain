@@ -1,21 +1,19 @@
 <% include ../_layouts/styluxHeader %>
-   <h1 class="page__title">Documentation</h1>
-   <div class="wrapper">
-   <div class="documentation__categories">
-   <h2>Categories</h2>
-   <% documentation.forEach((doc)=>{ %>
-       <a href="/stylux/documentation/<%= doc._id %>"><%= doc.title %></a>
-       <% }) %>
-   </div>
-   <div class="documentation__content">
-   I am working on a video series that will visually show how to use this library. This library was started after two weeks of learning javascript and Reactjs. I am very new to development, but love challenges. Stylux was created to challenge myself at a web development bootcamp, I used it to build my personal project. Currently I am expirimenting with three web apps to test if Stylux can be used in production.
+    <h1 class="page__title">Documentation</h1>
+    <div class="wrapper">
+        <div class="documentation__categories">
+            <h2>Categories</h2>
+            <% documentation.forEach((doc)=>{ %>
+                <a href="/stylux/documentation/<%= doc._id %>"><%= doc.title %></a>
+            <% }) %>
+        </div>
+        <div class="documentation__content">
+            I am working on a video series that will visually show how to use this library. This library was started after two weeks of learning javascript and Reactjs. I am very new to development, but love challenges. Stylux was created to challenge myself at a web development bootcamp, I used it to build my personal project. Currently I am expirimenting with three web apps to test if Stylux can be used in production.
 
-This is a very Alpha stage project. When the themeing function through the Provider is implemented, I will open the library into Beta. Thank you for your patience and understanding.
+            This is a very Alpha stage project. When the themeing function through the Provider is implemented, I will open the library into Beta. Thank you for your patience and understanding.
 
-Have Fun
+            Have Fun
      
-   </div>
-   </div>
-
-
-   <% include ../_layouts/footer %>
+        </div>
+    </div>
+<% include ../_layouts/footer %>

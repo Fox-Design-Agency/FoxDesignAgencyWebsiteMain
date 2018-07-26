@@ -9,8 +9,8 @@ module.exports = app => {
   /* don't know if this should be a thing just yet */
   /* Set admin css folder */
   app.use(express.static(path.join(__dirname, "../../temp")));
-   /* Set temp folder */
-   if (process.env.NODE_ENV === "production") {
+  /* Set temp folder */
+  if (process.env.NODE_ENV === "production") {
     app.use(express.static(path.join(__dirname, "../../../content/public")));
   } else {
     app.use(express.static(path.join(__dirname, "../../../content/temp")));

@@ -12,7 +12,6 @@ const contactCheck = fs.pathExists("expansion/upgrade/contact");
 const documentationCheck = fs.pathExists(
   "expansion/upgrade/documentation-builder"
 );
-
 module.exports = app => {
   Promise.all([
     blogCheck,

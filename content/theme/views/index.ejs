@@ -1,128 +1,115 @@
 <% include _layouts/header %>
-
     <div class="large-hero">
-    <% media.forEach(function(medias){ %>
-    <% if (medias.category == "main-slider"){ %>
-        <img src="<%= medias.path %>" alt="<%= medias.alt %>">
-        <% } %>
-            <% }) %>
-            <div class="large-hero__text-content">
-    <div class="wrapper">
-        <h1 class="large-hero__title">we build neat things.</h1>
-        <h2 class="large-hero__subtitle">Like really neat.</h2>
-        <p class="large-hero__description">Let us know what we can do for you.</p>
-        <p>
-            <a href="#" class="btn btn--orange btn--large open-modal">Get in Touch</a>
-        </p>
-    </div>
-</div>
+        <% media.forEach(function(medias){ %>
+            <% if (medias.category == "main-slider"){ %>
+                <img src="<%= medias.path %>" alt="<%= medias.alt %>">
+            <% } %>
+        <% }) %>
+        <div class="large-hero__text-content">
+            <div class="wrapper">
+                <h1 class="large-hero__title">we build neat things.</h1>
+                <h2 class="large-hero__subtitle">Like really neat.</h2>
+                <p class="large-hero__description">Let us know what we can do for you.</p>
+                <p>
+                    <a href="#" class="btn btn--large open-modal">Get in Touch</a>
+                </p>
+            </div>
+        </div>
     </div>
     <div class="page__icons-holder">
-    <div class="wrapper">
-    <% media.forEach(function(medias){ %>
-    <% if (medias.category == "code-icons"){ %>
-        <img class="page__icon" src="<%= medias.path %>" alt="<%= medias.alt %>">
-        <% } %>
+        <div class="wrapper">
+            <% media.forEach(function(medias){ %>
+                <% if (medias.category == "code-icons"){ %>
+                    <img class="page__icon" src="<%= medias.path %>" alt="<%= medias.alt %>">
+                <% } %>
             <% }) %>
-            </div>
-</div>
+        </div>
+    </div>
 
-<div class="page__section  page__section--dark">
-<div class="wrapper">
-<div class="row row--gutters-large generic-content-container">
-<div class="row__medium-6 ">
-            <div class="feature-item">
-                <h3 class="feature-item__title">Got Designs?</h3>
+    <div class="page__section  page__section--dark">
+        <div class="wrapper">
+            <div class="row row--gutters-large generic-content-container">
+                <div class="row__medium-6 ">
+                    <div class="feature-item">
+                        <h3 class="feature-item__title">Got Designs?</h3>
                 
-                <p>Let us help you convert them into code. That's right! We can turn your designs into pixel perfect copies for the world to see.</p>
+                        <p>Let us help you convert them into code. That's right! We can turn your designs into pixel perfect copies for the world to see.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h3 class="feature-item__title">Got an Idea?</h3>
+                        <p>Don't quite have the designs worked out? no problem, let us make a wireframe that you are proud of.
+                        </p>
+                    </div>
+                </div>
+                <div class="row__medium-6">
+                    <div class="feature-item">
+                        <h3 class="feature-item__title">Front-End Design</h3>
+                        <p>Our front-end designers can make your ideas real by coding them into HTML or into a single page application using Reactjs.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h3 class="feature-item__title">Back-End Design</h3>
+                        <p>Need a server too? Well that's easy with our Aristos CMS. Coded in Nodejs so it's easy to maintain, and fast! If you don't like it, we can always make something special just for you.</p>
+                    </div>
+                </div>
             </div>
-            <div class="feature-item">
-            <h3 class="feature-item__title">Got an Idea?</h3>
-            <p>Don't quite have the designs worked out? no problem, let us make a wireframe that you are proud of.
-            </p>
-        </div>
-           
-        </div>
-        <div class="row__medium-6">
-        
-        <div class="feature-item">
-        <h3 class="feature-item__title">Front-End Design</h3>
-        <p>Our front-end designers can make your ideas real by coding them into HTML or into a single page application using Reactjs.</p>
-    </div>
-        <div class="feature-item">
-            <h3 class="feature-item__title">Back-End Design</h3>
-            <p>Need a server too? Well that's easy with our Aristos CMS. Coded in Nodejs so it's easy to maintain, and fast! If you don't like it, we can always make something special just for you.</p>
         </div>
     </div>
-    
+    <div class="page__section">
+        <div class="wrapper">
+            <h2 class="section-title">Ecommerce Made Easy</h2>
+            <div class="row">
+                <div class="row row__large-6 ">
+                    <div class="generic-content-container">
+                        <h2 class="headline headline--no-t-margin">Managing Products With Aristos is so easy&hellip;</h2>
+                        <p>With our Aristos Content Management System (CMS),
+                        <strong>it's so easy</strong> to manage and create as many products as you want. We certaintly would never want to limit your own creative and give you the tools to make your ideas great!</p>
+                        <p>The Aristos CMS has places that you can add a number of items to control each item's information seperately. You can even use different keywords on each of your items. You are capped at 300 characters so choose wisely!</p>
+                        <p>If you don't like your first draft, simply go into the admin panel and edit any products. From this same panel you can manage orders, coupons, and so much more.
+                        </p>
+                    </div>
+                </div>  
+                <div class="row__medium-4 row__medium-4--larger row__b-margin-until-medium">
+                    <% media.forEach(function(medias){ %>
+                        <% if (medias.category == "ecommerce-image"){ %>
+                            <img style="margin-top: 30px;" src="<%= medias.path %>" alt="<%= medias.alt %>">
+                        <% } %>
+                    <% }) %>
+                </div>
+            </div>
+        </div>
     </div>
+    <div class="page__section  page__section--dark">
+        <div class="wrapper">
+            <h2 class="section-title">Contributors to Open Source</h2>
+            <div class="row row--gutters">
+                <div class="row__medium-4 row__medium-4--larger row__b-margin-until-medium">
+                    <!-- image here??? -->
+                </div>
+            <div class="row__medium-8 row__medium-8-smaller">
+                <div class="generic-content-container">
+                    <h2 class="headline headline--no-t-margin">We love helping people...</h2>
+                    <p>We make our projects for ourselves, but wouldn't be able to live if we didn't also share them. That's why we love contributing to open source and making our projects available as open source.</p>
+                    <p>We hope that our code might be able to be used in really projects and would hate to limit those individuals that will build them. It is also our opinion that the Aristos CMS has the power to teach the next generation of developers how to organize code to make it more readable and easier to work with. Because of this, we are so excited to continue to work on projects and make them open for the world to use and contribute to.</p>
+                    <p>If you like one of our projects, consider adding your own code to it, or even donating to our projects so that we can continue to make neat things.
+                    </p>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
-
 <div class="page__section">
-<div class="wrapper">
-<h2 class="section-title">Ecommerce Made Easy</h2>
-<div class="row">
-        
-        <div class="row row__large-6 ">
-            <div class="generic-content-container">
-                <h2 class="headline headline--no-t-margin">Managing Products With Aristos is so easy&hellip;</h2>
-                <p>With our Aristos Content Management System (CMS),
-                    <strong>it's so easy</strong> to manage and create as many products as you want. We certaintly would never want to limit your own creative and give you the tools to make your ideas great!</p>
-                <p>The Aristos CMS has places that you can add a number of items to control each item's information seperately. You can even use different keywords on each of your items. You are capped at 300 characters so choose wisely!</p>
-                <p>If you don't like your first draft, simply go into the admin panel and edit any products. From this same panel you can manage orders, coupons, and so much more.
-                </p>
-            </div>
-        </div>  
-        <div class="row__medium-4 row__medium-4--larger row__b-margin-until-medium">
-      
-        <% media.forEach(function(medias){ %>
-        <% if (medias.category == "ecommerce-image"){ %>
-            <img style="margin-top: 30px;" src="<%= medias.path %>" alt="<%= medias.alt %>">
-            <% } %>
-                <% }) %>
-        </div>
-    </div>
-</div>
-</div>
-
-<div class="page__section  page__section--dark">
-<div class="wrapper">
-<h2 class="section-title">Contributors to Open Source</h2>
-<div class="row row--gutters">
-        <div class="row__medium-4 row__medium-4--larger row__b-margin-until-medium">
-           <!-- image here??? -->
-        </div>
-        <div class="row__medium-8 row__medium-8-smaller">
-            <div class="generic-content-container">
-                <h2 class="headline headline--no-t-margin">We love helping people...</h2>
-                <p>We make our projects for ourselves, but wouldn't be able to live if we didn't also share them. That's why we love contributing to open source and making our projects available as open source.</p>
-                <p>We hope that our code might be able to be used in really projects and would hate to limit those individuals that will build them. It is also our opinion that the Aristos CMS has the power to teach the next generation of developers how to organize code to make it more readable and easier to work with. Because of this, we are so excited to continue to work on projects and make them open for the world to use and contribute to.</p>
-                <p>If you like one of our projects, consider adding your own code to it, or even donating to our projects so that we can continue to make neat things.
-                </p>
+    <div class="wrapper">
+        <h2 class="section-title">Contact Us Today!</h2>
+        <div class="row ">
+            <div class=" row__centered-flex">
+                <div class="row__medium-4">
+                    <h3 class="headline headline--centered headline--small headline--narrow  headline--light headline--b-margin-large">Let us know what we can do for you, because we tend to do some pretty neat things.
+                    </h3>
+                    <p>
+                        <a href="#" class="btn btn--full open-modal">Get in Touch</a>
+                    </p>
+                </div>
             </div>
         </div>
     </div>
-</div>
-</div>
-
-
-<div class="page__section">
-<div class="wrapper">
-<h2 class="section-title">Contact Us Today!</h2>
-<div class="row ">
-<div class=" row__centered-flex">
-<div class="row__medium-4">
-<h3 class="headline headline--centered headline--small headline--narrow  headline--light headline--b-margin-large">Let us know what we can do for you, because we tend to do some pretty neat things.
-    </h3>
-
-    <p>
-            <a href="#" class="btn btn--full open-modal">Get in Touch</a>
-        </p>
-        </div>
-       </div>
-</div>
-</div>
-
-
-        <% include _layouts/footer %>
+<% include _layouts/footer %>

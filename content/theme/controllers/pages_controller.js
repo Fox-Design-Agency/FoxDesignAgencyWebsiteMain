@@ -19,11 +19,11 @@ module.exports = {
     const allMedia = FindAllMedia();
     Promise.all([homePage, allMedia]).then(result => {
       res.render("../views/index", {
-        title: result[0].title,
-        content: result[0].content,
-        keywords: result[0].keywords,
-        description: result[0].description,
-        author: result[0].author,
+        title: result[0][0].title,
+        content: result[0][0].content,
+        keywords: result[0][0].keywords,
+        description: result[0][0].description,
+        author: result[0][0].author,
         media: result[1]
       });
     });
@@ -38,11 +38,11 @@ module.exports = {
         res.redirect("/");
       } else {
         res.render("index", {
-          title: result[0].title,
-          content: result[0].content,
-          keywords: result[0].keywords,
-          description: result[0].description,
-          author: result[0].author,
+          title: result[0][0].title,
+          content: result[0][0].content,
+          keywords: result[0][0].keywords,
+          description: result[0][0].description,
+          author: result[0][0].author,
           media: result[1]
         });
       }
@@ -54,11 +54,11 @@ module.exports = {
     const teamMedia = findMediaWithParam({ category: "team" });
     Promise.all([homePage, slider, teamMedia]).then(result => {
       res.render("../views/about", {
-        title: result[0].title,
-        content: result[0].content,
-        keywords: result[0].keywords,
-        description: result[0].description,
-        author: result[0].author,
+        title: result[0][0].title,
+        content: result[0][0].content,
+        keywords: result[0][0].keywords,
+        description: result[0][0].description,
+        author: result[0][0].author,
         media: result[1],
         team: result[2]
       });

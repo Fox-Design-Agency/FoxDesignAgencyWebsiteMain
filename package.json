@@ -1,7 +1,7 @@
 {
   "name": "aristos-node-cms",
   "homepage": "https://foxdesignagency.com/aristos",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A basic EJS CMS built with love, powered by hardwork, JQuery, Gulp, Webpack, Mocha, Mongo, and Nodejs",
   "keywords": [
     "Nodejs CMS",
@@ -10,7 +10,7 @@
   "main": "index.js",
   "scripts": {
     "build": "gulp build",
-    "dev": "SET NODE_ENV=development && gulp watch",
+    "dev": "gulp watch",
     "test": "SET NODE_ENV=test && nodemon --exec mocha --recursive -R min",
     "temps": "gulp styles && gulp adminStyles && gulp scripts",
     "preview": "SET NODE_ENV=production && node ."

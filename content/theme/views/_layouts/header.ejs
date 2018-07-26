@@ -19,31 +19,25 @@
 <body>
     <nav class="header">
         <a class="header__brand" href="/">FoxDesignAgency</a>
-
-
-            <ul class="header__navbar">
-                <% pages.forEach(function(page){ %>
-
-                    <% if (page.slug == "home"){ %>
-                        <li>
-                            <a class="" href="/">
-                                <%= page.title.toLowerCase() %>
-                            </a>
-                        </li>
-                        <% } else{ %>
-                            <li>
-                                <a class="" href="/<%= page.slug %>">
-                                    <%= page.title.toLowerCase() %>
-                                </a>
-                            </li>
-                            <% } %>
-                                <% }) %>
-                                <li>
-                                <a class="open-modal">contact</a>
-                                </li>
-
-            </ul>
-       
+        <ul class="header__navbar">
+            <% pages.forEach(function(page){ %>
+                <% if (page.slug == "home"){ %>
+                    <li>
+                        <a class="" href="/">
+                            <%= page.title.toLowerCase() %>
+                        </a>
+                    </li>
+                <% } else{ %>
+                    <li>
+                        <a class="" href="/<%= page.slug %>">
+                            <%= page.title.toLowerCase() %>
+                        </a>
+                    </li>
+                <% } %>
+            <% }) %>
+            <li>
+                <a class="open-modal">contact</a>
+            </li>
+        </ul>
     </nav>
-
-    <main role="main" class="container">
+<main role="main" class="container">

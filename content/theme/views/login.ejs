@@ -4,9 +4,8 @@
     </h1>
     <% include _layouts/messages/messages %>
     <% include _layouts/messages/errors %>
-
     <form method="post" action="/users/login">
-             <div class="form-group">
+        <div class="form-group">
             <label>Username</label>
             <input type="text" name="username" class="form-control" placeholder="Username">
         </div>
@@ -14,9 +13,6 @@
             <label>Password</label>
             <input type="password" name="password" class="form-control" placeholder="Password">
         </div>
-
         <button type="submit" class="btn btn-default">Log in</button>
-
     </form>
-
-    <% include _layouts/footer %>
+<% include _layouts/footer %>
