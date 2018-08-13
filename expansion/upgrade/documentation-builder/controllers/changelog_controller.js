@@ -1,5 +1,5 @@
-const Logger = require("../../../../important/AristosStuff/AristosLogger/AristosLogger")
-  .Logger;
+const errorAddEvent = require("../../../../important/AristosStuff/AristosLogger/AristosLogger")
+  .addError;
 
 // Project model Queries
 const CountLogs = require("../models/queries/changelog/CountLogs");
@@ -25,12 +25,14 @@ module.exports = {
   index(req, res, next) {
     const cats = FindAllDocumentationCategories();
     const sorted = FindAllRevSortedLogs();
-    Promise.all([sorted, cats]).then(result => {
+    const theCount = CountLogs();
+    Promise.all([sorted, cats, theCount]).then(result => {
       res.render(
         "../../../expansion/upgrade/documentation-builder/views/changelog",
         {
           projects: result[0],
-          categories: result[1]
+          categories: result[1],
+          count: result[2]
         }
       );
     });
@@ -38,13 +40,16 @@ module.exports = {
   catIndex(req, res, next) {
     const cats = FindAllDocumentationCategories();
     const sorted = FindSortedLogsWithParam({ category: req.params.category });
-    Promise.all([sorted, cats]).then(result => {
+    const theCount = CountLogs();
+    Promise.all([sorted, cats, theCount]).then(result => {
       res.render(
-      "../../../expansion/upgrade/documentation-builder/views/changelog",
+        "../../../expansion/upgrade/documentation-builder/views/changelog",
         {
           projects: result[0],
-          categories: result[1]
-        });
+          categories: result[1],
+          count: result[2]
+        }
+      );
     });
   } /* end of cat index function */,
   addIndex(req, res, next) {
@@ -86,7 +91,7 @@ module.exports = {
         }
 
         let title = req.body.title;
-        let slug = title.replace(/\s+/g, "-").toLowerCase();
+        let slug = title.replace(/s+/g, "-").toLowerCase();
         let content = req.body.content;
         let category = req.body.category;
         let keywords = req.body.keywords;
@@ -112,7 +117,7 @@ module.exports = {
             );
           });
         } else {
-          const CheckIfExists = FindLogsWithParams({ slug: slug });
+          const CheckIfExists = FindLogsWithParams({ slug: slug, category: category });
           CheckIfExists.then(project => {
             if (project.length > 0) {
               errors.push({ text: "Log title exists, chooser another." });
@@ -143,7 +148,7 @@ module.exports = {
                 category: category,
                 description: description,
                 keywords: keywords,
-                sorting: 1,
+                sorting: 0,
                 author: author
               };
               CreateLogs(ProjectProps);
@@ -195,7 +200,7 @@ module.exports = {
         }
 
         let title = req.body.title;
-        let slug = title.replace(/\s+/g, "-").toLowerCase();
+        let slug = title.replace(/s+/g, "-").toLowerCase();
         let content = req.body.content;
         let category = req.body.category;
         let id = req.params.id;
@@ -206,33 +211,19 @@ module.exports = {
           req.flash("error_msg", "Stuff is wrong, fix stuffs.");
           res.redirect("/admin/portfolio/edit-project/" + id);
         } else {
-          const CheckIfExists = FindLogsWithParams({
+          const ProjectParams = {
+            title: title,
             slug: slug,
-            _id: { $ne: id }
-          });
-          CheckIfExists.then(project => {
-            if (project.length > 0) {
-              req.flash("error_msg", "Project title exists, choose another.");
-              res.redirect(
-                "../../../expansion/upgrade/documentation-builder/views/edit_changelog" +
-                  id
-              );
-            } else {
-              const ProjectParams = {
-                title: title,
-                slug: slug,
-                content: content,
-                category: category,
-                description: description,
-                keywords: keywords,
-                author: author
-              };
-              EditLogs(id, ProjectParams);
+            content: content,
+            category: category,
+            description: description,
+            keywords: keywords,
+            author: author
+          };
+          EditLogs(id, ProjectParams);
 
-              req.flash("success_msg", "Changelog updated!");
-              res.redirect("/admin/changelog-builder");
-            }
-          });
+          req.flash("success_msg", "Changelog updated!");
+          res.redirect("/admin/changelog-builder");
         }
       } else {
         res.redirect("/users/login");
