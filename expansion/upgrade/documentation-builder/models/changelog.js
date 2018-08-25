@@ -8,7 +8,8 @@ const ChangelogSchema = new Schema({
     required: true
   },
   category: {
-    type: String
+    type: Schema.Types.ObjectId,
+    ref: "DocumentationCategory"
   },
   slug: {
     type: String
@@ -31,9 +32,9 @@ const ChangelogSchema = new Schema({
     type: String
   },
   author: {
-    type: String
+    type: Schema.Types.ObjectId,
+    ref: "User"
   }
 });
 
 module.exports = mongoose.model("Changelog", ChangelogSchema);
-

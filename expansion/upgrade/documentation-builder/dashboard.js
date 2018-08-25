@@ -3,7 +3,7 @@ const getDocsCount = require("./models/queries/documentation/CountDocumentation"
 const getChangelogsCount = require("./models/queries/changelog/CountLogs");
 module.exports = {
   name: "Documentation",
-  async theFunction(name, blogCount) {
+  async theFunction(name) {
     let projectCount, docsCount, changelogsCount;
     await Promise.all([
       getProjectCount(),

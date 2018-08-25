@@ -1,7 +1,7 @@
 <% include _layouts/header %>
     <div class="large-hero">
         <% media.forEach(function(medias){ %>
-            <% if (medias.category == "main-slider"){ %>
+            <% if (medias.category.title === "main-slider"){ %>
                 <img src="<%= medias.path %>" alt="<%= medias.alt %>">
             <% } %>
         <% }) %>
