@@ -1,4 +1,13 @@
-const Changelog = require("../../changelog");
+const fs = require("fs-extra");
+let Changelog;
+try{
+  const Changelogs = fs.readJSONSync(
+  "./expansion/upgrade/documentation-builder/routes/checkers/changelogModelRoutes.json"
+).route;
+Changelog = require(Changelogs);
+}catch(err){
+Changelog = require("../../changelog");
+}
 /* Aristos Logger Path */
 const errorAddEvent = require("../../../../../../important/AristosStuff/AristosLogger/AristosLogger")
   .addError;
@@ -13,5 +22,3 @@ module.exports = logProps => {
     errorAddEvent(err, "changelog query error");
   });
 };
-
-

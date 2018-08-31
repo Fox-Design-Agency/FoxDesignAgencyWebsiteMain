@@ -1,4 +1,13 @@
-const Documentation = require("../../documentation");
+const fs = require("fs-extra");
+let Documentation;
+try {
+  const Documentations = fs.readJSONSync(
+    "./expansion/upgrade/documentation-builder/routes/checkers/documentationModelRoutes.json"
+  ).route;
+  Documentation = require(Documentations);
+} catch (err) {
+  Documentation = require("../../documentation");
+}
 /* Aristos Logger Path */
 const errorAddEvent = require("../../../../../../important/AristosStuff/AristosLogger/AristosLogger")
   .addError;
@@ -17,7 +26,7 @@ module.exports = ids => {
   });
 }; //* end of exports */
 /* Sort documentation function */
-/* rebuild so that documentation sort in category view use all pages id to not mess up ordering */
+/* rebuild so that documentation sort in category view use all documentations id to not mess up ordering */
 function sortDocumentation(ids, cb) {
   let count = 0;
 
@@ -38,4 +47,3 @@ function sortDocumentation(ids, cb) {
     })(count);
   }
 } /* end of sort documentation function */
-
